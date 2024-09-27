@@ -1,0 +1,11 @@
+[ExtractDialog]
+1920x1080 screen: Window-Maximized=true
+DirHistory[$e]=/tmp/mozilla_shin0/,$HOME/Downloads/,$HOME/,$HOME/Downloads/sh/
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+StatusBar=Disabled
+ToolBarsMovable=Disabled

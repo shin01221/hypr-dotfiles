@@ -1,0 +1,4 @@
+wallpapers
+.config/hyde/themes/*.jpg
+.config/hyde/themes/*.png
+.stow-local-ignore

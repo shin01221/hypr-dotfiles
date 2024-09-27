@@ -1,0 +1,10 @@
+{
+    "diagnostics.globals": [
+        "let"
+    ],
+    "diagnostics.disable": [
+        "incomplete-signature-doc",
+        "trailing-space",
+        "no-unknown"
+    ]
+}
