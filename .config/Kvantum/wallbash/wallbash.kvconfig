@@ -73,24 +73,24 @@ menu_blur_radius=6
 tooltip_blur_radius=6
 
 [GeneralColors]
-window.color=#33312F
-base.color=#523D29
-alt.base.color=#523D29
-button.color=#6B523A
-light.color=#7D644B
-mid.light.color=#7D644B
-dark.color=#523D29
-mid.color=#523D29
-highlight.color=#F0EEAA
-inactive.highlight.color=#F0EEAA
+window.color=#010202
+base.color=#295252
+alt.base.color=#295252
+button.color=#3A6B6B
+light.color=#4B7D7D
+mid.light.color=#4B7D7D
+dark.color=#295252
+mid.color=#295252
+highlight.color=#AAF0F0
+inactive.highlight.color=#AAF0F0
 text.color=#FFFFFF
 window.text.color=#FFFFFF
 button.text.color=#FFFFFF
-disabled.text.color=#8F7357
+disabled.text.color=#578F8F
 tooltip.text.color=#FFFFFF
-highlight.text.color=#523D29
-link.color=#F0EEAA
-link.visited.color=#F0D6AA
+highlight.text.color=#295252
+link.color=#AAF0F0
+link.visited.color=#AAF0F0
 
 [ItemView]
 inherits=PanelButtonCommand
@@ -99,7 +99,7 @@ interior.element=itemview
 frame=true
 interior=true
 text.iconspacing=3
-text.toggle.color=#523D29 
+text.toggle.color=#295252 
 
 [RadioButton]
 inherits=PanelButtonCommand
@@ -126,10 +126,10 @@ frame=true
 inherits=PanelButtonCommand
 interior.element=button
 frame.element=button
-text.normal.color=#FFE6CC
-text.focus.color=#FFE6CC
-text.press.color=#523D29
-text.toggle.color=#523D29
+text.normal.color=#CCFFFF
+text.focus.color=#CCFFFF
+text.press.color=#295252
+text.toggle.color=#295252
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
@@ -231,10 +231,10 @@ frame.bottom=3
 frame.left=3
 frame.right=3
 indicator.size=10
-text.normal.color=#8F7357
-text.focus.color=#FFE6CC
-text.press.color=#FFE6CC
-text.toggle.color=#FFE6CC
+text.normal.color=#578F8F
+text.focus.color=#CCFFFF
+text.press.color=#CCFFFF
+text.toggle.color=#CCFFFF
 focusFrame=true
 
 [TabBarFrame]
@@ -271,10 +271,10 @@ frame.bottom=1
 frame.left=1
 frame.right=1
 frame.expansion=0
-text.normal.color=#FFE6CC
-text.focus.color=#F0EEAA
-text.press.color=#FFE6CC
-text.toggle.color=#FFE6CC
+text.normal.color=#CCFFFF
+text.focus.color=#AAF0F0
+text.press.color=#CCFFFF
+text.toggle.color=#CCFFFF
 indicator.element=harrow
 
 [SizeGrip]
@@ -292,10 +292,10 @@ frame=true
 frame.bottom=4
 frame.left=4
 frame.right=4
-text.normal.color=#FFE6CC
-text.focus.color=#FFE6CC
-text.press.color=#F0EEAA
-text.toggle.color=#F0EEAA
+text.normal.color=#CCFFFF
+text.focus.color=#CCFFFF
+text.press.color=#AAF0F0
+text.toggle.color=#AAF0F0
 text.bold=false
 
 [MenuBar]
@@ -303,7 +303,7 @@ inherits=PanelButtonCommand
 frame.element=menubar
 interior.element=menubar
 frame.bottom=0
-text.normal.color=#FFE6CC
+text.normal.color=#CCFFFF
 frame.expansion=0
 text.bold=false
 
@@ -311,10 +311,10 @@ text.bold=false
 frame.element=tbutton
 interior.element=tbutton
 indicator.element=arrow
-text.normal.color=#FFE6CC
-text.focus.color=#FFE6CC
-text.press.color=#523D29
-text.toggle.color=#523D29
+text.normal.color=#CCFFFF
+text.focus.color=#CCFFFF
+text.press.color=#295252
+text.toggle.color=#295252
 text.bold=false
 
 [Scrollbar]
@@ -356,10 +356,10 @@ frame.bottom=2
 frame.left=2
 frame.right=2
 text.margin=0
-text.normal.color=#FFE6CC
-text.focus.color=#FFE6CC
-text.press.color=#523D29
-text.toggle.color=#523D29
+text.normal.color=#CCFFFF
+text.focus.color=#CCFFFF
+text.press.color=#295252
+text.toggle.color=#295252
 text.bold=false
 frame.expansion=18
 
@@ -370,8 +370,8 @@ inherits=PanelButtonCommand
 frame.element=menu
 interior.element=menu
 inherits=PanelButtonCommand
-text.press.color=#523D29
-text.toggle.color=#523D29
+text.press.color=#295252
+text.toggle.color=#295252
 text.bold=false
 frame.top=3
 frame.bottom=3
@@ -382,8 +382,8 @@ frame.right=3
 inherits=PanelButtonCommand
 interior.element=menuitem
 indicator.size=8
-text.focus.color=#FFE6CC
-text.press.color=#FFE6CC
+text.focus.color=#CCFFFF
+text.press.color=#CCFFFF
 text.margin.top=2
 text.margin.bottom=2
 text.margin.left=15
@@ -402,7 +402,7 @@ text.margin.right=5
 inherits=Toolbar
 frame.element=toolbar
 font.bold=true
-text.normal.color=#FFE6CC
+text.normal.color=#CCFFFF
 frame=true
 frame.top=0
 frame.bottom=0
@@ -427,13 +427,13 @@ text.margin.top=1
 text.margin.bottom=1
 text.margin.left=3
 text.margin.right=3
-text.toggle.color=#FFE6CC
+text.toggle.color=#CCFFFF
 
 [ToolboxTab]
 inherits=PanelButtonCommand
-text.normal.color=#FFE6CC
-text.press.color=#FFE6CC
-text.focus.color=#FFE6CC
+text.normal.color=#CCFFFF
+text.press.color=#CCFFFF
+text.focus.color=#CCFFFF
 
 [Hacks]
 transparent_dolphin_view=true

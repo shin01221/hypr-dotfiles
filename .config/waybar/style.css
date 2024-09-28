@@ -91,7 +91,7 @@ tooltip {
 #custom-left6,
 #custom-left7,
 #custom-left8 {
-  font-size: 11.5pt;
+  font-size: 12pt;
   margin-bottom: -2px;
   text-shadow: -1px 0px 2px rgba(0, 0, 0, 1);
 }
@@ -102,14 +102,14 @@ tooltip {
 #custom-right3,
 #custom-right4,
 #custom-right5 {
-  font-size: 11.5pt;
+  font-size: 12pt;
   margin-bottom: -2px;
   padding-right: 3px;
   text-shadow: 1px 0px 2px rgba(0, 0, 0, 1);
 }
 
 /* Color Definitions */
-@define-color workspaces    #181825;
+@define-color workspaces    @main-bg;
 @define-color cpuinfo       #181825;
 @define-color memory        #1e1e2e;
 @define-color cpu           #313244;
@@ -129,12 +129,7 @@ tooltip {
   margin-left: -3px;
   padding-right: 2px;
   background: @background;
-  color: @main-fg;
-}
-
-#custom-ws {
-  background: @background;
-  color: @main-fg;
+  color: @main-bg;
 }
 
 /* Workspaces */
@@ -147,12 +142,13 @@ tooltip {
 #workspaces {
   padding: 0;
   background: @workspaces;
-  color: @main-fg;
+  color: @main-bg;
 }
 
 #custom-right1 {
   color: @workspaces;
   background: @background;
+  padding-right: 2px;
 }
 
 /* Temperature */
@@ -286,7 +282,7 @@ tooltip {
   background-color: @background;
   padding-right: 8px;
   padding-left: 8px;
-  color: @main-fg;
+  color: @wb-hvr-bg;
 }
 
 /* PulseAudio */
