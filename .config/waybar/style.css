@@ -208,7 +208,7 @@ tooltip {
   color: @main-bg;
   background: @background;
   text-shadow: -1px 0px 2px rgba(0, 0, 0, 0.6);
-  padding-left: 3px;
+  padding-left: 1px;
 }
 
 #custom-arch {
@@ -226,6 +226,7 @@ tooltip {
   color: @main-bg;
   background: @background;
   margin-right: 1px;
+  padding-right: 1px;
 }
 
 /* Time */

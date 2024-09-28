@@ -110,12 +110,7 @@ keymap.set("v", "J", ":m '>+1<CR>gv=gv", { noremap = true, silent = true })
 keymap.set("v", "K", ":m '<-2<CR>gv=gv", { noremap = true, silent = true })
 
 -- obsidian  keymaps
-keymap.set(
-  "n",
-  "<leader>fo",
-  ':Telescope find_files search_dirs={"/media/Docs/notes/Zet"}<cr>',
-  { desc = "search notes" }
-)
+-- keymap.set("n", "<leader>os", ':Telescope find_files search_dirs={"/media/Docs/notes/"}<cr>', { desc = "search notes" })
 keymap.set(
   "n",
   "<leader>og",
@@ -126,7 +121,7 @@ keymap.set("n", "<leader>o", "", { desc = "+obsidian" })
 keymap.set("n", "<leader>on", "<cmd>ObsidianNew<cr>", { desc = "New Note" })
 keymap.set("n", "<leader>ot", vim.cmd.ObsidianNewFromTemplate, { desc = "New Note with template" })
 keymap.set("n", "<leader>od", vim.cmd.ObsidianDailies, { desc = "New Daily Note" })
-keymap.set("n", "<leader>oq", vim.cmd.ObsidianQuickSwitch, { desc = "Notes QuickSwitch" })
+keymap.set("n", "<leader>os", vim.cmd.ObsidianQuickSwitch, { desc = "Notes QuickSwitch" })
 keymap.set("n", "<leader>oh", vim.cmd.ObsidianTags, { desc = "Search Tags" })
 keymap.set("n", "<leader>oc", vim.cmd.ObsidianTOC, { desc = "Search TOC" })
 -- keymap.set("v", "<leader>oe", "<cmd>ObsidianExtractNote<cr>", { desc = "Note Extract" })
