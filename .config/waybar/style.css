@@ -283,7 +283,7 @@ tooltip {
   background-color: @background;
   padding-right: 8px;
   padding-left: 8px;
-  color: @wb-hvr-fg;
+  color: @wb-hvr-bg;
 }
 
 /* PulseAudio */
