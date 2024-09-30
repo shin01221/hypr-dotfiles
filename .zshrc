@@ -2,6 +2,7 @@
 export SUDO_EDITOR=nvim
 export EDITOR=nvim
 export PATH=/home/shin/.tmux/plugins/tmuxifier/bin:$PATH
+source <(fzf --zsh)
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
