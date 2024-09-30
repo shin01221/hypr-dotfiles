@@ -1,6 +1,5 @@
 set -g fish_greeting
 fzf --fish | source
-source key-bindings.fish
 
 if status is-interactive
     starship init fish | source
