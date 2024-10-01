@@ -5,8 +5,8 @@
 
       --margin: 7px;
 
-      --horiz-padding: 3px;
-      --vert-padding: 5px;
+      --horiz-padding: 4px;
+      --vert-padding: 4px;
       @media (-moz-bool-pref: "zen.view.compact.hide-tabbar") {
         & #navigator-toolbox {
           position: absolute !important;
