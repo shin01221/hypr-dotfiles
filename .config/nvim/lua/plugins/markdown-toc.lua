@@ -7,7 +7,7 @@ return {
       -- Include headings before the ToC (or current line for `:Mtoc insert`).
       -- Setting to true will include headings that are defined before the ToC
       -- position to be included in the ToC.
-      before_toc = true,
+      before_toc = false,
     },
     auto_update = true,
     fences = {

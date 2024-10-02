@@ -70,7 +70,7 @@ keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 -- Split window
 keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
-keymap.set("n", "qq", vim.cmd.q)
+-- keymap.set("n", "qq", vim.cmd.q)
 
 -- Move window
 keymap.set("n", "sh", "<C-w>h")
