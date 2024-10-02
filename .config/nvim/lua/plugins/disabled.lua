@@ -3,12 +3,12 @@ return {
   {
     {
       "3rd/image.nvim",
-      enabled = false,
-      -- enabled = is_neovide used to enable it only in neovide
+      enabled = not is_neovide,
     },
     {
       "folke/flash.nvim",
       enabled = true,
+      -- enabled = is_neovide used to enable it only in neovide
     },
   },
 }
