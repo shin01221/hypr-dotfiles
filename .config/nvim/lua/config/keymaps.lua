@@ -135,6 +135,14 @@ keymap.set("n", "gf", function()
   end
 end, { noremap = false, expr = true })
 
+--color picker
+keymap.set("n", "<C-t>", function()
+  require("minty.huefy").open()
+end, {})
+
+keymap.set("n", "<C-i>", function()
+  require("minty.shades").open()
+end, {})
 -------------------------------------------------------------------------------
 --                           Folding section
 -------------------------------------------------------------------------------
