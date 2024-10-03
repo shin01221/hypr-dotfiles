@@ -1,5 +1,8 @@
+-- makes very weird interaction with "cw" motion
+
 return {
   "chrisgrieser/nvim-spider",
+  enabled = false,
   opts = {},
   keys = {
     {
