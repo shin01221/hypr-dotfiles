@@ -166,7 +166,7 @@ tooltip {
 
 #custom-cpuinfo {
   background: @cpuinfo;
-  color: @main-fg;
+  color: @text;
   padding-left: 1px;
   padding-right: 0px;
 }
@@ -179,7 +179,7 @@ tooltip {
 }
 
 #memory {
-  color: @main-fg;
+  color: @text;
   background: @memory;
   padding-left: 1px;
   padding-right: 0px;
@@ -194,7 +194,7 @@ tooltip {
 
 #cpu {
   background: @cpu;
-  color: @main-fg;
+  color: @text;
 }
 
 #custom-leftin1 {
@@ -212,7 +212,7 @@ tooltip {
 }
 
 #custom-arch {
-  color: @main-fg;
+  color: @text;
   background: @main-bg;
   font-size: 11pt;
   margin-right: -5px;
@@ -238,7 +238,7 @@ tooltip {
 
 #clock.time {
   background: @time;
-  color: @main-fg;
+  color: @text;
 }
 
 #custom-right3 {
@@ -249,7 +249,7 @@ tooltip {
 /* Date */
 #clock.date {
   background: @date;
-  color: @main-fg;
+  color: @text;
 }
 
 #custom-right4 {
@@ -263,12 +263,12 @@ tooltip {
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
   margin-right: -2px;
   padding-left: 5px;
-  color: @main-fg;
+  color: @text;
 }
 
 #custom-wifi {
   background: @wifi;
-  color: @main-fg;
+  color: @text;
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -284,7 +284,7 @@ tooltip {
   padding-right: 8px;
   padding-left: 8px;
   /* color: @wb-hvr-bg; */
-  color: #ffffff;
+  color: @text;
 }
 
 /* PulseAudio */
@@ -296,7 +296,7 @@ tooltip {
 
 #pulseaudio {
   background: @pulseaudio;
-  color: @main-fg;
+  color: @text;
 }
 
 /* Brightness */
@@ -308,7 +308,7 @@ tooltip {
 
 #backlight {
   background: @backlight;
-  color: @main-fg;
+  color: @text;
 }
 
 /* Battery */
@@ -320,7 +320,7 @@ tooltip {
 
 #battery {
   background: @battery;
-  color: @main-fg;
+  color: @text;
 }
 
 /* Power Button */
@@ -332,7 +332,7 @@ tooltip {
 }
 
 #custom-power {
-  color: @main-fg;
+  color: @text;
 
   background: @black;
   text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
