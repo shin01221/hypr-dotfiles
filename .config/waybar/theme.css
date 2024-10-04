@@ -11,5 +11,6 @@
 @define-color wb-hvr-fg #323232; /* Muted black, 80% opacity */
 
 @define-color text #FF2222; /* Darker red, 60% opacity */
+@define-color arch-color #f1a7a7; /* Muted dark red, 20% opacity */
 @define-color media-color #C81E1E; /* Muted dark red, 20% opacity */
 
