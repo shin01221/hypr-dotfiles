@@ -125,7 +125,7 @@ keymap.set("n", "<leader>os", vim.cmd.ObsidianQuickSwitch, { desc = "Notes Quick
 keymap.set("n", "<leader>oh", vim.cmd.ObsidianTags, { desc = "Search Tags" })
 keymap.set("n", "<leader>oc", vim.cmd.ObsidianTOC, { desc = "Search TOC" })
 -- keymap.set("v", "<leader>oe", "<cmd>ObsidianExtractNote<cr>", { desc = "Note Extract" })
-keymap.set("v", "<leader>oe", ":ObsidianExtractNote<cr>", { desc = "Note Extract" })
+keymap.set("v", "<leader>ox", ":ObsidianExtractNote", { desc = "Note Extract" })
 
 keymap.set("n", "gf", function()
   if require("obsidian").util.cursor_on_markdown_link() then
