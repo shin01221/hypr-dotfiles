@@ -1,6 +1,7 @@
 {
     "diagnostics.globals": [
-        "let"
+        "let",
+        "local"
     ],
     "diagnostics.disable": [
         "incomplete-signature-doc",

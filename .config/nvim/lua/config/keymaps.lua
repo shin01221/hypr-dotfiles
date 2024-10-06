@@ -117,6 +117,9 @@ keymap.set(
   ':Telescope live_grep search_dirs={"/media/Docs/notes"}<cr>',
   { desc = "live grep in notes" }
 )
+
+-- keymap.set("n", "<S-l>", "<Cmd>BufferLineCycleNext<CR>", { desc = "NextBuffer" })
+-- keymap.set("n", "<S-h>", "<Cmd>BufferLineCyclePrev<CR>", { desc = "PrevBuffer" })
 keymap.set("n", "<leader>o", "", { desc = "+obsidian" })
 keymap.set("n", "<leader>on", "<cmd>ObsidianNew<cr>", { desc = "New Note" })
 keymap.set("n", "<leader>ot", vim.cmd.ObsidianNewFromTemplate, { desc = "New Note with template" })
