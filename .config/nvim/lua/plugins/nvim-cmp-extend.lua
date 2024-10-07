@@ -6,5 +6,8 @@ return {
       ["<C-y>"] = cmp.mapping.confirm({ select = true }),
       ["<CR>"] = cmp.config.disable,
     })
+    cmp.setup({ sources = {
+      { name = "supermaven" },
+    } })
   end,
 }
