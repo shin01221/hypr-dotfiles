@@ -1,12 +1,10 @@
 * {
-    main-bg:            #161616e6;
-    main-fg:            #f2f4f8ff;
-    main-br:            #ee5396ff;
-    main-ex:            #ee5396cc;
-    select-bg:          #ee5396ff;
-    select-fg:          #161616ff;
+    main-bg:            #091833;
+    main-fg:            #05d9e8;
+    main-br:            #5aeedcff;
+    main-ex:            #f1b8ff;
+    select-bg:          #10316b;
+    select-fg:          #ea00d9;
     separatorcolor:     transparent;
     border-color:       transparent;
-    font: "Jetbrains Mono 11";
 }
-

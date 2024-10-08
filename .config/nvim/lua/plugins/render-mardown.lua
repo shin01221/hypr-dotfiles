@@ -1,5 +1,6 @@
 return {
   {
+    -- enabled = false,
     "MeanderingProgrammer/render-markdown.nvim",
     opts = {
       file_types = { "markdown", "norg", "rmd", "org" },
