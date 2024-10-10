@@ -1,6 +1,6 @@
 [ExtractDialog]
 1920x1080 screen: Window-Maximized=true
-DirHistory[$e]=$HOME/Downloads/,/tmp/mozilla_shin0/,$HOME/,$HOME/Downloads/sh/
+DirHistory[$e]=/media/Docs/notes/assets/uni-materials/,$HOME/Downloads/,/tmp/mozilla_shin0/,$HOME/,$HOME/Downloads/sh/
 
 [General]
 LockSidebar=true

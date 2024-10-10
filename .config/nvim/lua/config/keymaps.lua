@@ -130,6 +130,9 @@ keymap.set("n", "<leader>oc", vim.cmd.ObsidianTOC, { desc = "Search TOC" })
 -- keymap.set("v", "<leader>oe", "<cmd>ObsidianExtractNote<cr>", { desc = "Note Extract" })
 keymap.set("v", "<leader>ox", ":ObsidianExtractNote", { desc = "Note Extract" })
 
+-- molten kyemaps
+keymap.set("n", "<leader>me", vim.cmd.MoltenEvaluateLine, { desc = "LineEvaluate" })
+
 keymap.set("n", "gf", function()
   if require("obsidian").util.cursor_on_markdown_link() then
     return "<cmd>ObsidianFollowLink<CR>"
@@ -146,6 +149,7 @@ end, {})
 keymap.set("n", "<C-i>", function()
   require("minty.shades").open()
 end, {})
+
 -------------------------------------------------------------------------------
 --                           Folding section
 -------------------------------------------------------------------------------
