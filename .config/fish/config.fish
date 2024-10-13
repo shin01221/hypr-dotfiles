@@ -6,6 +6,10 @@ if status is-interactive
 end
 
 export EDITOR=nvim
+export CC="clang"
+export CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow"
+export LDLIBS="-lcrypt -lcs50 -lm"
+
 
 # List Directory
 alias ls="lsd"
@@ -20,7 +24,6 @@ alias lt="ls --tree"
 # abbr .3 'cd ../../..'
 # abbr .4 'cd ../../../..'
 # abbr .5 'cd ../../../../..'
-
 alias sptlrx= 'kitty -e -c /home/shin/.config/kitty/kitty-sptlrx.conf sptlrx'
 alias c='clear' # clear terminal
 alias l='eza -lh  --icons=auto --long --git --no-filesize --no-time --no-user' # long list

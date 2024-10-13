@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
-	<icon>utilities-terminal</icon>
+	<icon>kitty</icon>
 	<name>Open Terminal Here</name>
 	<submenu></submenu>
 	<unique-id>1723120492617537-1</unique-id>
-	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<command>/usr/bin/kitty %f</command>
 	<description>Example for a custom action</description>
 	<range></range>
 	<patterns>*</patterns>
 	<startup-notify/>
 	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name></name>
+	<submenu></submenu>
+	<unique-id>1728644243399968-1</unique-id>
+	<command></command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon></icon>
+	<name></name>
+	<submenu></submenu>
+	<unique-id>1728644310624432-2</unique-id>
+	<command></command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon></icon>
+	<name></name>
+	<submenu></submenu>
+	<unique-id>1728644704442817-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator
+
+</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
 </action>
 </actions>

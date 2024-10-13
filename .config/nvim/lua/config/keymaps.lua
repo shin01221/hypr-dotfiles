@@ -36,7 +36,7 @@ keymap.set("v", "<Leader>d", '"_d')
 keymap.set("v", "<Leader>D", '"_D')
 
 -- code-runner
-keymap.set("n", "<leader>r", ":RunCode<CR>", { noremap = true, silent = false })
+keymap.set("n", "<leader>rr", ":RunCode<CR>", { noremap = true, silent = false })
 keymap.set("n", "<leader>rff", ":RunFile<CR>", { noremap = true, silent = false })
 keymap.set("n", "<leader>rft", ":RunFile tab<CR>", { noremap = true, silent = false })
 keymap.set("n", "<leader>rp", ":RunProject<CR>", { noremap = true, silent = false })
@@ -127,6 +127,7 @@ keymap.set("n", "<leader>od", vim.cmd.ObsidianDailies, { desc = "New Daily Note"
 keymap.set("n", "<leader>os", vim.cmd.ObsidianQuickSwitch, { desc = "Notes QuickSwitch" })
 keymap.set("n", "<leader>oh", vim.cmd.ObsidianTags, { desc = "Search Tags" })
 keymap.set("n", "<leader>oc", vim.cmd.ObsidianTOC, { desc = "Search TOC" })
+keymap.set("n", "<leader>ob", vim.cmd.ObsidianBacklinks, { desc = "Search backlinks" })
 -- keymap.set("v", "<leader>oe", "<cmd>ObsidianExtractNote<cr>", { desc = "Note Extract" })
 keymap.set("v", "<leader>ox", ":ObsidianExtractNote", { desc = "Note Extract" })
 
