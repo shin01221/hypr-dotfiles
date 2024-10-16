@@ -1,6 +1,6 @@
 
       @-moz-document url-prefix("chrome:") {
-        .scrollbox-clip > scrollbox:nth-child(1) {
+        scrollbox:nth-child(5) {
   scrollbar-width: none !important;
 }
 

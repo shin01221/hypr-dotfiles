@@ -133,6 +133,7 @@ keymap.set("v", "<leader>ox", ":ObsidianExtractNote", { desc = "Note Extract" })
 
 -- molten kyemaps
 keymap.set("n", "<leader>me", vim.cmd.MoltenEvaluateLine, { desc = "LineEvaluate" })
+keymap.set("n", "<leader>mq", vim.cmd.MoltenDeinit, { desc = "LineEvaluate" })
 
 keymap.set("n", "gf", function()
   if require("obsidian").util.cursor_on_markdown_link() then
