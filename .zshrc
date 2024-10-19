@@ -1,6 +1,6 @@
 # export LUA_PATH=/usr/bin/lua5.1
 export SUDO_EDITOR=nvim
-export CLASSPATH=/media/Learning/AI-JAD/jade/jade-core/jade/lib/jade.jar
+export CLASSPATH=/media/Learning/AI-JAD/JADE-all-4.6.0/jade/lib/jade.jar
 export EDITOR=nvim
 export PATH=/home/shin/.tmux/plugins/tmuxifier/bin:$PATH
 export CC="clang"

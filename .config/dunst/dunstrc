@@ -449,15 +449,15 @@
     timeout = 0
 
 [urgency_low]
-    background = "#6567A380"
-    foreground = "#CCCDFFE6"
-    frame_color = "#6567A303"
+    background = "#6595A380"
+    foreground = "#CCF4FFE6"
+    frame_color = "#6595A303"
     icon = "/home/shin/.config/dunst/icons/hyprdots.svg"
     timeout = 5
 
 [urgency_normal]
-    background = "#3A466B80"
-    foreground = "#CCD8FFE6"
-    frame_color = "#3A466B03"
+    background = "#3A646B80"
+    foreground = "#CCF7FFE6"
+    frame_color = "#3A646B03"
     icon = "/home/shin/.config/dunst/icons/hyprdots.svg"
     timeout = 5
