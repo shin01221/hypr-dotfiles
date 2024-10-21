@@ -23,6 +23,13 @@ return {
         -- border = true,
         border_prefix = true,
       },
+      latex = {
+        enabled = true,
+        converter = "latex2text",
+        highlight = "RenderMarkdownMath",
+        top_pad = 0,
+        bottom_pad = 0,
+      },
     },
     ft = { "markdown", "norg", "rmd", "org" },
     config = function(_, opts)
