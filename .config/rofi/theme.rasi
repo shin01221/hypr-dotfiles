@@ -1,10 +1,11 @@
 * {
-    main-bg:           #282828FF;
-    main-fg:           #CBCED3FF;
-    main-br:           #EBDBB2FF;
-    main-ex:           #85A583FF;
-    select-bg:         #475437FF;
-    select-fg:         #B5CC97FF;
-    separatorcolor:    transparent;
-    border-color:      transparent;
+    main-bg:            #2f3330;    /* Background color (Everforest bg) */
+    main-fg:            #d8dee9;    /* Main text color (Everforest fg) */
+    main-br:            #3b4252;    /* Main border color (Everforest br) */
+    main-ex:            #e5c07b;    /* Accent color (Everforest ex) */
+    select-bg:          #3b4252;    /* Selection background (Everforest select-bg) */
+    select-fg:          #eceff4;    /* Selection text color (Everforest select-fg) */
+    separatorcolor:     transparent;
+    border-color:       transparent;
 }
+
