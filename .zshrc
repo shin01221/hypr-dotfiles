@@ -4,8 +4,8 @@ export CLASSPATH=/media/Learning/AI-JAD/JADE-all-4.6.0/jade/lib/jade.jar
 export EDITOR=nvim
 export PATH=/home/shin/.tmux/plugins/tmuxifier/bin:$PATH
 export CC="clang"
- export CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow"
- export LDLIBS="-lcrypt -lcs50 -lm"
+export CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow"
+export LDLIBS="-lcrypt -lcs50 -lm"
 source <(fzf --zsh)
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
@@ -108,6 +108,7 @@ bindkey -M vicmd '^e' edit-command-line
 bindkey -M visual '^[[P' vi-delete
 
 # Helpful aliases
+alias nvim='~/.config/nvim/kitty.sh'
 alias  sptlrx= 'kitty -e -c /home/shin/.config/kitty/kitty-sptlrx.conf sptlrx'
 alias  c='clear' # clear terminal
 alias  man='tldr' # clear terminal

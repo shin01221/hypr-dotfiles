@@ -13,6 +13,7 @@ export LDLIBS="-lcrypt -lcs50 -lm"
 
 
 # List Directory
+alias nvim='bash ~/.config/nvim/kitty.sh'
 alias ls="lsd"
 alias l="ls -l"
 alias la="ls -a"
