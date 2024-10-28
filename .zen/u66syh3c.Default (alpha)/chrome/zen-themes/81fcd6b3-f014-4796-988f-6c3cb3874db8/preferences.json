@@ -1,5 +1,24 @@
 [
     {
+        "property": "uc.hidecontext.separators",
+        "label": "Hide all separators",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.hidecontext.optionicons",
+        "label": "Hide all icons (won't work for extension and checkbox context menu options)",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.fixcontext.extensionmargins",
+        "label": "Fix margin for 'Tabs on the right' checkbox and extensions-related context menu",
+        "type": "checkbox",
+        "disabledOn": [
+            "macos",
+            "linux"
+        ]
+    },
+    {
         "property": "uc.hidecontext.copylink",
         "label": "Only use 'Copy Link Without Site Tracking'",
         "type": "checkbox"
@@ -15,6 +34,21 @@
         "type": "checkbox"
     },
     {
+        "property": "uc.hidecontext.mutetab",
+        "label": "Hide 'Mute Tab' option",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.hidecontext.newtab",
+        "label": "Hide 'New Tab' option",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.hidecontext.movetaboptions",
+        "label": "Hide 'Move Tab' options",
+        "type": "checkbox"
+    },
+    {
         "property": "uc.hidecontext.newcontainer",
         "label": "Hide 'Open Tab/Link in New Container Tab'",
         "type": "checkbox"
@@ -22,6 +56,11 @@
     {
         "property": "uc.hidecontext.sendtodevice",
         "label": "Hide 'Send Tab/Link to Device'",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.hidecontext.closetab",
+        "label": "Hide close tab options (Close Tab, Close Duplicate Tabs, Close Multiple Tabs)",
         "type": "checkbox"
     },
     {
@@ -37,6 +76,11 @@
     {
         "property": "uc.hidecontext.translate",
         "label": "Hide Firefox's 'Translate Selection/Link' options",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.hidecontext.printselection",
+        "label": "Hide 'Print Selection'",
         "type": "checkbox"
     },
     {
@@ -57,6 +101,11 @@
     {
         "property": "uc.hidecontext.reloadtab",
         "label": "Hide 'Reload Tab' option",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.hidecontext.duplicatetab",
+        "label": "Hide 'Duplicate Tab' option",
         "type": "checkbox"
     },
     {
