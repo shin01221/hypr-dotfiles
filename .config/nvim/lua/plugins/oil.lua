@@ -26,6 +26,9 @@ return {
         ["<C-c>"] = false,
         ["q"] = "actions.close",
       },
+      keys = {
+        { "-", "<cmd>Oil<cr>", desc = "Open parent directory" },
+      },
     },
   },
 }
