@@ -1,8 +1,7 @@
 return {
   "Thiago4532/mdmath.nvim",
-  dependencies = {
-    "nvim-treesitter/nvim-treesitter",
-  },
+  lazy = true,
+  ft = "markdown",
   opts = {
     -- Filetypes that the plugin will be enabled by default.
     filetypes = { "markdown" },

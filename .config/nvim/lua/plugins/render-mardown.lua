@@ -24,7 +24,7 @@ return {
         border_prefix = true,
       },
       latex = {
-        enabled = true,
+        enabled = false,
         converter = "latex2text",
         highlight = "RenderMarkdownMath",
         top_pad = 0,

@@ -9,11 +9,10 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 exec = gsettings set org.gnome.desktop.interface icon-theme 'Gruvbox-Plus-Dark'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox-Retro'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-
 exec = gsettings set org.gnome.desktop.interface cursor-theme 'Gruvbox-Retro'
 exec = gsettings set org.gnome.desktop.interface cursor-size 20
 exec = hyprctl setcursor Gruvbox-Retro 20
-
+exec = Hyde code theme 'Gruvbox Dark Hard'
 general {
     gaps_in = 3
     gaps_out = 8
