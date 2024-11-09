@@ -45,6 +45,8 @@ return {
   {
     "3rd/image.nvim",
     -- dependencies = { "luarocks.nvim" },
+    lazy = true,
+    ft = "markdown",
     config = function()
       require("image").setup({
         backend = "kitty",
