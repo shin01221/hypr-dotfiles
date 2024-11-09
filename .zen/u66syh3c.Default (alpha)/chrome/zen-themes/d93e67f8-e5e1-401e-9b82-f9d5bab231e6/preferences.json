@@ -23,8 +23,8 @@
         ]
     },
     {
-        "property": "uc.urlbar.border.removed",
-        "label": "Removes the border of the url bar",
+        "property": "uc.urlbar.border",
+        "label": "Adds a border to the url bar",
         "type": "checkbox",
         "disabledOn": []
     },
@@ -63,32 +63,57 @@
         ]
     },
     {
-        "property": "browser.urlbar.openintab",
-        "label": "Always open websites in a new tab when using url bar",
-        "type": "checkbox"
-    },
-    {
-        "property": "uc.urlbar.custom-bg-color.enabled",
+        "property": "uc.urlbar.custom-bg-color.mode",
         "label": "Enables Custom Colors for the Url Bar",
-        "type": "dropdown",
         "placeholder": "Disabled",
+        "type": "dropdown",
         "disabledOn": [],
         "options": [
             {
-                "label": "Only color url bar when not in focus",
-                "value": "Normal"
+                "label": "Coloring when url bar is in focus",
+                "value": "Focus"
             },
             {
-                "label": "Always color url bar (not focused + focused)",
-                "value": "Advanced"
+                "label": "Coloring when url bar is NOT in focus",
+                "value": "noFocus"
+            },
+            {
+                "label": "Always color url bar",
+                "value": "AlwaysColor"
             }
         ]
     },
     {
         "property": "uc.urlbar.custom-bg-color",
-        "label": "Custom Color for the Url Bar (Checkbox above needs to be active)",
+        "label": "Custom Color for the Url Bar (Dropdown above needs to be enabled)",
         "placeholder": "Enter Color Code",
         "type": "string"
+    },
+    {
+        "property": "browser.urlbar.openintab",
+        "label": "Always open websites in a new tab when using url bar",
+        "type": "checkbox"
+    },
+    {
+        "property": "uc.urlbar.hide.container-info",
+        "label": "Hides the container info",
+        "type": "dropdown",
+        "placeholder": "Disabled",
+        "disabledOn": [],
+        "options": [
+            {
+                "label": "Only hide the label",
+                "value": "hideLabel"
+            },
+            {
+                "label": "Only hide the icon",
+                "value": "hideIcon"
+            },
+            {
+                "label": "Hide both, icon and label",
+                "value": "hideIconLabel"
+            }
+        ]
     },
     {
         "property": "uc.urlbar.icon.zoom.removed",
@@ -121,8 +146,8 @@
         "disabledOn": []
     },
     {
-        "property": "uc.urlbar.icon.container.removed",
-        "label": "Hides the Container Tab icon and text",
+        "property": "uc.urlbar.icon.split-view.removed",
+        "label": "Hides the Split View icon",
         "type": "checkbox",
         "disabledOn": []
     },

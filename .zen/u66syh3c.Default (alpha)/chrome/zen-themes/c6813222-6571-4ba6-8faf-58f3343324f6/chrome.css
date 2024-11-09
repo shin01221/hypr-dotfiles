@@ -1,13 +1,1 @@
-
-      @-moz-document url-prefix("chrome:") {
-        
-:root .browserSidebarContainer {
-    margin: unset!important;
-    box-shadow: unset!important;
-    clip-path: unset!important;
-    border-radius: unset!important;
-    overflow: unset!important;
-}
-
-      }
-    
+@-moz-document url-prefix("chrome:") {  :root {    --zen-webview-border-radius: 0;    #tabbrowser-tabpanels:not([zen-split-view="true"]) {     padding-left: 0px!important;    padding-right: 0px!important;    }  }  }

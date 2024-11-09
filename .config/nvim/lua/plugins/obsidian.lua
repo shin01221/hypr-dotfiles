@@ -1,11 +1,11 @@
 return {
   "epwalsh/obsidian.nvim",
   version = "*",
-  lazy = true,
-  ft = "markdown",
+  -- lazy = true,
+  -- ft = "markdown",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    "hrsh7th/nvim-cmp",
+    -- "hrsh7th/nvim-cmp",
     "nvim-telescope/telescope.nvim",
     "nvim-treesitter/nvim-treesitter",
   },
@@ -84,9 +84,9 @@ return {
     ui = { enable = false },
     sort_by = "modified",
     sort_reversed = true,
-    completion = {
-      nvim_cmp = true,
-      min_chars = 2,
-    },
+    -- completion = {
+    --   nvim_cmp = true,
+    --   min_chars = 2,
+    -- },
   },
 }
