@@ -26,15 +26,17 @@ group {
 
 decoration {
     rounding = 2
-    drop_shadow = true
-    shadow_scale = 1
-    shadow_ignore_window = true
-    shadow_offset = 0 0
-    shadow_range = 5
-    shadow_render_power = 1
-    col.shadow = 0xccccccdb
-    col.shadow_inactive = 0x000000db
 
+shadow {
+       enabled = yes 
+       scale = 1
+       ignore_window = true
+       offset = 0 0
+       range = 5
+       render_power = 1
+       color = 0xccccccdb
+       color_inactive = 0x000000db
+     }
     blur {
         enabled = yes
         size = 6

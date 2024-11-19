@@ -27,10 +27,10 @@ group {
 
 decoration {
     rounding = 10
-    drop_shadow = false
-    drop_shadow = no
+   #drop_shadow = false
+   #drop_shadow = no
 
-    blur {
+   blur {
         enabled = yes
         size = 4
         passes = 2
@@ -39,7 +39,7 @@ decoration {
         xray = false
         # contrast = 0.8916
         brightness = 1.7172
-    }
+   }
 }
 
 layerrule = blur,waybar

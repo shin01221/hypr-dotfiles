@@ -18,5 +18,8 @@ return {
     keymap = {
       preset = "default",
     },
+    -- ghost_text = {
+    --   enabled = false,
+    -- },
   },
 }

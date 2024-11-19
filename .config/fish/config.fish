@@ -88,3 +88,6 @@ function inbox
     echo "New note created: $full_path"
     nvim $full_path
 end
+
+# uv
+fish_add_path "/home/shin/.local/bin"

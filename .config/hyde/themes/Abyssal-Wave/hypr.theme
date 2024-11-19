@@ -14,9 +14,10 @@ general {
 
 decoration {
     rounding = 0
-
     active_opacity = 0.90
     inactive_opacity = 0.90
+    dim_inactive = false
+    dim_strength = 0.05
 
     blur {
         enabled = yes
@@ -29,17 +30,15 @@ decoration {
         popups = true
     }
 
-    dim_inactive = false
-    dim_strength = 0.05
-
-    drop_shadow = yes
-    shadow_range = 30
-    shadow_scale = 2
-    shadow_render_power = 5
-    col.shadow = rgba(16161dff) # Kanagawa waveBlue1
-    col.shadow_inactive = rgba(2a2a37ff) # Kanagawa waveBlue2
+shadow {
+    enabled = yes
+    range = 30
+    scale = 2
+    render_power = 5
+    color = rgba(16161dff) # Kanagawa waveBlue1
+    color_inactive = rgba(2a2a37ff) # Kanagawa waveBlue2
+    }
 }
-
 group {
     col.border_inactive = rgba(6a9589b0) # Kanagawa crust
     col.border_active = rgba(dcd7baee) rgba(957fb8b0) rgba(957fb8b0) rgba(dcd7baee) 45deg # Kanagawa fujiWhite and lavender
@@ -52,5 +51,4 @@ group {
       text_color = rgba(1f1f28ff) # Kanagawa sumiInk1
     }
 }
-
 layerrule = blur,waybar
