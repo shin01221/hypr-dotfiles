@@ -6,6 +6,7 @@ if status is-interactive
 end
 
 export EDITOR=nvim
+export MANPAGER='nvim +Man!'
 # export CLASSPATH=/media/Learning/AI-JAD/JADE-all-4.6.0/jade/lib/jade.jar
 export CC="clang"
 export CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow"
@@ -13,7 +14,7 @@ export LDLIBS="-lcrypt -lcs50 -lm"
 
 
 # List Directory
-alias nvim='bash ~/.config/nvim/kitty.sh'
+# alias nvim='bash ~/.config/nvim/kitty.sh'
 alias ls="lsd"
 alias l="ls -l"
 alias la="ls -a"
@@ -28,7 +29,7 @@ alias lt="ls --tree"
 # abbr .5 'cd ../../../../..'
 alias sptlrx= 'kitty -e -c /home/shin/.config/kitty/kitty-sptlrx.conf sptlrx'
 alias c='clear' # clear terminal
-alias man='tldr' # clear terminal
+# alias man='tldr' # clear terminal
 alias l='eza -lh  --icons=auto --long --git --no-filesize --no-time --no-user' # long list
 alias ls='eza -1   --icons=auto --long --git --no-filesize --no-time --no-user' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first --long --git --no-filesize --no-time --no-user' # long list all
