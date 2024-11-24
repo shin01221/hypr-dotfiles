@@ -1,5 +1,6 @@
 # export LUA_PATH=/usr/bin/lua5.1
 export SUDO_EDITOR=nvim
+export MANPAGER='nvim +Man!'
 export CLASSPATH=/media/Learning/AI-JAD/JADE-all-4.6.0/jade/lib/jade.jar
 export EDITOR=nvim
 export PATH=/home/shin/.tmux/plugins/tmuxifier/bin:$PATH
@@ -108,10 +109,9 @@ bindkey -M vicmd '^e' edit-command-line
 bindkey -M visual '^[[P' vi-delete
 
 # Helpful aliases
-alias nvim='~/.config/nvim/kitty.sh'
+# alias nvim='~/.config/nvim/kitty.sh'
 alias  sptlrx= 'kitty -e -c /home/shin/.config/kitty/kitty-sptlrx.conf sptlrx'
 alias  c='clear' # clear terminal
-alias  man='tldr' # clear terminal
 alias  l='eza -lh  --icons=auto --long --git --no-filesize --no-time --no-user' # long list
 alias ls='eza -1   --icons=auto --long --git --no-filesize --no-time --no-user' # short list
 alias ll='eza -lha --icons=auto --sort=name --group-directories-first --long --git --no-filesize --no-time --no-user' # long list all
