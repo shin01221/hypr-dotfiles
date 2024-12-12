@@ -1,4 +1,6 @@
 # export LUA_PATH=/usr/bin/lua5.1
+
+export PATH="${HOME}/.local/bin:${PATH}"
 export SUDO_EDITOR=nvim
 export MANPAGER='nvim +Man!'
 export CLASSPATH=/media/Learning/AI-JAD/JADE-all-4.6.0/jade/lib/jade.jar
