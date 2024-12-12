@@ -92,3 +92,4 @@ end
 
 # uv
 fish_add_path "/home/shin/.local/bin"
+fish_add_path "/home/shin/.cargo/bin"
