@@ -45,7 +45,7 @@ alias vc='code' # gui code editor
 alias grep='grep --color=auto'
 alias cat='bat' # gui code editor
 alias p='sudo pacman'
-alias rm='trash -d'
+# alias rm='trash -d'
 alias cd='z'
 alias cp='cp -r'
 # Handy change dir shortcuts
