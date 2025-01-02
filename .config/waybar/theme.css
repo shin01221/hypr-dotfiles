@@ -1,16 +1,13 @@
+@define-color bar-bg rgba(0, 0, 0, 0);
 
-@define-color bar-bg #0A0A0A;  /* Deep black, fully opaque */
+@define-color main-bg #475437;
+@define-color main-fg #b5cc97;
 
-@define-color main-bg #FF2222;  /* Ferrari red, 80% opacity */
-@define-color main-fg rgba(240,170,170,0.8); /* Deep black, 80% opacity */
+@define-color wb-act-bg #668f31;
+@define-color wb-act-fg #c2d89c;
 
-@define-color wb-act-bg #C81E1E; /* Darker red, 60% opacity */
-@define-color wb-act-fg #0A0A0A; /* Deep black, full opacity */
-
-@define-color wb-hvr-bg #961414; /* Muted dark red, 20% opacity */
-@define-color wb-hvr-fg #323232; /* Muted black, 80% opacity */
-
-@define-color text #FF2222; /* Darker red, 60% opacity */
-@define-color arch-color #f1a7a7; /* Muted dark red, 20% opacity */
-@define-color media-color #C81E1E; /* Muted dark red, 20% opacity */
-
+@define-color wb-hvr-bg #c6eb6f;
+@define-color wb-hvr-fg #c0fc47;
+@define-color text #b5cc97;
+@define-color arch-color #b5cc97;
+@define-color media-color #b5cc97;
