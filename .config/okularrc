@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=/media/man.md
+File2[$e]=/media/Docs/notes/1727680828-vim-plugins.md
+Name1[$e]=man.md
+Name2[$e]=1727680828-vim-plugins.md

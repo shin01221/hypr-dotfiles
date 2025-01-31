@@ -56,6 +56,23 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
+# yt-dlp
+
+function down
+    set quality $argv[1] # Get the first argument as the desired quality
+    set -e argv[1] # Remove the first argument (quality) from $argv
+    yt-dlp -S res:"$quality" -- $argv # Use the quality and remaining arguments (URLs)
+end
+
+function mp4
+    yt-dlp -f mp4 $argv[1] -o "$argv[2].mp4"
+end
+
+alias down360="down 360"
+alias down480="down 480"
+alias down720="down 720"
+alias down1080="down 1080"
+
 zoxide init fish | source
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
