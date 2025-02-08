@@ -41,12 +41,12 @@ EOF
     exit 1
 }
 
-# notify_vol() {
-#     angle=$(( (($vol + 2) / 5) * 5 ))
-#     ico="${icodir}/vol-${angle}.svg"
-#     bar=$(seq -s "." $(($vol / 15)) | sed 's/[0-9]//g')
-#     notify-send -a "t2" -r 91190 -t 800 -i "${ico}" "${vol}${bar}" "${nsink}"
-# }
+notify_vol() {
+    angle=$(( (($vol + 2) / 5) * 5 ))
+    ico="${icodir}/vol-${angle}.svg"
+    bar=$(seq -s "." $(($vol / 15)) | sed 's/[0-9]//g')
+    notify-send -a "t2" -r 91190 -t 800 -i "${ico}" "${vol}${bar}" "${nsink}"
+}
 
 notify_mute() {
     mute=$(pamixer "${srce}" --get-mute | cat)
