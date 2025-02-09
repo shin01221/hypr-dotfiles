@@ -1,6 +1,6 @@
 return {
   {
-    -- enabled = false,
+    enabled = false,
     "MeanderingProgrammer/render-markdown.nvim",
     ft = { "markdown", "norg", "rmd", "org", "codecompanion" },
     opts = {
