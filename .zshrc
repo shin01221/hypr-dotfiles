@@ -168,7 +168,7 @@ eval "$(zoxide init zsh)"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 [[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
 #Display Pokemon
-# pokemon-colorscripts --no-title -r 1,3,6
+pokemon-colorscripts --no-title -r 1,3,6
 
 [ -s ~/.luaver/luaver ] && . ~/.luaver/luaver
 

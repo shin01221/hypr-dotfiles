@@ -107,6 +107,9 @@ function inbox
     nvim $full_path
 end
 
+pokemon-colorscripts --no-title -r 1,3,6
 # uv
 fish_add_path "/home/shin/.local/bin"
+fish_add_path "/home/shin/.local/share/bin"
+fish_add_path "/home/shin/.local/share/custom/bin"
 fish_add_path "/home/shin/.cargo/bin"
