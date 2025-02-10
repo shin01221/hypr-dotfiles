@@ -1,5 +1,5 @@
 [Added Associations]
-application/pdf=org.pwmt.zathura.desktop;
+application/pdf=okularApplication_pdf.desktop;wps-office-pdf.desktop;org.pwmt.zathura.desktop;
 application/x-extension-htm=firefox.desktop;zen-alpha.desktop;zen-beta.desktop;zen.desktop;
 application/x-extension-html=firefox.desktop;zen-alpha.desktop;zen-beta.desktop;zen.desktop;
 application/x-extension-shtml=firefox.desktop;zen-alpha.desktop;zen-beta.desktop;zen.desktop;
