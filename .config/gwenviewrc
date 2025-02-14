@@ -1,0 +1,19 @@
+[FullScreen]
+FullScreenModeActive=true
+
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/.config/hyde/themes/Catppuccin Mocha/wallpapers/escape_velocity.jpg
+File2[$e]=$HOME/.config/hyde/themes/Catppuccin Mocha/wallpapers/cutie.png
+Name1[$e]=escape_velocity.jpg
+Name2[$e]=cutie.png
+
+[SideBar]
+InformationSplitterSizes=306,717
+SideBarSplitterSizes=223,1690

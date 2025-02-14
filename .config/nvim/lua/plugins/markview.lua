@@ -18,8 +18,8 @@ return {
     -- Setup Markview with preset headings
     require("markview").setup({
       markdown = {
-        headings = presets.headings.slanted, -- Use the glow preset
-        tables = presets.tables.double,
+        headings = presets.headings.arrowed, -- Use the glow preset
+        tables = presets.tables.rounded,
         list_items = { shift_width = 2, indent_size = 1 },
       },
     })

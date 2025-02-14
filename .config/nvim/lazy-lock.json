@@ -89,6 +89,7 @@
   "synthweave.nvim": { "branch": "master", "commit": "50cb17af14dbdf8a2af634c40b9b20298f67aba0" },
   "telescope.nvim": { "branch": "master", "commit": "415af52339215926d705cccc08145f3782c4d132" },
   "themery.nvim": { "branch": "main", "commit": "bfa58f4b279d21cb515b28023e1b68ec908584b2" },
+  "tiny-glimmer.nvim": { "branch": "main", "commit": "6f9706baa904f7892a52c6dd3ca3cde7e384c885" },
   "todo-comments.nvim": { "branch": "main", "commit": "304a8d204ee787d2544d8bc23cd38d2f929e7cc5" },
   "tokyonight.nvim": { "branch": "main", "commit": "dca4adba7dc5f09302a00b0e76078d54d82d2658" },
   "transparent.nvim": { "branch": "main", "commit": "8a2749a2fa74f97fe6557f61b89ac7fd873f3c21" },
