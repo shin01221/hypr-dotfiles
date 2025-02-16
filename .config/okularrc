@@ -8,7 +8,6 @@ LockSidebar=true
 ShowSidebar=true
 
 [MainWindow]
-MenuBar=Disabled
 ToolBarsMovable=Disabled
 
 [Recent Files]

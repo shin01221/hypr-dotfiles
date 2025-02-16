@@ -128,8 +128,10 @@ keymap.set("n", "<leader>os", vim.cmd.ObsidianQuickSwitch, { desc = "Notes Quick
 keymap.set("n", "<leader>oh", vim.cmd.ObsidianTags, { desc = "Search Tags" })
 keymap.set("n", "<leader>oc", vim.cmd.ObsidianTOC, { desc = "Search TOC" })
 keymap.set("n", "<leader>ob", vim.cmd.ObsidianBacklinks, { desc = "Search backlinks" })
+keymap.set("n", "<leader>ols", vim.cmd.ObsidianLinks, { desc = "Search Links" })
 -- keymap.set("v", "<leader>oe", "<cmd>ObsidianExtractNote<cr>", { desc = "Note Extract" })
 keymap.set("v", "<leader>ox", ":ObsidianExtractNote", { desc = "Note Extract" })
+keymap.set("v", "<leader>oll", vim.cmd.ObsidianLinkNew, { desc = "New Link" })
 
 -- molten kyemaps
 keymap.set("n", "<leader>me", vim.cmd.MoltenEvaluateLine, { desc = "LineEvaluate" })

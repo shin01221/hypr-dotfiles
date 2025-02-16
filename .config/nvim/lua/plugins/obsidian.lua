@@ -50,10 +50,10 @@ return {
       },
     },
     daily_notes = {
-      folder = "FlyingNotes",
+      folder = "dailies",
       date_format = "%Y-%m-%d",
       alias_format = "%B %-d, %Y",
-      default_tags = { "flying-notes" },
+      default_tags = { "dailies" },
       template = nil,
     },
     mappings = {
@@ -85,7 +85,6 @@ return {
     sort_by = "modified",
     sort_reversed = true,
     -- completion = {
-    --   nvim_cmp = true,
     --   min_chars = 2,
     -- },
   },
