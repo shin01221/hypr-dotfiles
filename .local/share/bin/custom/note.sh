@@ -1,2 +1,2 @@
 #!/bin/bash
-kitty -e nvim /tmp/note.md
+kitty -e bash ~/.config/nvim/kitty.sh /tmp/note.md

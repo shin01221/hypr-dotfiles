@@ -2,7 +2,7 @@
 TerminalApplication=kitty
 
 [Icons]
-Theme=Gruvbox-Plus-Dark
+Theme=Tela-circle-green
 
 [KFileDialog Settings]
 Allow Expansion=false
