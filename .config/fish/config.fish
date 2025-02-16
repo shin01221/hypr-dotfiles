@@ -14,7 +14,8 @@ export LDLIBS="-lcrypt -lcs50 -lm"
 
 
 # List Directory
-# alias nvim='bash ~/.config/nvim/kitty.sh'
+
+alias nvim='bash ~/.config/nvim/kitty.sh'
 alias ls="lsd"
 alias l="ls -l"
 alias la="ls -a"
@@ -105,6 +106,7 @@ function inbox
     touch $full_path
     echo "New note created: $full_path"
     nvim $full_path
+
 end
 
 pokemon-colorscripts --no-title -r 1,3,6

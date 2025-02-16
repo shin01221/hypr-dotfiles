@@ -34,7 +34,7 @@ application/x-shellscript=neovide.desktop;
 text/markdown=neovide.desktop;nvim-2.desktop;nvim.desktop;
 
 [Default Applications]
-application/pdf=org.pwmt.zathura.desktop;
+application/pdf=okularApplication_pdf.desktop
 application/x-extension-htm=zen.desktop
 application/x-extension-html=zen.desktop
 application/x-extension-shtml=zen.desktop
