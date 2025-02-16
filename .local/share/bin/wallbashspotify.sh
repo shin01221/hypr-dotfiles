@@ -32,11 +32,15 @@ if pkg_installed spotify && pkg_installed spicetify-cli ; then
         spicetify config color_scheme Wallbash
         spicetify apply
     fi
-
-    if pgrep -x spotify > /dev/null ; then
-        pkill -x spicetify
-        spicetify -q watch -s &
-    fi
+        if pgrep -x spotify > /dev/null; then
+            while ! dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify \
+                    /org/mpris/MediaPlayer2 org.freedesktop.DBus.Properties.Get \
+                    string:"org.mpris.MediaPlayer2.Player" string:"PlaybackStatus" > /dev/null 2>&1; do
+                sleep 1  # Wait until Spotify is fully initialized
+            done
+            pkill -x spicetify
+            pgrep -x spicetify > /dev/null || spicetify -q watch -s &
+        fi
 
 fi
 
