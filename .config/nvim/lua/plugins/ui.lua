@@ -61,15 +61,15 @@ return {
   -- },
 
   -- animations
-  {
-    "echasnovski/mini.animate",
-    event = "VeryLazy",
-    opts = function(_, opts)
-      opts.scroll = {
-        enable = false,
-      }
-    end,
-  },
+  -- {
+  --   "echasnovski/mini.animate",
+  --   event = "VeryLazy",
+  --   opts = function(_, opts)
+  --     opts.scroll = {
+  --       enable = false,
+  --     }
+  --   end,
+  -- },
 
   -- buffer line
   -- {
@@ -89,66 +89,53 @@ return {
   --   },
   -- },
   -- filename
-  {
-    "b0o/incline.nvim",
-    dependencies = {},
-    event = "BufReadPre",
-    priority = 1200,
-    config = function()
-      local helpers = require("incline.helpers")
-      require("incline").setup({
-        window = {
-          padding = 0,
-          margin = { horizontal = 0 },
-        },
-        render = function(props)
-          local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ":t")
-          local ft_icon, ft_color = require("nvim-web-devicons").get_icon_color(filename)
-          local modified = vim.bo[props.buf].modified
-          local buffer = {
-            ft_icon and { " ", ft_icon, " ", guibg = ft_color, guifg = helpers.contrast_color(ft_color) } or "",
-            " ",
-            { filename, gui = modified and "bold,italic" or "bold" },
-            " ",
-            guibg = "#363944",
-          }
-          return buffer
-        end,
-      })
-    end,
-  },
-
-  -- statusline
-  {
-    "nvim-lualine/lualine.nvim",
-    opts = function(_, opts)
-      local LazyVim = require("lazyvim.util")
-      opts.sections.lualine_c[4] = {
-        LazyVim.lualine.pretty_path({
-          length = 0,
-          relative = "cwd",
-          modified_hl = "MatchParen",
-          directory_hl = "",
-          filename_hl = "Bold",
-          modified_sign = "",
-          readonly_icon = " 󰌾 ",
-        }),
-      }
-    end,
-  },
-
-  {
-    "folke/zen-mode.nvim",
-    cmd = "ZenMode",
-    opts = {
-      plugins = {
-        gitsigns = true,
-        tmux = true,
-        kitty = { enabled = false, font = "+2" },
-      },
-    },
-    keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
-  },
+  -- {
+  --   "b0o/incline.nvim",
+  --   dependencies = {},
+  --   event = "BufReadPre",
+  --   priority = 1200,
+  --   config = function()
+  --     local helpers = require("incline.helpers")
+  --     require("incline").setup({
+  --       window = {
+  --         padding = 0,
+  --         margin = { horizontal = 0 },
+  --       },
+  --       render = function(props)
+  --         local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(props.buf), ":t")
+  --         local ft_icon, ft_color = require("nvim-web-devicons").get_icon_color(filename)
+  --         local modified = vim.bo[props.buf].modified
+  --         local buffer = {
+  --           ft_icon and { " ", ft_icon, " ", guibg = ft_color, guifg = helpers.contrast_color(ft_color) } or "",
+  --           " ",
+  --           { filename, gui = modified and "bold,italic" or "bold" },
+  --           " ",
+  --           guibg = "#363944",
+  --         }
+  --         return buffer
+  --       end,
+  --     })
+  --   end,
+  -- },
+  --
+  -- -- statusline
+  -- {
+  --   "nvim-lualine/lualine.nvim",
+  --   opts = function(_, opts)
+  --     local LazyVim = require("lazyvim.util")
+  --     opts.sections.lualine_c[4] = {
+  --       LazyVim.lualine.pretty_path({
+  --         length = 0,
+  --         relative = "cwd",
+  --         modified_hl = "MatchParen",
+  --         directory_hl = "",
+  --         filename_hl = "Bold",
+  --         modified_sign = "",
+  --         readonly_icon = " 󰌾 ",
+  --       }),
+  --     }
+  --   end,
+  -- },
 
   {
     "folke/snacks.nvim",

@@ -45,6 +45,7 @@ return {
   {
     "3rd/image.nvim",
     -- dependencies = { "luarocks.nvim" },
+    enabled = false,
     lazy = true,
     ft = "markdown",
     config = function()

@@ -20,9 +20,10 @@ return {
         icons = { "󰲡 ", "󰲣 ", "󰲥 ", "󰲧 ", "󰲩 ", "󰲫 " },
         -- icons = { "", "", "", "", "", "" },
         position = "overlay",
-        width = "full",
+        width = "block",
         -- border = true,
         border_prefix = true,
+        border_virtual = false,
       },
       dash = {
         enabled = true,

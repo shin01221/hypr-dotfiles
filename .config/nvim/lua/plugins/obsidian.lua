@@ -20,6 +20,7 @@ return {
       local suffix = ""
       if title ~= nil then
         -- If title is given, transform it into valid file name.
+        -- for
         suffix = title:gsub(" ", "-"):gsub("[^A-Za-z0-9-]", ""):lower()
       else
         -- If title is nil, just add 4 random uppercase letters to the suffix.
@@ -56,6 +57,14 @@ return {
       default_tags = { "dailies" },
       template = nil,
     },
+
+    attachments = {
+      img_folder = "assets/imgs",
+    },
+
+    -- Optional, set to true if you use the Obsidian Advanced URI plugin.
+    -- https://github.com/Vinzent03/obsidian-advanced-uri
+    use_advanced_uri = false,
     mappings = {
       ["gf"] = {
         action = function()

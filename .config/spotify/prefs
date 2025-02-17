@@ -11,4 +11,4 @@ app.window.state.saved=true
 app.window.position.width=1900
 app.enable-developer-mode=true
 autologin.canonical_username="c2vhlad9iq50pnhjwp9ex9khs"
-app.last-launched-version="1.2.53.440.g7b2f582a"
+app.last-launched-version="1.2.56.502.ga68d2d4f"

@@ -1,5 +1,5 @@
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=false
 
@@ -7,17 +7,16 @@ shouldShowToolBarComingFromFullScreen=false
 LockSidebar=true
 ShowSidebar=true
 
-[MainWindow]
-ToolBarsMovable=Disabled
-
 [Recent Files]
 File1[$e]=/media/man.md
 File2[$e]=/media/Docs/notes/1727680828-vim-plugins.md
 File3[$e]=/media/Manga/Berserk/berserk-volume-1/Berserk volume 1.pdf
 File4[$e]=/media/Materials/IT/Security /Lectures /Lecture 1 Security - Introduction.pdf
 File5[$e]=/media/Materials/IT/Security /Lectures /Lecture 3 Security - Data Encryption standard.pdf
+File6[$e]=/media/Materials/IT/Image Processing /Lectures /Chapter 1 Image - Introduction.pdf
 Name1[$e]=man.md
 Name2[$e]=1727680828-vim-plugins.md
 Name3[$e]=Berserk volume 1.pdf
 Name4[$e]=Lecture 1 Security - Introduction.pdf
 Name5[$e]=Lecture 3 Security - Data Encryption standard.pdf
+Name6[$e]=Chapter 1 Image - Introduction.pdf
