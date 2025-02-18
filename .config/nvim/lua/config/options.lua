@@ -20,7 +20,7 @@ vim.opt.showcmd = true
 vim.opt.cmdheight = 1
 vim.opt.laststatus = 3
 vim.opt.expandtab = true
-vim.opt.scrolloff = 999
+-- vim.opt.scrolloff = 200
 vim.opt.shell = "zsh"
 vim.opt.backupskip = { "/tmp/*", "/private/tmp/*" }
 vim.opt.inccommand = "split"
@@ -39,8 +39,8 @@ vim.opt.splitkeep = "cursor"
 vim.opt.ignorecase = true
 -- vim.opt.mouse = ""
 -- Undercurl
-vim.cmd([[let &t_Cs = "\e[4:3m"]])
-vim.cmd([[let &t_Ce = "\e[4:0m"]])
+-- vim.cmd([[let &t_Cs = "\e[4:3m"]])
+-- vim.cmd([[let &t_Ce = "\e[4:0m"]])
 -- vim.cmd.set("arabic")
 vim.cmd.set("termbidi")
 -- Add asterisks in block comments

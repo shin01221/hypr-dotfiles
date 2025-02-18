@@ -8,13 +8,35 @@ return {
         relative = "editor",
         col = -1,
       },
-      -- Enable the image module
       statuscolumn = { enabled = true },
       input = { enabled = true },
       bigfile = { enabled = true },
     },
+    image = {
+      enabled = true,
+      force = false, -- Display images only if the terminal supports it
+      doc = {
+        inline = false,
+        float = true,
+      },
+    },
+    scroll = {
+      animate = {
+        duration = { step = 15, total = 250 },
+        easing = "linear",
+      },
+      -- faster animation when repeating scroll after delay
+      animate_repeat = {
+        delay = 100, -- delay in ms before using the repeat animation
+        duration = { step = 5, total = 50 },
+        easing = "linear",
+      },
+      -- what buffers to animate
+      filter = function(buf)
+        return vim.g.snacks_scroll ~= false and vim.b[buf].snacks_scroll ~= false and vim.bo[buf].buftype ~= "terminal"
+      end,
+    },
     picker = {
-
       matcher = {
         frecency = true,
       },
