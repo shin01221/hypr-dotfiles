@@ -26,6 +26,7 @@ return {
         "webm",
         "pdf",
       },
+      img_dirs = { "img", "images", "assets", "static", "public", "media", "attachments" },
       styles = {
         relative = "editor",
         border = "rounded",
