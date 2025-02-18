@@ -17,6 +17,21 @@ return {
         return {}
       end,
     },
+    -- completion = {
+    --   menu = {
+    --     border = "single",
+    --   },
+    --   documentation = {
+    --     auto_show = true,
+    --     window = {
+    --       border = "single",
+    --     },
+    --   },
+    --   -- Displays a preview of the selected item on the current line
+    --   ghost_text = {
+    --     enabled = true,
+    --   },
+    -- },
     sources = {
       default = { "lsp", "path", "snippets", "buffer", "emoji", "dictionary" },
       providers = {

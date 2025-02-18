@@ -2,56 +2,35 @@ return {
   "folke/snacks.nvim",
   priority = 1000,
   lazy = false,
-  ---@type snacks.Config
   opts = {
-    -- Enable the image module
-    statuscolumn = { enabled = true },
-    input = { enabled = true },
-    bigfile = { enabled = true },
-    image = {
-      formats = {
-        "png",
-        "jpg",
-        "jpeg",
-        "gif",
-        "bmp",
-        "webp",
-        "tiff",
-        "heic",
-        "avif",
-        "mp4",
-        "mov",
-        "avi",
-        "mkv",
-        "webm",
-        "pdf",
-      },
-      img_dirs = { "img", "images", "assets", "static", "public", "media", "attachments" },
-      styles = {
+    styles = {
+      snacks_image = {
         relative = "editor",
-        border = "rounded",
-        focusable = false,
-        backdrop = false,
-        row = 1,
-        col = 1,
+        col = -1,
       },
-      -- Configuration options for the image module
-      force = false, -- Display images only if the terminal supports it
-      doc = {
-        enabled = true,
-        inline = false,
-        float = true,
+      -- Enable the image module
+      statuscolumn = { enabled = true },
+      input = { enabled = true },
+      bigfile = { enabled = true },
+    },
+    picker = {
+
+      matcher = {
+        frecency = true,
       },
-      wo = {
-        wrap = false,
-        number = false,
-        relativenumber = false,
-        cursorcolumn = false,
-        signcolumn = "no",
-        foldcolumn = "0",
-        list = false,
-        spell = false,
-        statuscolumn = "",
+      win = {
+        input = {
+          keys = {
+            -- to close the picker on ESC instead of going to normal mode,
+            -- add the following keymap to your config
+            ["<Esc>"] = { "close", mode = { "n", "i" } },
+            -- I'm used to scrolling like this in LazyGit
+            ["J"] = { "preview_scroll_down", mode = { "i", "n" } },
+            ["K"] = { "preview_scroll_up", mode = { "i", "n" } },
+            ["H"] = { "preview_scroll_left", mode = { "i", "n" } },
+            ["L"] = { "preview_scroll_right", mode = { "i", "n" } },
+          },
+        },
       },
     },
   },
