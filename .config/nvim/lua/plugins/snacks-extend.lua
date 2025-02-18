@@ -19,6 +19,9 @@ return {
         inline = false,
         float = true,
       },
+      convert = {
+        notify = false,
+      },
     },
     scroll = {
       animate = {
