@@ -5,15 +5,15 @@
 return {
   -- "linkarzu/snipe.nvim",
   "leath-dub/snipe.nvim",
-  keys = {
-    {
-      "<S-l>",
-      function()
-        require("snipe").open_buffer_menu()
-      end,
-      desc = "Open Snipe buffer menu",
-    },
-  },
+  -- keys = {
+  --   {
+  --     "<S->",
+  --     function()
+  --       require("snipe").open_buffer_menu()
+  --     end,
+  --     desc = "Open Snipe buffer menu",
+  --   },
+  -- },
   config = function()
     local snipe = require("snipe")
     snipe.setup({
