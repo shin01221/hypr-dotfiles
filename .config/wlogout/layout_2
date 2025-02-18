@@ -13,6 +13,13 @@
 }
 
 {
+    "label" : "suspend",
+    "action" : "systemctl suspend && hyprlock",
+    "text" : "Suspend",
+    "keybind" : "u"
+}
+
+{
     "label" : "shutdown",
     "action" : "systemctl poweroff",
     "text" : "Shutdown",
