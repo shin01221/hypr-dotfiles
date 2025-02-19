@@ -93,8 +93,8 @@ return {
     ui = { enable = false },
     sort_by = "modified",
     sort_reversed = true,
-    -- completion = {
-    --   min_chars = 2,
-    -- },
+    completion = {
+      min_chars = 2,
+    },
   },
 }

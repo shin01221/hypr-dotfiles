@@ -3,7 +3,7 @@
 # Check if the script is already running
 pgrep -cf "${0##*/}" | grep -qv 1 && echo "An instance of the script is already running..." && exit 1
 
-scrDir=`dirname "$(realpath "$0")"`
+scrDir=$(dirname "$(realpath "$0")")
 source $scrDir/globalcontrol.sh
 
 # Check if SwayOSD is installed
@@ -12,9 +12,8 @@ if command -v swayosd-client >/dev/null 2>&1 && pgrep -x swayosd-server >/dev/nu
     use_swayosd=true
 fi
 
-print_error()
-{
-cat << EOF
+print_error() {
+    cat <<EOF
     $(basename ${0}) <action> [step] 
     ...valid actions are...
         i -- <i>ncrease brightness [+5%]
@@ -27,7 +26,7 @@ EOF
 }
 
 send_notification() {
-    brightness=`brightnessctl info | grep -oP "(?<=\()\d+(?=%)" | cat`
+    brightness=$(brightnessctl info | grep -oP "(?<=\()\d+(?=%)" | cat)
     brightinfo=$(brightnessctl info | awk -F "'" '/Device/ {print $2}')
     angle="$(((($brightness + 2) / 5) * 5))"
     ico="$HOME/.config/dunst/icons/vol/vol-${angle}.svg"
@@ -42,18 +41,19 @@ get_brightness() {
 step="${2:-5}"
 
 case $1 in
-i|-i)  # increase the backlight
-    if [[ $(get_brightness) -lt 10 ]] ; then
+i | -i) # increase the backlight
+    if [[ $(get_brightness) -lt 10 ]]; then
         # increase the backlight by 1% if less than 10%
         step=1
     fi
 
     $use_swayosd && swayosd-client --brightness raise "$step" && exit 0
     brightnessctl set +${step}%
-    send_notification ;;
-d|-d)  # decrease the backlight
+    send_notification
+    ;;
+d | -d) # decrease the backlight
 
-    if [[ $(get_brightness) -le 10 ]] ; then
+    if [[ $(get_brightness) -le 10 ]]; then
         # decrease the backlight by 1% if less than 10%
         step=1
     fi
@@ -66,7 +66,8 @@ d|-d)  # decrease the backlight
         brightnessctl set ${step}%-
     fi
 
-    send_notification ;;
-*)  # print error
+    send_notification
+    ;;
+*) # print error
     print_error ;;
 esac

@@ -1,5 +1,4 @@
 # export LUA_PATH=/usr/bin/lua5.1
-
 export PATH="${HOME}/.local/bin:${PATH}"
 export SUDO_EDITOR=nvim
 export MANPAGER='nvim +Man!'

@@ -1,2 +1,2 @@
 #!/bin/bash
-light -U 20
+light -U 10

@@ -1,2 +1,2 @@
 #!/bin/bash
-light -A 20
+light -A 10
