@@ -1,4 +1,6 @@
 # export LUA_PATH=/usr/bin/lua5.1
+export LIBVA_DRIVER_NAME=nvidia
+export VDPAU_DRIVER=nvidia
 export PATH="${HOME}/.local/bin:${PATH}"
 export SUDO_EDITOR=nvim
 export MANPAGER='nvim +Man!'

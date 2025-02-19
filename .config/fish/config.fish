@@ -5,6 +5,8 @@ if status is-interactive
     starship init fish | source
 end
 
+export LIBVA_DRIVER_NAME=nvidia
+export VDPAU_DRIVER=nvidia
 export EDITOR=nvim
 export MANPAGER='nvim +Man!'
 # export CLASSPATH=/media/Learning/AI-JAD/JADE-all-4.6.0/jade/lib/jade.jar
