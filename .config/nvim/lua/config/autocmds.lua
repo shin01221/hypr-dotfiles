@@ -14,11 +14,11 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     vim.b.autoformat = false
   end,
 })
--- to be deleted or optimized
-vim.api.nvim_create_autocmd("BufEnter", {
-  pattern = "*.md",
-  callback = function()
-    vim.opt_local.concealcursor = ""
-    vim.opt_local.conceallevel = 2
-  end,
-})
+-- -- to be deleted or optimized
+-- vim.api.nvim_create_autocmd("BufEnter", {
+--   pattern = "*.md",
+--   callback = function()
+--     vim.opt_local.concealcursor = ""
+--     vim.opt_local.conceallevel = 2
+--   end,
+-- })
