@@ -1,34 +1,39 @@
 return {
   {
+    lazy = false,
     "ellisonleao/gruvbox.nvim",
   },
-  { "catppuccin/nvim" },
-  { "rose-pine/neovim", name = "rose-pine" },
+  {
+    lazy = false,
+    "catppuccin/nvim",
+  },
+  {
+    lazy = false,
+    "rose-pine/neovim",
+    name = "rose-pine",
+  },
+
   {
     "folke/tokyonight.nvim",
-    lazy = false,
+    lazy = true,
     priority = 1000,
     opts = {},
   },
   {
     "neanias/everforest-nvim",
     version = false,
-    lazy = false,
+    lazy = true,
     priority = 1000, -- make sure to load this before all the other start plugins
     -- Optional; default configuration will be used if setup isn't called.
-    config = function()
-      require("everforest").setup({
-        -- Your config here
-      })
-    end,
   },
   {
     "olimorris/onedarkpro.nvim",
+    lazy = true,
     priority = 1000, -- Ensure it loads first
   },
   {
     "AlexvZyl/nordic.nvim",
-    lazy = false,
+    lazy = true,
     priority = 1000,
   },
   {
@@ -43,39 +48,38 @@ return {
   },
   {
     "binhtran432k/dracula.nvim",
-    lazy = false,
+    lazy = true,
     priority = 1000,
     opts = {},
   },
   {
     "samharju/synthweave.nvim",
+    lazy = true,
   },
   {
     "ayu-theme/ayu-vim",
+    lazy = true,
   },
   {
     "xero/miasma.nvim",
-    lazy = false,
+    lazy = true,
     priority = 1000,
   },
   {
     "nyoom-engineering/oxocarbon.nvim",
+    lazy = true,
   },
   {
     "ntk148v/komau.vim",
+    lazy = true,
   },
   {
     "water-sucks/darkrose.nvim",
-    lazy = false,
+    lazy = true,
     priority = 1000,
   },
   {
     "getomni/neovim",
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "synthweave",
-    },
+    lazy = true,
   },
 }
