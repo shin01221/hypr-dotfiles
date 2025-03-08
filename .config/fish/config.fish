@@ -8,12 +8,11 @@ end
 export LIBVA_DRIVER_NAME=nvidia
 export VDPAU_DRIVER=nvidia
 export EDITOR=nvim
+export SUDO_EDITOR=nvim
 export MANPAGER='nvim +Man!'
-# export CLASSPATH=/media/Learning/AI-JAD/JADE-all-4.6.0/jade/lib/jade.jar
 export CC="clang"
 export CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow"
 export LDLIBS="-lcrypt -lcs50 -lm"
-
 
 # List Directory
 
@@ -111,7 +110,7 @@ function inbox
 
 end
 
-pokemon-colorscripts --no-title -r 1,3,6
+# pokemon-colorscripts --no-title -r 1,3,6
 # uv
 fish_add_path "/home/shin/.local/bin"
 fish_add_path "/home/shin/.local/share/bin"
