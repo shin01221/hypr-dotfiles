@@ -4,9 +4,9 @@
 >
 'spotify:playlist:37i9dQZF1EIZ12LUStDVKV	éçÔ˙£¿y@# ñÉøπ
 >
-'spotify:playlist:5UcBffjK5Pzlo3S54jZfvz	ÎWs¶Êy@: ºÔ¢Ω
+'spotify:playlist:5UcBffjK5Pzlo3S54jZfvz	ﬁ_,û∑Áy@> ºÔ¢Ω
 >
-'spotify:playlist:1xW1Ot7rzrqej3bJ3acLzp	ûRQ É«y@ ÍºŒΩ
+'spotify:playlist:1xW1Ot7rzrqej3bJ3acLzp	ƒ¨øŒy@ ÍºŒΩ
 >
 'spotify:playlist:37i9dQZF1DWXgtgITTKvYl	¯w^È£¿y@# œÇøπ
 >
@@ -19,10 +19,10 @@
 'spotify:playlist:26AfodPauU09WZ9X5WyCnp	SÚ„Õ∞y@ ≥Õ´∏
 ]
 1spotify:user:c2vhlad9iq50pnhjwp9ex9khs:collection	¶ßÊ
-Îàw@ ˜Æ¸¯	ü±∆Íy@i ·æ˙º
+Îàw@ ˜Æ¸¯	_Æ˚|9Îy@m ·æ˙º
 >
-'spotify:playlist:37i9dQZEVXbiB9UphY0HVz	9∂jQËÈy@k µ≈˙º
+'spotify:playlist:37i9dQZEVXbiB9UphY0HVz	8r—Ê®Íy@o µ≈˙º
 >
 'spotify:playlist:37i9dQZF1EIUvc0FlQn9QT	ÿ+r#†¿y@# è‰æπ
 >
-'spotify:playlist:2AIyLES2xJfPa6EOxmKySl	∂”√œTËy@@ ≥Ã§Ω
+'spotify:playlist:2AIyLES2xJfPa6EOxmKySl	ZÂ$MÈy@D ≥Ã§Ω

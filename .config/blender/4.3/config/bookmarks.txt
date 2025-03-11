@@ -1,10 +1,10 @@
 [Bookmarks]
 [Recent]
+/media/Sections/Graphics/
 /media/Blender/Themes/blender-themes/
 /media/Sections/Graphics/Swork-sandbox/
 /media/Sections/Graphics/Swork-sandbox/swordInTheStone4_downloadFiles_part2/textures/
 /media/Blender/addons/add-on-looptools-v4.7.7/
-/media/Sections/Graphics/
 /media/Blender/addons/
 /media/
 !Home

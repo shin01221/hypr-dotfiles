@@ -8,7 +8,7 @@ keymap.set("n", "tt", vim.cmd.Themery)
 -- keymap.set("n", "gq", vim.cmd.LiveServerStop)
 
 -- Select all
--- keymap.set("n", "aa", "gg<S-v>G")
+keymap.set("n", "aa", "gg<S-v>G")
 
 -- keep window centered when going up/down
 keymap.set("n", "J", "mzJ`z")

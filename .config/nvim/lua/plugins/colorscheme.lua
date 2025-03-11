@@ -1,14 +1,14 @@
 return {
   {
-    lazy = false,
+    lazy = true,
     "ellisonleao/gruvbox.nvim",
   },
   {
-    lazy = false,
+    lazy = true,
     "catppuccin/nvim",
   },
   {
-    lazy = false,
+    lazy = true,
     "rose-pine/neovim",
     name = "rose-pine",
   },
@@ -21,7 +21,8 @@ return {
   },
   {
     "neanias/everforest-nvim",
-    version = false,
+    -- enabled = false,
+    version = true,
     lazy = true,
     priority = 1000, -- make sure to load this before all the other start plugins
     -- Optional; default configuration will be used if setup isn't called.
@@ -42,7 +43,7 @@ return {
     priority = 1000,
     opts = function()
       return {
-        transparent = true,
+        transparent = false,
       }
     end,
   },

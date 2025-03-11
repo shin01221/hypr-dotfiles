@@ -1,3 +1,9 @@
+/media/Sections/Graphics/dinner-tableV1.blend
+/media/Sections/Graphics/2nd-image.blend111
+/media/Sections/Graphics/2nd-image.blend11
+/media/Sections/Graphics/dinner-tableV1.blend1
+/media/Sections/Graphics/dinner-tableV1.blend11
+/media/Sections/Graphics/2nd-image.blend1
 /media/Sections/Graphics/Swork-sandbox/sword10.blend11
 /home/shin/Downloads/Pankey preset.blend
 /media/Sections/Graphics/Swork-sandbox/sword3.blend
@@ -5,7 +11,6 @@
 /media/Sections/Graphics/Swork-sandbox/sword8.blend11
 /media/Sections/Graphics/1st-image.blend
 /media/Sections/Graphics/1st-image-sandbox.blend
-/media/Sections/Graphics/2nd-image.blend1
 /media/Sections/Graphics/2nd-image.blend
 /media/Sections/Graphics/Swork-sandbox/ramadan-gana.blend
 /media/Sections/Graphics/firsttask-fail1.blend
@@ -13,8 +18,3 @@
 /media/Sections/Graphics/1st-image-sandbox.blend1
 /media/Sections/Graphics/Swork-sandbox/sword6.blend11
 /media/Sections/Graphics/Swork-sandbox/sword5.blend11
-/media/Sections/Graphics/Swork-sandbox/sword4.blend11
-/media/Sections/Graphics/Swork-sandbox/sword3.blend11
-/media/Sections/Graphics/Swork-sandbox/sword3.blend1
-/media/donut.blend1
-/media/Pr.blend

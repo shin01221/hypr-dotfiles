@@ -13,7 +13,6 @@ export MANPAGER='nvim +Man!'
 export CC="clang"
 export CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow"
 export LDLIBS="-lcrypt -lcs50 -lm"
-
 # List Directory
 
 alias nvim='bash ~/.config/nvim/kitty.sh'
@@ -87,7 +86,7 @@ set --export PATH $BUN_INSTALL/bin $PATH
 
 # functions
 function inbox
-    set base_path /media/Docs/notes/inbox
+    set base_path /media/Docs/notes/FlyingNotes
     if test (count $argv) -eq 0
         set file_name ""
     else
@@ -107,7 +106,6 @@ function inbox
     touch $full_path
     echo "New note created: $full_path"
     nvim $full_path
-
 end
 
 # pokemon-colorscripts --no-title -r 1,3,6
