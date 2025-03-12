@@ -16,3 +16,4 @@ Texture Coordinate ▸ Generated
  0 Blade_NO_RUNES
    Pommel_TIP
   Sphere
+Vertex (Ctrl V) ▸ Connect Vertex Pairs
