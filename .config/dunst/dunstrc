@@ -64,7 +64,7 @@
     progress_bar_corner_radius = 4
 
     # Corner radius for the icon image.
-    icon_corner_radius = 12
+    icon_corner_radius = 3
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
@@ -250,7 +250,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 12
+    corner_radius = 3
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -449,15 +449,15 @@
     timeout = 0
 
 [urgency_low]
-    background = "#6584A380"
-    foreground = "#293D52E6"
-    frame_color = "#6584A303"
+    background = "#A3716580"
+    foreground = "#523129E6"
+    frame_color = "#A3716503"
     icon = "/home/shin/.config/dunst/icons/hyprdots.svg"
     timeout = 5
 
 [urgency_normal]
-    background = "#F0D9AA80"
-    foreground = "#524429E6"
-    frame_color = "#F0D9AA03"
+    background = "#F0AEAA80"
+    foreground = "#522B29E6"
+    frame_color = "#F0AEAA03"
     icon = "/home/shin/.config/dunst/icons/hyprdots.svg"
     timeout = 5

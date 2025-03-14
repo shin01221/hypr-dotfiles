@@ -1,8 +1,8 @@
 * {
-    main-bg:            #B3C2BAB3;
-    main-fg:            #29523CE6;
-    main-br:            #42566AE6;
-    main-ex:            #82817FE6;
-    select-bg:          #3A526B80;
-    select-fg:          #CCE6FFE6;
+    main-bg:            #F6EBC2B3;
+    main-fg:            #524929E6;
+    main-br:            #A8867EE6;
+    main-ex:            #D03127E6;
+    select-bg:          #6B4E3A80;
+    select-fg:          #FFE0CCE6;
 }

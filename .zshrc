@@ -127,7 +127,6 @@ alias down360='down 480'
 alias down480='down 480'
 alias down720='down 720'
 alias down1080='down 1080'
-
 # Helpful aliases
 alias nvim='~/.config/nvim/kitty.sh'
 alias  sptlrx= 'kitty -e -c /home/shin/.config/kitty/kitty-sptlrx.conf sptlrx'
