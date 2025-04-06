@@ -1,5 +1,5 @@
 [Desktop Entry]
-FullScreen=true
+FullScreen=false
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=false
 
@@ -7,27 +7,24 @@ shouldShowToolBarComingFromFullScreen=false
 LockSidebar=true
 ShowSidebar=true
 
-[MainWindow]
-MenuBar=Disabled
-
 [Recent Files]
-File1[$e]=/media/Materials/IT/Computer Graphics /Dr Mina/Slides/lect_6.pdf
-File10[$e]=$HOME/Downloads/Telegram Desktop/Lect 03-05 ASR.pdf
-File2[$e]=/media/Materials/IT/Computer Graphics /Recent/Lectures/1- Computer Graphics - Fundamentals.pdf
-File3[$e]=/media/Materials/IT/Image Processing /Lectures /Chapter 3 Image - Intensity Transformations P1 (Point Processing).pdf
-File4[$e]=/media/Materials/IT/Image Processing /Lectures /Chapter 3 image - Intensity Transformations P2 (Histogram Processing).pdf
-File5[$e]=/media/Materials/IT/Speech Recognition /Exams/Mid/mid 2023.pdf
-File6[$e]=/media/Materials/IT/Speech Recognition /Exams/Mid/MID 2022.pdf
-File7[$e]=/media/Materials/IT/Image Processing /Exams/Mid/Mid 2022-2023.pdf
-File8[$e]=$HOME/Downloads/Telegram Desktop/شبكات الحاسبات-2.pdf
-File9[$e]=/media/Materials/IT/Speech Recognition /Lectures /Lecture 3-5 Speech.pdf
-Name1[$e]=lect_6.pdf
-Name10[$e]=Lect 03-05 ASR.pdf
-Name2[$e]=1- Computer Graphics - Fundamentals.pdf
-Name3[$e]=Chapter 3 Image - Intensity Transformations P1 (Point Processing).pdf
-Name4[$e]=Chapter 3 image - Intensity Transformations P2 (Histogram Processing).pdf
-Name5[$e]=mid 2023.pdf
-Name6[$e]=MID 2022.pdf
-Name7[$e]=Mid 2022-2023.pdf
-Name8[$e]=شبكات الحاسبات-2.pdf
-Name9[$e]=Lecture 3-5 Speech.pdf
+File1[$e]=/media/Materials/IT/Security /Recent/Lectures/03 CompTIA- .pdf
+File10[$e]=$HOME/Downloads/comp.pdf
+File2[$e]=/media/Materials/IT/Speech Recognition /Lectures /Lecture 3-5 Speech.pdf
+File3[$e]=/media/Materials/IT/Speech Recognition /Exams/Mid/mid 2023.pdf
+File4[$e]=/media/Materials/IT/Speech Recognition /Exams/Mid/MID 2022.pdf
+File5[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec1.pdf
+File6[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec2.pdf
+File7[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec3.pdf
+File8[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec4.pdf
+File9[$e]=$HOME/Downloads/pdf24_converted.pdf
+Name1[$e]=03 CompTIA- .pdf
+Name10[$e]=comp.pdf
+Name2[$e]=Lecture 3-5 Speech.pdf
+Name3[$e]=mid 2023.pdf
+Name4[$e]=MID 2022.pdf
+Name5[$e]=Speech_Lec1.pdf
+Name6[$e]=Speech_Lec2.pdf
+Name7[$e]=Speech_Lec3.pdf
+Name8[$e]=Speech_Lec4.pdf
+Name9[$e]=pdf24_converted.pdf

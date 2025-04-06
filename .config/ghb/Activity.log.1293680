@@ -1,0 +1,309 @@
+HandBrake 20250220183715-e117cfe7f-makepkg (2025031301)
+OS: Arch Linux
+Kernel: Linux 6.13.7-arch1-1 (x86_64)
+CPU: AMD Ryzen 5 4600H with Radeon Graphics x 12
+Install Dir: /usr/bin
+Config Dir:  /home/shin/.config/ghb
+_______________________________
+
+[00:11:45] Compile-time hardening features are enabled
+[00:11:45] nvenc: version 13.0 is available
+[00:11:45] nvdec: is not compiled into this build
+[00:11:45] CUDA Version: 7.5
+[00:11:45] qsv: not available on this system
+[00:11:45] hb_init: starting libhb thread
+[00:11:45] hb_init: starting libhb thread
+[00:11:45] hb_init: starting libhb thread
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.421: GtkCellView 0x5a48e66e0170 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.421: GtkCellView 0x5a48e6791e70 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.421: GtkCellView 0x5a48e67300b0 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.421: GtkCellView 0x5a48e68305c0 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.424: GtkCellView 0x5a48e68adf40 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.424: GtkCellView 0x5a48e68c4a60 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.424: GtkCellView 0x5a48e68d6b40 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gdk-WARNING **: 00:11:46.580: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (20)
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.738: GtkCellView 0x5a48e6791e70 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:46.739: GtkCellView 0x5a48e67300b0 (cellview) reported min width -2, but sizes must be >= 0
+[00:11:46] gtkgui: Excluded extension jpg
+[00:11:46] gtkgui: Excluded extension png
+[00:11:46] gtkgui: Excluded extension srt
+[00:11:46] gtkgui: Excluded extension ssa
+[00:11:46] gtkgui: Excluded extension ass
+[00:11:46] gtkgui: Excluded extension txt
+[00:11:46] CPU: AMD Ryzen 5 4600H with Radeon Graphics
+[00:11:46]  - logical processor count: 12
+[00:11:46] Intel Quick Sync Video support: no
+[00:11:46] hb_scan: path=/media/photos/رمضان 2025/رمضان 2025/IMG_6181.MOV, title_index=0
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/media/photos/رمضان 2025/رمضان 2025/IMG_6181.MOV':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-20T16:53:48.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: iPhone 12 Pro Max
+    com.apple.quicktime.software: 17.0
+    com.apple.quicktime.creationdate: 2025-03-20T18:53:47+0200
+  Duration: 00:00:03.87, start: 0.000000, bitrate: 12485 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt2020nc/bt2020/arib-std-b67), 1920x1080, 12240 kb/s, 29.97 fps, 29.97 tbr, 600 tbn (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : HEVC
+      Side data:
+        DOVI configuration record: version: 1.0, profile: 8, level: 4, rpu flag: 1, el flag: 0, bl flag: 1, compatibility id: 4, compression: 0
+        displaymatrix: rotation of -90.00 degrees
+        Ambient Viewing Environment, ambient_illuminance=314.000000, ambient_light_x=0.312700, ambient_light_y=0.329000
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 162 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3](und): Data: none (mebx / 0x7862656D), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Metadata
+  Stream #0:3[0x4](und): Data: none (mebx / 0x7862656D), 14 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Metadata
+  Stream #0:4[0x5](und): Data: none (mebx / 0x7862656D), 39 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Metadata
+[00:11:46] scan: decoding previews for title 1
+[00:11:46] scan: audio 0x1: aac, rate=44100Hz, bitrate=162608 Unknown (AAC LC, 2.0 ch, 162 kbps)
+[00:11:47] Auto-Rotating video 270 degrees
+[00:11:49] scan: 10 previews, 1080x1920, 29.987 fps, autocrop = 0/0/0/0, aspect 1:1.78, PAR 1:1, color profile: 9-18-9, chroma location: left
+[00:11:49] scan: ambient viewing environment: ambient_illuminance=314.000000, ambient_light_x=0.312700, ambient_light_y=0.329000
+[00:11:49] scan: dolby vision configuration record: version: 1.0, profile: 8, level: 4, rpu flag: 1, el flag: 0, bl flag: 1, compatibility id: 4
+[00:11:49] libhb: scan thread found 1 valid title(s)
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:50.135: GtkCellView 0x5a48e6791e70 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gtk-WARNING **: 00:11:50.135: GtkCellView 0x5a48e67300b0 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:1293680): Gdk-WARNING **: 00:11:56.326: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (20)
+
+(fr.handbrake.ghb:1293680): Gdk-WARNING **: 00:11:56.360: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (20)
+
+(fr.handbrake.ghb:1293680): Gdk-WARNING **: 00:11:59.205: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (20)
+
+(fr.handbrake.ghb:1293680): Gdk-WARNING **: 00:11:59.214: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (20)
+
+(fr.handbrake.ghb:1293680): Gdk-WARNING **: 00:12:03.355: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (20)
+
+(fr.handbrake.ghb:1293680): Gdk-WARNING **: 00:12:03.355: ../gtk/gdk/wayland/gdkcursor-wayland.c:210 cursor image size (32) not an integer multiple of theme size (20)
+[00:12:05] Starting work at: Sat Mar 22 00:12:05 2025
+
+[00:12:05] 1 job(s) to process
+[00:12:05] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 3,
+                    "Ticks": 348151
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/tmp/handbrake-5D1OVm/live01",
+        "InlineParameterSets": false,
+        "Mux": "m4v",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1080
+                }
+            }
+        ]
+    },
+    "Metadata": {},
+    "PAR": {
+        "Den": 16,
+        "Num": 9
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/media/photos/رمضان 2025/رمضان 2025/IMG_6181.MOV",
+        "Range": {
+            "End": 1350000,
+            "SeekPoints": 10,
+            "Start": 2,
+            "Type": "preview"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 9,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 9,
+        "ColorRange": 1,
+        "ColorTransfer": 18,
+        "DolbyVisionConfigurationRecord": {
+            "BLPresentFlag": 1,
+            "BLSignalCompatibilityId": 4,
+            "DVLevel": 4,
+            "DVProfile": 8,
+            "DVVersionMajor": 1,
+            "DVVersionMinor": 0,
+            "ELPresentFlag": 0,
+            "RPUPresentFlag": 1
+        },
+        "Encoder": "x264",
+        "HardwareDecode": 0,
+        "Level": "4.0",
+        "MultiPass": false,
+        "Options": "",
+        "Preset": "fast",
+        "Profile": "main",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Quality": 22.0,
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[00:12:05] CPU: AMD Ryzen 5 4600H with Radeon Graphics
+[00:12:05]  - logical processor count: 12
+[00:12:05] Intel Quick Sync Video support: no
+[00:12:05] hb_scan: path=/media/photos/رمضان 2025/رمضان 2025/IMG_6181.MOV, title_index=1
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/media/photos/رمضان 2025/رمضان 2025/IMG_6181.MOV':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 0
+    compatible_brands: qt  
+    creation_time   : 2025-03-20T16:53:48.000000Z
+    com.apple.quicktime.make: Apple
+    com.apple.quicktime.model: iPhone 12 Pro Max
+    com.apple.quicktime.software: 17.0
+    com.apple.quicktime.creationdate: 2025-03-20T18:53:47+0200
+  Duration: 00:00:03.87, start: 0.000000, bitrate: 12485 kb/s
+  Stream #0:0[0x1](und): Video: hevc (Main 10) (hvc1 / 0x31637668), yuv420p10le(tv, bt2020nc/bt2020/arib-std-b67), 1920x1080, 12240 kb/s, 29.97 fps, 29.97 tbr, 600 tbn (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Video
+        vendor_id       : [0][0][0][0]
+        encoder         : HEVC
+      Side data:
+        DOVI configuration record: version: 1.0, profile: 8, level: 4, rpu flag: 1, el flag: 0, bl flag: 1, compatibility id: 4, compression: 0
+        displaymatrix: rotation of -90.00 degrees
+        Ambient Viewing Environment, ambient_illuminance=314.000000, ambient_light_x=0.312700, ambient_light_y=0.329000
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 162 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x3](und): Data: none (mebx / 0x7862656D), 0 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Metadata
+  Stream #0:3[0x4](und): Data: none (mebx / 0x7862656D), 14 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Metadata
+  Stream #0:4[0x5](und): Data: none (mebx / 0x7862656D), 39 kb/s (default)
+      Metadata:
+        creation_time   : 2025-03-20T16:53:48.000000Z
+        handler_name    : Core Media Metadata
+[00:12:05] scan: decoding previews for title 1
+[00:12:05] scan: audio 0x1: aac, rate=44100Hz, bitrate=162608 Unknown (AAC LC, 2.0 ch, 162 kbps)
+[00:12:05] Auto-Rotating video 270 degrees
+[00:12:07] scan: 10 previews, 1080x1920, 29.987 fps, autocrop = 0/0/0/0, aspect 1:1.78, PAR 1:1, color profile: 9-18-9, chroma location: left
+[00:12:07] scan: ambient viewing environment: ambient_illuminance=314.000000, ambient_light_x=0.312700, ambient_light_y=0.329000
+[00:12:07] scan: dolby vision configuration record: version: 1.0, profile: 8, level: 4, rpu flag: 1, el flag: 0, bl flag: 1, compatibility id: 4
+[00:12:07] libhb: scan thread found 1 valid title(s)

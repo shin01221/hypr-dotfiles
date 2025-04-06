@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 520093697,
+        "prev_ver": 520093699,
         "name": "Desktop Audio",
         "uuid": "b0c8556e-9e13-4d05-a5bc-ac46cc9cbba7",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 520093697,
+        "prev_ver": 520093699,
         "name": "Mic/Aux",
         "uuid": "e97aab38-f0a8-43e0-a775-7ea97865baf3",
         "id": "pulse_input_capture",
@@ -71,7 +71,7 @@
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 520093697,
+            "prev_ver": 520093699,
             "name": "Scene",
             "uuid": "bcc29189-628f-4148-a03d-0f2ae49db437",
             "id": "scene",
@@ -216,7 +216,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093697,
+            "prev_ver": 520093699,
             "name": "Screen Capture (PipeWire)",
             "uuid": "7a53a0c1-531a-4192-8a31-25cf8c1193b3",
             "id": "pipewire-screen-capture-source",
@@ -242,7 +242,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093697,
+            "prev_ver": 520093699,
             "name": "Audio Capture Device (ALSA)",
             "uuid": "ddd24ae6-ce83-41ca-a1b4-b22bbeda6148",
             "id": "alsa_input_capture",
@@ -256,7 +256,7 @@
             "volume": 0.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,

@@ -39,7 +39,7 @@ keymap.set("v", "<Leader>d", '"_d')
 keymap.set("v", "<Leader>D", '"_D')
 
 -- code-runner
-vim.keymap.set("n", "<leader>r", ":w<CR>:!python3 %<CR>", { noremap = true, silent = true })
+-- vim.keymap.set("n", "<leader>r", ":w<CR>:!python3 %<CR>", { noremap = true, silent = true })
 -- keymap.set("n", "<leader>rr", ":RunCode<CR>", { noremap = true, silent = false })
 -- keymap.set("n", "<leader>rff", ":RunFile<CR>", { noremap = true, silent = false })
 -- keymap.set("n", "<leader>rft", ":RunFile tab<CR>", { noremap = true, silent = false })

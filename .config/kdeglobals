@@ -2,7 +2,7 @@
 TerminalApplication=kitty
 
 [Icons]
-Theme=Gruvbox-Plus-Dark
+Theme=cyberpunk-technotronic-icon-theme
 
 [KFileDialog Settings]
 Allow Expansion=false
