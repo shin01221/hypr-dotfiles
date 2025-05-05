@@ -21,7 +21,7 @@
     highlight_border_style: (fg: "blue"),
     symbols: (song: "S", dir: "D", marker: "M", ellipsis: "..."),
     progress_bar: (
-        symbols: ["-", ">", " "],
+        symbols: ["█", "🭞", " "],
         track_style: (fg: "#1e2030"),
         elapsed_style: (fg: "blue"),
         thumb_style: (fg: "blue", bg: "#1e2030"),
@@ -36,7 +36,7 @@
 
         (
 
-            prop: (kind: Property(Artist), style: (fg: "#b7bdf8"), default: (kind: Text("Unknown"))),
+            prop: (kind: Property(Artist), default: (kind: Text("Unknown"))),
 
             width: "50%",
 
@@ -46,7 +46,7 @@
 
         (
 
-            prop: (kind: Text("-"), style: (fg: "#b7bdf8"), default: (kind: Text("Unknown"))),
+            prop: (kind: Text("-"), default: (kind: Text("Unknown"))),
 
             width: "1",
 
@@ -56,7 +56,7 @@
 
         (
 
-            prop: (kind: Property(Title), style: (fg: "#7dc4e4"), default: (kind: Text("Unknown"))),
+            prop: (kind: Property(Title), default: (kind: Text("Unknown"))),
 
             width: "50%",
 
@@ -66,31 +66,80 @@
     layout: Split(
         direction: Vertical,
         panes: [
-            (
-                pane: Pane(Header),
-                size: "2",
+                    (
+
+            size: "8",
+
+            pane: Split(
+
+                direction: Horizontal,
+
+                panes: [
+
+                    (
+
+                        size: "21",
+
+                        pane: Pane(AlbumArt),
+
+                    ),
+
+                    (
+
+                        size: "100%",
+
+                        pane: Split(
+
+                            direction: Vertical,
+
+                            panes: [
+
+                                (
+
+                                    size: "5",
+
+                                    pane: Pane(Header),
+
+                                ),
+
+                                (
+
+                                    size: "1",
+
+                                    pane: Pane(ProgressBar),
+
+                                ),
+
+                                (
+
+                                    size: "3",
+
+                                    pane: Pane(Tabs),
+
+                                ),
+
+                            ]
+
+                        )
+
+                    ),
+
+                ]
+
             ),
-            (
-                pane: Pane(Tabs),
-                size: "3",
-            ),
-            (
+
+        ),
+                (
                 pane: Pane(TabContent),
                 size: "100%",
+                borders: "ALL",
             ),
-            (
-                pane: Pane(ProgressBar),
-                size: "1",
-            ),
-        ],
+                    ],
     ),
     header: (
         rows: [
             (
                 left: [
-                    (kind: Text("["), style: (fg: "yellow", modifiers: "Bold")),
-                    (kind: Property(Status(StateV2(playing_label: "Playing", paused_label: "Paused", stopped_label: "Stopped"))), style: (fg: "yellow", modifiers: "Bold")),
-                    (kind: Text("]"), style: (fg: "yellow", modifiers: "Bold"))
                 ],
                 center: [
                     (kind: Property(Song(Title)), style: (modifiers: "Bold"),
@@ -105,9 +154,6 @@
                     (kind: Property(Status(Elapsed))),
                     (kind: Text(" / ")),
                     (kind: Property(Status(Duration))),
-                    (kind: Text(" (")),
-                    (kind: Property(Status(Bitrate))),
-                    (kind: Text(" kbps)"))
                 ],
                 center: [
                     (kind: Property(Song(Artist)), style: (fg: "yellow", modifiers: "Bold"),

@@ -3,6 +3,7 @@
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   },
+  "color_palette": "system",
   "custom_colors_for_color_dialog": [
     [
       255,
@@ -101,30 +102,261 @@
       255
     ]
   ],
+  "dark_palette_name": "",
+  "dark_palettes": {
+    "__current__": {
+      "AlternateBase": "#2d2d2d",
+      "Base": "#121212",
+      "BrightText": "#ff0000",
+      "BrightText-disabled": "#ff0000",
+      "Button": "#2d2d2d",
+      "ButtonText": "#dddddd",
+      "ButtonText-disabled": "#7f7f7f",
+      "Highlight": "#0b45c4",
+      "HighlightedText": "#dddddd",
+      "HighlightedText-disabled": "#7f7f7f",
+      "Link": "#6cb4ee",
+      "LinkVisited": "#800080",
+      "PlaceholderText": "#7f7f7f",
+      "PlaceholderText-disabled": "#7f7f7f",
+      "Text": "#dddddd",
+      "Text-disabled": "#7f7f7f",
+      "ToolTipBase": "#2d2d2d",
+      "ToolTipText": "#dddddd",
+      "ToolTipText-disabled": "#dddddd",
+      "Window": "#2d2d2d",
+      "WindowText": "#dddddd",
+      "WindowText-disabled": "#dddddd"
+    }
+  },
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 511,
+      "height": 1032,
       "width": 945,
       "x": 0,
       "y": 0
     },
     "full_screened": false,
     "geometry": {
-      "height": 511,
+      "height": 1032,
       "width": 945,
       "x": 0,
       "y": 0
     },
     "maximized": true,
     "normal_geometry": {
-      "height": 526,
-      "width": 480,
+      "height": 1032,
+      "width": 945,
       "x": 0,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA7AAAAH+AAAAAAAAAAAAAAHfAAACDQAAAAACAAAAB4AAAAAAAAAAAAAAA7AAAAH+"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA7AAAAQHAAAAAAAAAAAAAAOwAAAEBwAAAAACAAAAB4AAAAAAAAAAAAAAA7AAAAQH"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x08E8",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-choose-icon-theme-dialog-geometry": {
+    "frame_geometry": {
+      "height": 1005,
+      "width": 900,
+      "x": 5,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1005,
+      "width": 900,
+      "x": 5,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 1005,
+      "width": 900,
+      "x": 5,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAFAAAAAAAAA4gAAAPsAAAABQAAAAAAAAOIAAAD7AAAAAACAAAAB4AAAAAFAAAAAAAAA4gAAAPs"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x08E8",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-customize-palette-geometry": {
+    "frame_geometry": {
+      "height": 580,
+      "width": 826,
+      "x": 42,
+      "y": 30
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 580,
+      "width": 826,
+      "x": 42,
+      "y": 30
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 580,
+      "width": 826,
+      "x": 42,
+      "y": 30
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAqAAAAHgAAA2MAAAJhAAAAKgAAAB4AAANjAAACYQAAAAACAAAAB4AAAAAqAAAAHgAAA2MAAAJh"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x08E8",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-duplicates-question-dialog-geometry": {
+    "frame_geometry": {
+      "height": 378,
+      "width": 530,
+      "x": 51,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 378,
+      "width": 530,
+      "x": 51,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 378,
+      "width": 530,
+      "x": 51,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAzAAAAAAAAAkQAAAF5AAAAMwAAAAAAAAJEAAABeQAAAAACAAAAB4AAAAAzAAAAAAAAAkQAAAF5"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "BOE",
+      "model": "0x08E8",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-preferences dialog geometry": {
+    "frame_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 0,
+      "y": 0
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 0,
+      "y": 0
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 720,
+      "width": 930,
+      "x": 0,
+      "y": 0
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA6EAAALPAAAAAAAAAAAAAAOhAAACzwAAAAACAAAAB4AAAAAAAAAAAAAAA6EAAALP"
     },
     "screen": {
       "depth": 32,
@@ -154,7 +386,34 @@
   },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/shin/Calibre Library": 4
+    "/home/shin/Calibre Library": 18
+  },
+  "light_palette_name": "",
+  "light_palettes": {
+    "__current__": {
+      "AlternateBase": "#f5f5f5",
+      "Base": "#ffffff",
+      "BrightText": "#ff0000",
+      "BrightText-disabled": "#ff0000",
+      "Button": "#f0f0f0",
+      "ButtonText": "#000000",
+      "ButtonText-disabled": "#787878",
+      "Highlight": "#308cc6",
+      "HighlightedText": "#ffffff",
+      "HighlightedText-disabled": "#787878",
+      "Link": "#0000ff",
+      "LinkVisited": "#ff00ff",
+      "PlaceholderText": "#787878",
+      "PlaceholderText-disabled": "#787878",
+      "Text": "#000000",
+      "Text-disabled": "#787878",
+      "ToolTipBase": "#ffffdc",
+      "ToolTipText": "#000000",
+      "ToolTipText-disabled": "#000000",
+      "Window": "#f0f0f0",
+      "WindowText": "#000000",
+      "WindowText-disabled": "#000000"
+    }
   },
   "main_window_central_widget_state": {
     "layout": "wide",

@@ -20,6 +20,7 @@ eval "$(starship init zsh)"
 # List of plugins used
 plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
 source $ZSH/oh-my-zsh.sh
+source /home/shin/.gvm/completion.zsh
 
 # In case a command is not found, try to find the package that has it
 function command_not_found_handler {
@@ -122,7 +123,6 @@ down() {
 mp4() {
   yt-dlp -f mp4 "$1" -o "$2.mp4"
 }
-
 alias down360='down 480'
 alias down480='down 480'
 alias down720='down 720'

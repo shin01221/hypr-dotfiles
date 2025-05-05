@@ -34,6 +34,7 @@ application/x-shellscript=neovide.desktop;
 text/markdown=neovide.desktop;nvim-2.desktop;nvim.desktop;
 application/x-blender=blender.desktop;
 video/quicktime=mpv.desktop;
+application/epub+zip=calibre-gui.desktop;
 
 [Default Applications]
 application/pdf=okularApplication_pdf.desktop

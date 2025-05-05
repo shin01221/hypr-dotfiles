@@ -1,0 +1,246 @@
+Handbrake Version: 20250220183715-e117cfe7f-makepkg (2025031301)
+[01:06:30] gtkgui: Preset: /General/Fast 1080p30
+[01:06:30] Starting work at: Tue Apr 22 01:06:30 2025
+
+[01:06:30] 1 job(s) to process
+[01:06:30] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "simple_aac_recording0",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 21,
+                    "Ticks": 1906560
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/shin/Videos/airplane-animation.mp4",
+        "InlineParameterSets": false,
+        "Mux": "m4v",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 2,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 4,
+                    "height": 1074,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {},
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "KeepDuplicateTitles": false,
+        "Path": "/home/shin/Videos/Records/screencast/airplane-animation.mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "HardwareDecode": 0,
+        "Level": "4.0",
+        "MultiPass": false,
+        "Options": "",
+        "Preset": "fast",
+        "Profile": "main",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Quality": 22.0,
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[01:06:30] CPU: AMD Ryzen 5 4600H with Radeon Graphics
+[01:06:30]  - logical processor count: 12
+[01:06:30] Intel Quick Sync Video support: no
+[01:06:30] hb_scan: path=/home/shin/Videos/Records/screencast/airplane-animation.mkv, title_index=1
+Input #0, matroska,webm, from '/home/shin/Videos/Records/screencast/airplane-animation.mkv':
+  Metadata:
+    ENCODER         : Lavf61.7.100
+  Duration: 00:00:21.18, start: 0.000000, bitrate: 806 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 60 fps, 60 tbr, 1k tbn
+      Metadata:
+        DURATION        : 00:00:21.184000000
+  Stream #0:1: Audio: aac (LC), 44100 Hz, stereo, fltp
+      Metadata:
+        title           : simple_aac_recording0
+        DURATION        : 00:00:21.153000000
+[01:06:30] scan: decoding previews for title 1
+[01:06:30] scan: audio 0x1: aac, rate=44100Hz, bitrate=1 Unknown (AAC LC, 2.0 ch)
+[01:06:30] using bitstream PAR 1:1
+[01:06:30] scan: 10 previews, 1920x1080, 60.000 fps, autocrop = 4/2/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[01:06:30] libhb: scan thread found 1 valid title(s)
+[01:06:30] Starting Task: Encoding Pass
+[01:06:30] job configuration:
+[01:06:30]  * source
+[01:06:30]    + /home/shin/Videos/Records/screencast/airplane-animation.mkv
+[01:06:30]    + title 1, chapter(s) 1 to 1
+[01:06:30]    + container: matroska,webm
+[01:06:30]    + data rate: 806 kbps
+[01:06:30]  * destination
+[01:06:30]    + /home/shin/Videos/airplane-animation.mp4
+[01:06:30]    + container: MPEG-4 (libavformat)
+[01:06:30]      + align initial A/V stream timestamps
+[01:06:30]  * video track
+[01:06:30]    + decoder: h264 8-bit (yuv420p)
+[01:06:30]    + filters
+[01:06:30]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[01:06:30]      + Decomb (mode=39)
+[01:06:30]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[01:06:30]        + frame rate: 60.000 fps -> peak rate limited to 30.000 fps
+[01:06:30]      + Crop and Scale (width=1920:height=1074:crop-top=4:crop-bottom=2:crop-left=0:crop-right=0)
+[01:06:30]        + source: 1920 * 1080, crop (4/2/0/0): 1920 * 1074, scale: 1920 * 1074
+[01:06:30]    + Output geometry
+[01:06:30]      + storage dimensions: 1920 x 1074
+[01:06:30]      + pixel aspect ratio: 1 : 1
+[01:06:30]      + display dimensions: 1920 x 1074
+[01:06:30]    + encoder: H.264 (libx264)
+[01:06:30]      + preset:  fast
+[01:06:30]      + profile: main
+[01:06:30]      + level:   4.0
+[01:06:30]      + quality: 22.00 (RF)
+[01:06:30]      + color profile: 1-1-1
+[01:06:30]      + color range: tv
+[01:06:30]      + chroma location: left
+[01:06:30]  * audio track 1
+[01:06:30]    + name: simple_aac_recording0
+[01:06:30]    + decoder: Unknown (AAC LC, 2.0 ch) (track 1, id 0x1)
+[01:06:30]      + samplerate: 44100 Hz
+[01:06:30]    + mixdown: Stereo
+[01:06:30]    + encoder: AAC (libavcodec)
+[01:06:30]      + bitrate: 160 kbps, samplerate: 44100 Hz
+[01:06:30] sync: expecting 1271 video frames
+[01:06:30] encx264: min-keyint: 30, keyint: 300
+[01:06:30] encx264: encoding at constant RF 22.000000
+[01:06:30] encx264: unparsed options: level=4.0:ref=2:8x8dct=0:weightp=1:subme=6:vbv-bufsize=25000:vbv-maxrate=20000:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile Main, level 4.0, 4:2:0, 8-bit
+[01:06:31] sync: first pts video is 0
+[01:06:31] sync: Chapter 1 at frame 1 time 0
+[01:06:31] sync: first pts audio 0x1 is 0
+[01:06:42] reader: done. 1 scr changes
+[01:06:42] work: average encoding speed for job is 108.491882 fps
+[01:06:43] comb detect: heavy 26 | light 67 | uncombed 1177 | total 1270
+[01:06:43] decomb: deinterlaced 26 | blended 67 | unfiltered 1177 | total 1270
+[01:06:43] vfr: 636 frames output, 634 dropped and 0 duped for CFR/PFR
+[01:06:43] vfr: lost time: 0 (0 frames)
+[01:06:43] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[01:06:43] aac-decoder done: 911 frames, 0 decoder errors
+[01:06:43] h264-decoder done: 1270 frames, 0 decoder errors
+[01:06:43] sync: got 1270 frames, 1271 expected
+[01:06:43] sync: framerate min 29.412 fps, max 60.000 fps, avg 59.951 fps
+x264 [info]: frame I:4     Avg QP:14.45  size: 94815
+x264 [info]: frame P:193   Avg QP:18.36  size:  6396
+x264 [info]: frame B:439   Avg QP:26.55  size:   523
+x264 [info]: consecutive B-frames:  5.3%  6.3%  4.7% 83.6%
+x264 [info]: mb I  I16..4: 68.8%  0.0% 31.2%
+x264 [info]: mb P  I16..4:  2.9%  0.0%  1.0%  P16..4:  4.0%  0.9%  0.6%  0.0%  0.0%    skip:90.5%
+x264 [info]: mb B  I16..4:  0.3%  0.0%  0.0%  B16..8:  0.9%  0.2%  0.0%  direct: 0.3%  skip:98.2%  L0:42.8% L1:53.1% BI: 4.1%
+x264 [info]: coded y,uvDC,uvAC intra: 24.1% 14.4% 8.5% inter: 0.6% 0.5% 0.1%
+x264 [info]: i16 v,h,dc,p: 53% 44%  2%  1%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24% 46% 16%  2%  2%  2%  3%  2%  3%
+x264 [info]: i8c dc,h,v,p: 69% 21% 10%  0%
+x264 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x264 [info]: ref P L0: 86.0% 14.0%
+x264 [info]: ref B L0: 79.7% 20.3%
+x264 [info]: ref B L1: 94.1%  5.9%
+x264 [info]: kb/s:695.49
+[01:06:43] mux: track 0, 636 frames, 1842878 bytes, 694.33 kbps, fifo 1024
+[01:06:43] mux: track 1, 912 frames, 5540 bytes, 2.09 kbps, fifo 1024
+[01:06:43] Finished work at: Tue Apr 22 01:06:43 2025
+
+[01:06:43] libhb: work result = 0

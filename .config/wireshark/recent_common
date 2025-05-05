@@ -1,4 +1,4 @@
-# Common recent settings file for Wireshark 4.4.3.
+# Common recent settings file for Wireshark 4.4.6.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -12,13 +12,14 @@
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
+recent.display_filter: ssh
 
 # Main window geometry.
 # Decimal numbers.
 gui.geometry_main_x: 0
 gui.geometry_main_y: 0
-gui.geometry_main_width: 1920
-gui.geometry_main_height: 1080
+gui.geometry_main_width: 945
+gui.geometry_main_height: 1032
 
 # Main window maximized.
 # true or false (case-insensitive).
@@ -26,7 +27,7 @@ gui.geometry_main_maximized: true
 
 # Main window geometry state.
 # Hex byte string.
-gui.geometry_main: 01d9d0cb0003000000000000000000000000077f000004370000000000000000000003bf0000041b0000000002040000078000000000000000000000077f00000437
+gui.geometry_main: 01d9d0cb000300000000000000000000000003b0000004070000000000000000000003b000000407000000000200000007800000000000000000000003b000000407
 
 # Leftalign Action Buttons.
 # true or false (case-insensitive).
@@ -70,6 +71,17 @@ gui.search_multiple_occurs: false
 # Find packet search type.
 # One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
 gui.search_type: DISPLAY_FILTER
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 572
+gui.geom.PacketDialog.y: 88
+gui.geom.PacketDialog.width: 1920
+gui.geom.PacketDialog.height: 1080
+# true or false (case-insensitive).
+gui.geom.PacketDialog.maximized: true
+# Qt Geometry State (hex byte string).
+gui.geom.PacketDialog.qt_geometry: 01d9d0cb000300000000023c00000058000009bb0000048f0000023c00000058000005ec00000256000000000204000007800000023c00000058000009bb0000048f
 
 # Custom colors.
 # List of custom colors selected in Qt color picker.

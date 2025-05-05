@@ -1,5 +1,5 @@
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=false
 
@@ -7,24 +7,27 @@ shouldShowToolBarComingFromFullScreen=false
 LockSidebar=true
 ShowSidebar=true
 
+[MainWindow]
+MenuBar=Disabled
+
 [Recent Files]
-File1[$e]=/media/Materials/IT/Security /Recent/Lectures/03 CompTIA- .pdf
-File10[$e]=$HOME/Downloads/comp.pdf
-File2[$e]=/media/Materials/IT/Speech Recognition /Lectures /Lecture 3-5 Speech.pdf
-File3[$e]=/media/Materials/IT/Speech Recognition /Exams/Mid/mid 2023.pdf
-File4[$e]=/media/Materials/IT/Speech Recognition /Exams/Mid/MID 2022.pdf
-File5[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec1.pdf
-File6[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec2.pdf
-File7[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec3.pdf
-File8[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec4.pdf
-File9[$e]=$HOME/Downloads/pdf24_converted.pdf
-Name1[$e]=03 CompTIA- .pdf
-Name10[$e]=comp.pdf
-Name2[$e]=Lecture 3-5 Speech.pdf
-Name3[$e]=mid 2023.pdf
-Name4[$e]=MID 2022.pdf
-Name5[$e]=Speech_Lec1.pdf
-Name6[$e]=Speech_Lec2.pdf
-Name7[$e]=Speech_Lec3.pdf
-Name8[$e]=Speech_Lec4.pdf
-Name9[$e]=pdf24_converted.pdf
+File1[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec2.pdf
+File10[$e]=$HOME/Downloads/Telegram Desktop/تأمين الشبكات.pdf
+File2[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec4.pdf
+File3[$e]=$HOME/Downloads/pdf24_converted.pdf
+File4[$e]=$HOME/Downloads/comp.pdf
+File5[$e]=$HOME/Downloads/Telegram Desktop/3it.pdf
+File6[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec3.pdf
+File7[$e]=$HOME/Downloads/latest2مشروع التخرج.pdf
+File8[$e]=$HOME/Downloads/Telegram Desktop/أمن الحاسب   .pdf
+File9[$e]=$HOME/Downloads/Telegram Desktop/أمن المعلومات.pdf
+Name1[$e]=Speech_Lec2.pdf
+Name10[$e]=تأمين الشبكات.pdf
+Name2[$e]=Speech_Lec4.pdf
+Name3[$e]=pdf24_converted.pdf
+Name4[$e]=comp.pdf
+Name5[$e]=3it.pdf
+Name6[$e]=Speech_Lec3.pdf
+Name7[$e]=latest2مشروع التخرج.pdf
+Name8[$e]=أمن الحاسب   .pdf
+Name9[$e]=أمن المعلومات.pdf

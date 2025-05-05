@@ -1,4 +1,4 @@
-# Recent settings file for Wireshark 4.4.3.
+# Recent settings file for Wireshark 4.4.6.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -95,11 +95,11 @@ gui.show_bytes_show: ASCII
 
 # Main window upper (or leftmost) pane size.
 # Decimal number.
-gui.geometry_main_upper_pane: 474
+gui.geometry_main_upper_pane: 450
 
 # Main window middle pane size.
 # Decimal number.
-gui.geometry_main_lower_pane: 957
+gui.geometry_main_lower_pane: 469
 
 # Main window master splitter state.
 # Hex byte string.
@@ -108,6 +108,10 @@ gui.geometry_main_master_split: 000000ff0000000100000002000001c2000001c200ffffff
 # Main window extra splitter state.
 # Hex byte string.
 gui.geometry_main_extra_split: 000000ff0000000100000002000001d5000001d500ffffffff010000000100
+
+# Splitter state of PacketDialog window.
+# Qt Splitter state (hex byte string).
+gui.geom.PacketDialog.splitter: 000000ff0000000100000002000000c0000000e501ffffffff010000000200
 
 # Packet list column pixel widths.
 # Each pair of strings consists of a column format and its pixel width.

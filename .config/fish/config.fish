@@ -73,6 +73,9 @@ alias down360="down 360"
 alias down480="down 480"
 alias down720="down 720"
 alias down1080="down 1080"
+alias up="docker compose -f /media/greenbone-container/docker-compose.yml up -d"
+# alias down="docker compose -f /media/greenbone-container/docker-compose.yml down"
+alias bone="xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &"
 
 zoxide init fish | source
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)

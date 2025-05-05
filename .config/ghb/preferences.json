@@ -43,7 +43,7 @@
         "allow_tweaks": false,
         "auto_name": true,
         "auto_name_template": "{source}",
-        "default_source": "/dev/dvd",
+        "default_source": "/home/shin/Videos/Records/screencast/airplane-animation.mkv",
         "destination_dir": "/home/shin/Videos",
         "hbfd": false,
         "hbfd_feature": false,

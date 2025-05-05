@@ -1,5 +1,11 @@
 {
   "ebook viewer open dialog": "/media/Manga/Berserk/berserk-volume-1",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "8.3"
+    ]
+  },
   "sort_history": [
     [
       "timestamp",

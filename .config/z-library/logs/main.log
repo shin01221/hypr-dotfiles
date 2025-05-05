@@ -1,0 +1,36 @@
+[2025-04-26 15:21:43.243] [info]  initing....
+[2025-04-26 15:21:44.003] [info]  Opening an app
+[2025-04-26 15:21:44.099] [info]  Trying to fetch domains from the list: ["zlibrary-ru.se","z-lib.bz","z-lib.fo","proxy.zlibraryproxies.workers.dev","1lib.sk","z-lib.gs","z-lib.fm","z-lib.gd","z-lib.gl","z-lib.nz","z-library.sk"]
+[2025-04-26 15:21:44.899] [info]  Trying to find the best domain from list: ["z-library.sk","z-lib.gd","z-lib.gl","z-lib.ps","z-library.gs","z-library.ec","z-lib.fm","z-lib.bz","z-lib.fo","1lib.sk","lib-africa.sk","articles.sk","article.sk","z-lib.help","z-lib.sx","bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion","articles24t2d47kb6rbabobokvrnymh2smkleosntcu6qxou6sxewyd.onion","openzlib.link","cnlib.icu","gopi.monster","librerialibre.eu","wesinx.com","quasieconomist.online","quasieconomist.org","ws3917.site","incudream.com","writesomething.sbs","keypaperi.top","forthriver.xyz","homeonet.tech","grababook.shop","Kcai.eu","lichaobooks.top","101ml.life","z-library.website","pdffree.store","zlibrary-ru.se","z-lib.bz","z-lib.fo","proxy.zlibraryproxies.workers.dev","1lib.sk","z-lib.gs","z-lib.fm","z-lib.gd","z-lib.gl","z-lib.nz","z-library.sk"]
+[2025-04-26 15:21:45.176] [info]  The best domain was founded: z-lib.fo
+[2025-04-26 15:21:45.197] [warn]  Unable to get user's credentials
+[2025-04-26 15:22:00.262] [info]  connectToLibrary() successful!
+[2025-04-26 15:22:03.229] [debug] { media: false, projects: false }
+[2025-04-26 15:22:03.718] [info]  Loaded overlays
+[2025-04-26 15:22:03.720] [debug] Opening tab !user-popup
+[2025-04-26 15:22:03.720] [debug] Creating a new tab
+[2025-04-26 15:22:03.722] [debug] Init navigation listeners
+[2025-04-26 15:22:03.724] [info]  URL is https://en.z-lib.fo/profile
+[2025-04-26 15:22:03.724] [info]  Domain is: z-lib.fo
+[2025-04-26 15:22:03.729] [debug] did-start-navigation
+[2025-04-26 15:22:03.732] [debug] Opening tab !home
+[2025-04-26 15:22:03.732] [debug] Creating a new tab
+[2025-04-26 15:22:03.735] [debug] Init navigation listeners
+[2025-04-26 15:22:03.737] [info]  URL is https://en.z-lib.fo/
+[2025-04-26 15:22:03.737] [info]  Domain is: z-lib.fo
+[2025-04-26 15:22:03.744] [debug] did-start-navigation
+[2025-04-26 15:22:03.858] [info]  Language code: en
+[2025-04-26 15:22:03.859] [debug] URL: file:///opt/Z-Library/resources/app.asar/dist/index.html?path=sideBar
+[2025-04-26 15:22:03.915] [debug] will-redirect
+[2025-04-26 15:22:03.980] [debug] did-navigate
+[2025-04-26 15:22:03.986] [info]  Url changes https://en.z-lib.fo/
+[2025-04-26 15:22:04.006] [info]  Language code: en
+[2025-04-26 15:22:04.006] [debug] URL: file:///opt/Z-Library/resources/app.asar/dist/index.html?path=sideBar
+[2025-04-26 15:22:04.137] [debug] did-navigate
+[2025-04-26 15:22:04.137] [info]  Url changes https://en.z-lib.fo/profile/42702652/cf0892
+[2025-04-26 15:22:04.265] [debug] title updated: My profile | Z-Library
+[2025-04-26 15:22:04.266] [debug] title updated: Z-Library – the world’s largest e-book library. Your gateway to knowledge and culture.
+[2025-04-26 15:22:04.563] [debug] did-start-navigation
+[2025-04-26 15:22:04.780] [debug] did-start-navigation
+[2025-04-26 15:22:05.107] [debug] did-finish-load
+[2025-04-26 15:22:05.391] [debug] did-finish-load

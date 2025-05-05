@@ -15,14 +15,14 @@
     },
     "maximized": true,
     "normal_geometry": {
-      "height": 526,
-      "width": 960,
+      "height": 511,
+      "width": 945,
       "x": 0,
       "y": 0
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQ3AAAAAAAAAAAAAAO/AAACDQAAAAACBAAAB4AAAAAAAAAAAAAAB38AAAQ3"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQ3AAAAAAAAAAAAAAOwAAAB/gAAAAACBAAAB4AAAAAAAAAAAAAAB38AAAQ3"
     },
     "screen": {
       "depth": 32,
@@ -52,16 +52,68 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIYA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlAD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB7AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOYA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEgD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAM8A////AAAHgAAABDgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAAEOPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAEOAAAAIYA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlAD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB7AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOYA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEgD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAM8A////AAAHgAAABDgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
+    "base_font_size": 22,
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "black",
+    "margin_bottom": 40,
+    "margin_left": 40,
+    "margin_right": 40,
+    "margin_top": 40,
+    "read_mode": "paged",
     "standalone_font_settings": {},
     "standalone_misc_settings": {
       "remember_last_read": true,
       "remember_window_geometry": false,
       "save_annotations_in_ebook": true,
       "singleinstance": false
-    }
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "TurtleMe"
+        ],
+        "key": "/home/shin/Calibre Library/TurtleMe/The Beginning After the End_ Book 6_ Transcendence (10)/The Beginning After the End_ Book 6_ Trans - TurtleMe.epub",
+        "pathtoebook": "/home/shin/Calibre Library/TurtleMe/The Beginning After the End_ Book 6_ Transcendence (10)/The Beginning After the End_ Book 6_ Trans - TurtleMe.epub",
+        "timestamp": "2025-04-28T11:39:14.971Z",
+        "title": "The Beginning After the End: Book 6: Transcendence"
+      },
+      {
+        "authors": [
+          "TurtleMe"
+        ],
+        "key": "/home/shin/Calibre Library/TurtleMe/The Beginning After The End - Early Years (9)/The Beginning After The End - Early Years - TurtleMe.epub",
+        "pathtoebook": "/home/shin/Calibre Library/TurtleMe/The Beginning After The End - Early Years (9)/The Beginning After The End - Early Years - TurtleMe.epub",
+        "timestamp": "2025-04-26T12:37:31.199Z",
+        "title": "The Beginning After The End - Early Years"
+      },
+      {
+        "authors": [
+          "TurtleMe"
+        ],
+        "key": "/home/shin/Calibre Library/TurtleMe/The Beginning After the End_ Book 10_ Retribution (8)/The Beginning After the End_ Book 10_ Retr - TurtleMe.epub",
+        "pathtoebook": "/home/shin/Calibre Library/TurtleMe/The Beginning After the End_ Book 10_ Retribution (8)/The Beginning After the End_ Book 10_ Retr - TurtleMe.epub",
+        "timestamp": "2025-04-26T12:08:48.209Z",
+        "title": "The Beginning After the End: Book 10: Retribution"
+      },
+      {
+        "key": "/home/shin/Calibre Library/Unknown/The Beginning After the End Book 6 Transcendence (7)/The Beginning After the End Book 6 Transce - Unknown.epub",
+        "pathtoebook": "/home/shin/Calibre Library/Unknown/The Beginning After the End Book 6 Transcendence (7)/The Beginning After the End Book 6 Transce - Unknown.epub",
+        "timestamp": "2025-04-26T12:07:04.192Z",
+        "title": "The Beginning After the End Book 6 Transce"
+      },
+      {
+        "authors": [
+          "TurtleMe"
+        ],
+        "key": "/home/shin/Calibre Library/TurtleMe/The Beginning After The End_ Reckoning, Book 9 (6)/The Beginning After The End_ Reckoning, Bo - TurtleMe.epub",
+        "pathtoebook": "/home/shin/Calibre Library/TurtleMe/The Beginning After The End_ Reckoning, Book 9 (6)/The Beginning After The End_ Reckoning, Bo - TurtleMe.epub",
+        "timestamp": "2025-04-26T11:32:36.170Z",
+        "title": "The Beginning After The End: Reckoning, Book 9"
+      }
+    ]
   }
 }

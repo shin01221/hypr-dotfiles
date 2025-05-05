@@ -1,0 +1,12 @@
+[Bookmarks]
+[Recent]
+/home/shin/Downloads/
+/media/Sections/Graphics/
+/media/Blender/Poliigon_BrickWallReclaimed_8320/2K/
+/media/Blender/stone_embedded_tiles_4k.blend/textures/
+/media/Blender/addons/
+/media/Blender/addons/MACHIN3tools/
+/media/Blender/Themes/blender-themes/
+/media/Sections/Graphics/Swork-sandbox/
+/media/Sections/Graphics/Swork-sandbox/swordInTheStone4_downloadFiles_part2/textures/
+/media/Blender/addons/add-on-looptools-v4.7.7/
