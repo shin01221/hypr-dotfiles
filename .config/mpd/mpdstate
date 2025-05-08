@@ -1,0 +1,196 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 106
+time: 22.278
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Music/DreamTheater/Dream Theater - A Change of Seasons - The Crimson Sunrise  Innocence  Carpe Diem  The Darkest of Winters  Another World  The Inevitable Summer  The Crimson Sunset.mp3
+1:Music/DreamTheater/Dream Theater - Funeral for a Friend  Love Lies Bleeding - Live at Ronnie Scott's Jazz Club, London, England, UK, 1311995.mp3
+2:Music/DreamTheater/Dream Theater - Perfect Strangers - Live at Ronnie Scott's Jazz Club, London, England, UK, 1311995.mp3
+3:Music/DreamTheater/Dream Theater - Led Zeppelin Medley - The Rover  Achilles Last Stand  The Song Remains the Same - Live at Ronnie Scott's Jazz Club, London, England, UK, 1311995.mp3
+4:Music/DreamTheater/Dream Theater - The Big Medley - In the Flesh  Carry on Wayward Son  Bohemian Rhapsody  Lovin, Touchin, Squeezin  Cruise Control  Turn It on Again - Live at Ronnie Scott's Jazz Club, London, England, UK, 1311995.mp3
+5:Music/DreamTheater/Dream Theater - On the Backs of Angels.mp3
+6:Music/DreamTheater/Dream Theater - Build Me Up, Break Me Down.mp3
+7:Music/DreamTheater/Dream Theater - Lost Not Forgotten.mp3
+8:Music/DreamTheater/Dream Theater - This Is the Life.mp3
+9:Music/DreamTheater/Dream Theater - Bridges in the Sky.mp3
+10:Music/DreamTheater/Dream Theater - Outcry.mp3
+11:Music/DreamTheater/Dream Theater - Far from Heaven.mp3
+12:Music/DreamTheater/Dream Theater - Breaking All Illusions.mp3
+13:Music/DreamTheater/Dream Theater - Beneath the Surface.mp3
+14:Music/DreamTheater/Dream Theater - The Alien.mp3
+15:Music/DreamTheater/Dream Theater - Answering the Call.mp3
+16:Music/DreamTheater/Dream Theater - Invisible Monster.mp3
+17:Music/DreamTheater/Dream Theater - Sleeping Giant.mp3
+18:Music/DreamTheater/Dream Theater - Transcending Time.mp3
+19:Music/DreamTheater/Dream Theater - Awaken the Master.mp3
+20:Music/DreamTheater/Dream Theater - A View from the Top of the World.mp3
+21:Music/DreamTheater/Dream Theater - 6-00.mp3
+22:Music/DreamTheater/Dream Theater - Caught in a Web.mp3
+23:Music/DreamTheater/Dream Theater - Innocence Faded.mp3
+24:Music/DreamTheater/Dream Theater - Erotomania.mp3
+25:Music/DreamTheater/Dream Theater - Voices.mp3
+26:Music/DreamTheater/Dream Theater - The Silent Man.mp3
+27:Music/DreamTheater/Dream Theater - The Mirror.mp3
+28:Music/DreamTheater/Dream Theater - Lie.mp3
+29:Music/DreamTheater/Dream Theater - Lifting Shadows Off a Dream.mp3
+30:Music/DreamTheater/Dream Theater - Scarred.mp3
+31:Music/DreamTheater/Dream Theater - Space-Dye Vest.mp3
+32:Music/DreamTheater/Dream Theater - A Nightmare to Remember.mp3
+33:Music/DreamTheater/Dream Theater - A Rite of Passage.mp3
+34:Music/DreamTheater/Dream Theater - Wither.mp3
+35:Music/DreamTheater/Dream Theater - The Shattered Fortress.mp3
+36:Music/DreamTheater/Dream Theater - The Best of Times.mp3
+37:Music/DreamTheater/Dream Theater - The Count of Tuscany.mp3
+38:Music/DreamTheater/Dream Theater - Stargazer.mp3
+39:Music/DreamTheater/Dream Theater - Tenement Funster  Flick of the Wrist  Lily of the Valley.mp3
+40:Music/DreamTheater/Dream Theater - Odyssey.mp3
+41:Music/DreamTheater/Dream Theater - Take Your Fingers from My Hair.mp3
+42:Music/DreamTheater/Dream Theater - Larks Tongues in Aspic, Pt. 2.mp3
+43:Music/DreamTheater/Dream Theater - To Tame a Land.mp3
+44:Music/DreamTheater/Dream Theater - Untethered Angel.mp3
+45:Music/DreamTheater/Dream Theater - Paralyzed.mp3
+46:Music/DreamTheater/Dream Theater - Fall into the Light.mp3
+47:Music/DreamTheater/Dream Theater - Barstool Warrior.mp3
+48:Music/DreamTheater/Dream Theater - Room 137.mp3
+49:Music/DreamTheater/Dream Theater - S2N.mp3
+50:Music/DreamTheater/Dream Theater - At Wit's End.mp3
+51:Music/DreamTheater/Dream Theater - Out of Reach.mp3
+52:Music/DreamTheater/Dream Theater - Pale Blue Dot.mp3
+53:Music/DreamTheater/Dream Theater - Viper King (Bonus track).mp3
+54:Music/DreamTheater/Dream Theater - False Awakening Suite.mp3
+55:Music/DreamTheater/Dream Theater - The Enemy Inside.mp3
+56:Music/DreamTheater/Dream Theater - The Looking Glass.mp3
+57:Music/DreamTheater/Dream Theater - Enigma Machine.mp3
+58:Music/DreamTheater/Dream Theater - The Bigger Picture.mp3
+59:Music/DreamTheater/Dream Theater - Behind the Veil.mp3
+60:Music/DreamTheater/Dream Theater - Surrender to Reason.mp3
+61:Music/DreamTheater/Dream Theater - Along for the Ride.mp3
+62:Music/DreamTheater/Dream Theater - Illumination Theory.mp3
+63:Music/DreamTheater/Dream Theater - New Millennium.mp3
+64:Music/DreamTheater/Dream Theater - You Not Me - Edit.mp3
+65:Music/DreamTheater/Dream Theater - Peruvian Skies.mp3
+66:Music/DreamTheater/Dream Theater - Hollow Years.mp3
+67:Music/DreamTheater/Dream Theater - Burning My Soul.mp3
+68:Music/DreamTheater/Dream Theater - Hell's Kitchen.mp3
+69:Music/DreamTheater/Dream Theater - Lines in the Sand.mp3
+70:Music/DreamTheater/Dream Theater - Take Away My Pain.mp3
+71:Music/DreamTheater/Dream Theater - Just Let Me Breathe.mp3
+72:Music/DreamTheater/Dream Theater - Anna Lee.mp3
+73:Music/DreamTheater/Dream Theater - Trial of Tears - I. It's Raining  II. Deep in Heaven  III. The Wasteland.mp3
+74:Music/DreamTheater/Dream Theater - Pull Me Under.mp3
+75:Music/DreamTheater/Dream Theater - Another Day.mp3
+76:Music/DreamTheater/Dream Theater - Take the Time.mp3
+77:Music/DreamTheater/Dream Theater - Surrounded.mp3
+78:Music/DreamTheater/Dream Theater - Metropolis - Part I- 'The Miracle and the Sleeper'.mp3
+79:Music/DreamTheater/Dream Theater - Under a Glass Moon.mp3
+80:Music/DreamTheater/Dream Theater - Wait for Sleep.mp3
+81:Music/DreamTheater/Dream Theater - Learning to Live.mp3
+82:Music/DreamTheater/Dream Theater - Scene One- Regression.mp3
+83:Music/DreamTheater/Dream Theater - Scene Two- I. Overture 1928.mp3
+84:Music/DreamTheater/Dream Theater - Scene Two- II. Strange Déjà Vu.mp3
+85:Music/DreamTheater/Dream Theater - Scene Three- I. Through My Words.mp3
+86:Music/DreamTheater/Dream Theater - Scene Three- II. Fatal Tragedy.mp3
+87:Music/DreamTheater/Dream Theater - Scene Four- Beyond This Life.mp3
+88:Music/DreamTheater/Dream Theater - Scene Five- Through Her Eyes.mp3
+89:Music/DreamTheater/Dream Theater - Scene Six- Home.mp3
+90:Music/DreamTheater/Dream Theater - Scene Seven- I. The Dance of Eternity.mp3
+91:Music/DreamTheater/Dream Theater - Scene Seven- II. One Last Time.mp3
+92:Music/DreamTheater/Dream Theater - Scene Eight- The Spirit Carries On.mp3
+93:Music/DreamTheater/Dream Theater - Scene Nine- Finally Free.mp3
+94:Music/DreamTheater/Dream Theater - The Root of All Evil.mp3
+95:Music/DreamTheater/Dream Theater - The Answer Lies Within.mp3
+96:Music/DreamTheater/Dream Theater - These Walls.mp3
+97:Music/DreamTheater/Dream Theater - I Walk Beside You.mp3
+98:Music/DreamTheater/Dream Theater - Panic Attack.mp3
+99:Music/DreamTheater/Dream Theater - Never Enough.mp3
+100:Music/DreamTheater/Dream Theater - Sacrificed Sons.mp3
+101:Music/DreamTheater/Dream Theater - Octavarium.mp3
+102:Music/DreamTheater/Dream Theater - In the Arms of Morpheus.mp3
+103:Music/DreamTheater/Dream Theater - Night Terror.mp3
+104:Music/DreamTheater/Dream Theater - A Broken Man.mp3
+105:Music/DreamTheater/Dream Theater - Dead Asleep.mp3
+106:Music/DreamTheater/Dream Theater - Midnight Messiah.mp3
+107:Music/DreamTheater/Dream Theater - Are We Dreaming.mp3
+108:Music/DreamTheater/Dream Theater - Bend the Clock.mp3
+109:Music/DreamTheater/Dream Theater - The Shadow Man Incident.mp3
+110:Music/DreamTheater/Dream Theater - The Glass Prison.mp3
+111:Music/DreamTheater/Dream Theater - Blind Faith.mp3
+112:Music/DreamTheater/Dream Theater - Misunderstood.mp3
+113:Music/DreamTheater/Dream Theater - The Great Debate.mp3
+114:Music/DreamTheater/Dream Theater - Disappear.mp3
+115:Music/DreamTheater/Dream Theater - I. Overture.mp3
+116:Music/DreamTheater/Dream Theater - About to Crash.mp3
+117:Music/DreamTheater/Dream Theater - III. War Inside My Head.mp3
+118:Music/DreamTheater/Dream Theater - IV. The Test That Stumped Them All.mp3
+119:Music/DreamTheater/Dream Theater - V. Goodnight Kiss.mp3
+120:Music/DreamTheater/Dream Theater - VI. Solitary Shell.mp3
+121:Music/DreamTheater/Dream Theater - About to Crash (Reprise).mp3
+122:Music/DreamTheater/Dream Theater - VIII. Losing Time  Grand Finale.mp3
+123:Music/DreamTheater/Dream Theater - In the Presence of Enemies - Part I.mp3
+124:Music/DreamTheater/Dream Theater - Forsaken.mp3
+125:Music/DreamTheater/Dream Theater - Constant Motion.mp3
+126:Music/DreamTheater/Dream Theater - The Dark Eternal Night.mp3
+127:Music/DreamTheater/Dream Theater - Repentance.mp3
+128:Music/DreamTheater/Dream Theater - Prophets of War.mp3
+129:Music/DreamTheater/Dream Theater - The Ministry of Lost Souls.mp3
+130:Music/DreamTheater/Dream Theater - In the Presence of Enemies - Part II.mp3
+131:Music/DreamTheater/Dream Theater - Descent of the NOMACS.mp3
+132:Music/DreamTheater/Dream Theater - Dystopian Overture.mp3
+133:Music/DreamTheater/Dream Theater - The Gift of Music.mp3
+134:Music/DreamTheater/Dream Theater - The Answer.mp3
+135:Music/DreamTheater/Dream Theater - A Better Life.mp3
+136:Music/DreamTheater/Dream Theater - Lord Nafaryus.mp3
+137:Music/DreamTheater/Dream Theater - A Savior in the Square.mp3
+138:Music/DreamTheater/Dream Theater - When Your Time Has Come.mp3
+139:Music/DreamTheater/Dream Theater - Act of Faythe.mp3
+140:Music/DreamTheater/Dream Theater - Three Days.mp3
+141:Music/DreamTheater/Dream Theater - The Hovering Sojourn.mp3
+142:Music/DreamTheater/Dream Theater - Brother, Can You Hear Me.mp3
+143:Music/DreamTheater/Dream Theater - A Life Left Behind.mp3
+144:Music/DreamTheater/Dream Theater - Ravenskill.mp3
+145:Music/DreamTheater/Dream Theater - Chosen.mp3
+146:Music/DreamTheater/Dream Theater - A Tempting Offer.mp3
+147:Music/DreamTheater/Dream Theater - Digital Discord.mp3
+148:Music/DreamTheater/Dream Theater - The X Aspect.mp3
+149:Music/DreamTheater/Dream Theater - A New Beginning.mp3
+150:Music/DreamTheater/Dream Theater - The Road to Revolution.mp3
+151:Music/DreamTheater/Dream Theater - 2285 Entr'acte.mp3
+152:Music/DreamTheater/Dream Theater - Moment of Betrayal.mp3
+153:Music/DreamTheater/Dream Theater - Heaven's Cove.mp3
+154:Music/DreamTheater/Dream Theater - Begin Again.mp3
+155:Music/DreamTheater/Dream Theater - The Path That Divides.mp3
+156:Music/DreamTheater/Dream Theater - Machine Chatter.mp3
+157:Music/DreamTheater/Dream Theater - The Walking Shadow.mp3
+158:Music/DreamTheater/Dream Theater - My Last Farewell.mp3
+159:Music/DreamTheater/Dream Theater - Losing Faythe.mp3
+160:Music/DreamTheater/Dream Theater - Whispers on the Wind.mp3
+161:Music/DreamTheater/Dream Theater - Hymn of a Thousand Voices.mp3
+162:Music/DreamTheater/Dream Theater - Our New World.mp3
+163:Music/DreamTheater/Dream Theater - Power Down.mp3
+164:Music/DreamTheater/Dream Theater - Astonishing.mp3
+165:Music/DreamTheater/Dream Theater - As I Am.mp3
+166:Music/DreamTheater/Dream Theater - This Dying Soul.mp3
+167:Music/DreamTheater/Dream Theater - Endless Sacrifice.mp3
+168:Music/DreamTheater/Dream Theater - Honor Thy Father.mp3
+169:Music/DreamTheater/Dream Theater - Vacant.mp3
+170:Music/DreamTheater/Dream Theater - Stream of Consciousness.mp3
+171:Music/DreamTheater/Dream Theater - In the Name of God.mp3
+172:Music/DreamTheater/Dream Theater - A Fortune In Lies.mp3
+173:Music/DreamTheater/Dream Theater - Status Seeker.mp3
+174:Music/DreamTheater/Dream Theater - Ytse Jam.mp3
+175:Music/DreamTheater/Dream Theater - The Killing Hand.mp3
+176:Music/DreamTheater/Dream Theater - Light Fuse And Get Away.mp3
+177:Music/DreamTheater/Dream Theater - Afterlife.mp3
+178:Music/DreamTheater/Dream Theater - The One Who Help To Set The Sun.mp3
+179:Music/DreamTheater/Dream Theater - Only A Matter Of Time.mp3
+playlist_end

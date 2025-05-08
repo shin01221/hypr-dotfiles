@@ -2,7 +2,7 @@
 TerminalApplication=kitty
 
 [Icons]
-Theme=Tela-circle-red
+Theme=Tela-circle-solarized
 
 [KFileDialog Settings]
 Allow Expansion=false
