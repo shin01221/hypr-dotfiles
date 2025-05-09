@@ -19,20 +19,20 @@
 TEMP_IMAGE="/tmp/i3lock.jpg"
 
 # Colors
-bg=#232136
-fg=#c3a5e6
-ring=#232136
-wrong=#ea6f91
-date=#c3a5e6
-verify=#9bced7
+bg=#0d0f18
+fg=#a5b6cf
+ring=#0d0f18
+wrong=#dd6777
+date=#a5b6cf
+verify=#90ceaa
 
-default_lockscreen () {
+default_lockscreen() {
 
-    maim -d 0.3 -u ${TEMP_IMAGE}
-    magick $TEMP_IMAGE -blur 5x4 $TEMP_IMAGE
-    i3lock -n --force-clock -i $TEMP_IMAGE -e --indicator \
-        --radius=30 --ring-width=60 --inside-color=$bg \
-        --ring-color=$ring --insidever-color=$verify --ringver-color=$verify \
+	maim -d 0.3 -u ${TEMP_IMAGE}
+	magick $TEMP_IMAGE -blur 5x4 $TEMP_IMAGE
+	i3lock -n -i $TEMP_IMAGE -e --indicator \
+		--radius=30 --ring-width=60 --inside-color=$bg \
+		--ring-color=$ring --insidever-color=$verify --ringver-color=$verify \
 		--insidewrong-color=$wrong --ringwrong-color=$wrong --line-uses-inside \
 		--keyhl-color=$verify --separator-color=$verify --bshl-color=$verify \
 		--time-str="%H:%M" --time-size=140 --date-str="%a, %d %b" \
@@ -49,26 +49,26 @@ default_lockscreen () {
 
 }
 
-rice_lockscreen () {
+rice_lockscreen() {
 
-    # Current Rice
-    read -r RICE < "$HOME"/.config/bspwm/.rice
-    # Wallpapers dir
-    image_dir="$HOME/.config/bspwm/rices/${RICE}/walls"
+	# Current Rice
+	read -r RICE <"$HOME"/.config/bspwm/.rice
+	# Wallpapers dir
+	image_dir="$HOME/.config/bspwm/rices/${RICE}/walls"
 
-    # Select random image
-    lock_image=$(find "$image_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) | shuf -n 1)
+	# Select random image
+	lock_image=$(find "$image_dir" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" \) | shuf -n 1)
 
-    # If the image is *.webp convert to /tmp/lock_image.jpg
-    case "$lock_image" in
-        *.webp|*.jpg|*.jpeg|*.png)
-            magick "$lock_image" "$TEMP_IMAGE" || exit 1
-        ;;
-    esac
+	# If the image is *.webp convert to /tmp/lock_image.jpg
+	case "$lock_image" in
+	*.webp | *.jpg | *.jpeg | *.png)
+		magick "$lock_image" "$TEMP_IMAGE" || exit 1
+		;;
+	esac
 
-    i3lock -n --force-clock -i $TEMP_IMAGE --scale -e --indicator \
-        --radius=30 --ring-width=60 --inside-color=$bg \
-        --ring-color=$ring --insidever-color=$verify --ringver-color=$verify \
+	i3lock -n -i $TEMP_IMAGE --scale -e --indicator \
+		--radius=30 --ring-width=60 --inside-color=$bg \
+		--ring-color=$ring --insidever-color=$verify --ringver-color=$verify \
 		--insidewrong-color=$wrong --ringwrong-color=$wrong --line-uses-inside \
 		--keyhl-color=$verify --separator-color=$verify --bshl-color=$verify \
 		--time-str="%H:%M" --time-size=140 --date-str="%a, %d %b" \
@@ -85,14 +85,17 @@ rice_lockscreen () {
 }
 
 case $1 in
-    -r|--rice)
-        rice_lockscreen ;;
-    -h|--help)
-		echo -e "ScreenLocker [options]
+-r | --rice)
+	rice_lockscreen
+	;;
+-h | --help)
+	echo -e "ScreenLocker [options]
 Note: If an option is not specified, the screen locks with a screenshot with a blur effect.
 
 Options:
-	[-r] [--rice]	Set the screen locker with a random wallpaper of the current theme.\n" ;;
-    *)
-        default_lockscreen ;;
+	[-r] [--rice]	Set the screen locker with a random wallpaper of the current theme.\n"
+	;;
+*)
+	default_lockscreen
+	;;
 esac

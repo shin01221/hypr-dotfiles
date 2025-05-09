@@ -45,10 +45,10 @@ term_font_name="JetBrainsMono Nerd Font"
 P_FADE="true"			# Fade true|false
 P_SHADOWS="true"		# Shadows true|false
 SHADOW_C="#000000"		# Shadow color
-P_CORNER_R="6"			# Corner radius (0 = disabled)
-P_BLUR="false"			# Blur true|false
+P_CORNER_R="8"			# Corner radius (0 = disabled)
+P_BLUR="true"			# Blur true|false
 P_ANIMATIONS="@"		# (@ = enable) (# = disable)
-P_TERM_OPACITY="1.0"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
+P_TERM_OPACITY="0.9"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
 dunst_offset='(0, 20)'
@@ -106,4 +106,4 @@ geany_theme="z0mbi3-Decay"
 ENGINE="Theme"
 CUSTOM_DIR="/path/to/dir"
 CUSTOM_WALL="/path/to/image"
-CUSTOM_ANIMATED="$HOME/.config/bspwm/src/assets/animated_wall.mp4"
+CUSTOM_ANIMATED="/home/shin/.config/bspwm/src/assets/animated_wall-5.mp4"

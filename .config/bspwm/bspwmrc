@@ -80,5 +80,5 @@ run clipcatd
 
 # Launch polkit
 pidof -q polkit-gnome-authentication-agent-1 || { /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & }
+mv ~/.config/kitty/theme.conf ~/.config/kitty/theme.conf-bu
 xset r rate 300 50
-# End one time code

@@ -10,7 +10,7 @@ follow = mouse
 width = (300, 400)
 #height = (0, 200)
 origin = top-center
-offset = (0, 10)
+offset = (0, 20)
 scale = 0
 
 notification_limit = 20
@@ -27,8 +27,8 @@ padding = 15
 horizontal_padding = 15
 text_icon_padding = 0
 
-frame_width = 2
-frame_color = "#c3a5e6"
+frame_width = 0
+frame_color = "#93cee9"
 
 sort = no
 idle_threshold = 0
@@ -37,7 +37,7 @@ font = JetBrainsMono NF Medium 9
 line_height = 0
 
 markup = full
-format = "<span size='xx-large' font_desc='Cantarell 9' weight='bold' foreground='#34738e'>%s</span>\n%b"
+format = "<span size='xx-large' font_desc='Cantarell 9' weight='bold' foreground='#86aaec'>%s</span>\n%b"
 alignment = center
 vertical_alignment = center
 
@@ -72,7 +72,7 @@ mouse_right_click = close_all
 
 progress_bar = true
 progress_bar_height = 10
-progress_bar_frame_width = 2
+progress_bar_frame_width = 0
 progress_bar_min_width = 125
 progress_bar_max_width = 250
 progress_bar_corner_radius = 5
@@ -82,15 +82,15 @@ class = Dunst
 
 [urgency_low]
 timeout = 3
-background = "#232136"
-foreground = "#9bced7"
+background = "#0d0f18"
+foreground = "#90ceaa"
 
 [urgency_normal]
 timeout = 5
-background = "#232136"
-foreground = "#e0def4"
+background = "#0d0f18"
+foreground = "#a5b6cf"
 
 [urgency_critical]
 timeout = 0
-background = "#232136"
-foreground = "#ea6f91"
+background = "#0d0f18"
+foreground = "#dd6777"

@@ -29,26 +29,26 @@ accent_color="#111517"
 arch_icon="#0f94d2"
 
 # Bspwm options
-BORDER_WIDTH="3"		# Bspwm border
+BORDER_WIDTH="3" # Bspwm border
 TOP_PADDING="48"
 BOTTOM_PADDING="1"
 LEFT_PADDING="1"
 RIGHT_PADDING="1"
-NORMAL_BC="#353c52"		# Normal border color
-FOCUSED_BC="#353c52"	# Focused border color
+NORMAL_BC="#353c52"  # Normal border color
+FOCUSED_BC="#353c52" # Focused border color
 
 # Terminal font & size
-term_font_size="10"
+term_font_size="11"
 term_font_name="JetBrainsMono Nerd Font"
 
 # Picom options
-P_FADE="true"			# Fade true|false
-P_SHADOWS="false"		# Shadows true|false
-SHADOW_C="#000000"		# Shadow color
-P_CORNER_R="0"			# Corner radius (0 = disabled)
-P_BLUR="false"			# Blur true|false
-P_ANIMATIONS="#"		# (@ = enable) (# = disable)
-P_TERM_OPACITY="0.95"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
+P_FADE="true"         # Fade true|false
+P_SHADOWS="false"     # Shadows true|false
+SHADOW_C="#000000"    # Shadow color
+P_CORNER_R="0"        # Corner radius (0 = disabled)
+P_BLUR="false"        # Blur true|false
+P_ANIMATIONS="@"      # (@ = enable) (# = disable)
+P_TERM_OPACITY="0.95" # Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
 # Dunst
 dunst_offset='(20, 60)'
@@ -106,4 +106,4 @@ geany_theme="z0mbi3-z0mbi3Night"
 ENGINE="Theme"
 CUSTOM_DIR="/path/to/dir"
 CUSTOM_WALL="/path/to/image"
-CUSTOM_ANIMATED="/home/z0mbi3/.config/bspwm/src/assets/animated_wall-3.mp4"
+CUSTOM_ANIMATED="/home/shin/.config/bspwm/src/assets/animated_wall-3.mp4"

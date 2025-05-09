@@ -1,9 +1,9 @@
-sw_volume: 100
+sw_volume: 96
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 106
-time: 2.095
+state: play
+current: 43
+time: 10.164
 random: 1
 repeat: 0
 single: 0
@@ -13,133 +13,687 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Music/AvengedSevenFold/Avenged Sevenfold - Critical Acclaim.mp3
-1:Music/AvengedSevenFold/Avenged Sevenfold - Almost Easy.mp3
-2:Music/AvengedSevenFold/Avenged Sevenfold - Scream.mp3
-3:Music/AvengedSevenFold/Avenged Sevenfold - Afterlife.mp3
-4:Music/AvengedSevenFold/Avenged Sevenfold - Gunslinger.mp3
-5:Music/AvengedSevenFold/Avenged Sevenfold - Unbound (The Wild Ride).mp3
-6:Music/AvengedSevenFold/Avenged Sevenfold - Brompton Cocktail.mp3
-7:Music/AvengedSevenFold/Avenged Sevenfold - Lost.mp3
-8:Music/AvengedSevenFold/Avenged Sevenfold - A Little Piece of Heaven.mp3
-9:Music/AvengedSevenFold/Avenged Sevenfold - Dear God.mp3
-10:Music/AvengedSevenFold/Avenged Sevenfold - Almost Easy - Jam-Along Version.mp3
-11:Music/AvengedSevenFold/Avenged Sevenfold - Bat Country - Live at Hammerstein Ballroom.mp3
-12:Music/AvengedSevenFold/Avenged Sevenfold - Beast and the Harlot.mp3
-13:Music/AvengedSevenFold/Avenged Sevenfold - Burn It Down.mp3
-14:Music/AvengedSevenFold/Avenged Sevenfold - Blinded in Chains.mp3
-15:Music/AvengedSevenFold/Avenged Sevenfold - Bat Country.mp3
-16:Music/AvengedSevenFold/Avenged Sevenfold - Trashed and Scattered.mp3
-17:Music/AvengedSevenFold/Avenged Sevenfold - Seize the Day.mp3
-18:Music/AvengedSevenFold/Avenged Sevenfold - Sidewinder.mp3
-19:Music/AvengedSevenFold/Avenged Sevenfold - The Wicked End.mp3
-20:Music/AvengedSevenFold/Avenged Sevenfold - Strength of the World.mp3
-21:Music/AvengedSevenFold/Avenged Sevenfold - Betrayed.mp3
-22:Music/AvengedSevenFold/Avenged Sevenfold - M.I.A..mp3
-23:Music/AvengedSevenFold/Avenged Sevenfold - Demons.mp3
-24:Music/AvengedSevenFold/Avenged Sevenfold - Girl I Know.mp3
-25:Music/AvengedSevenFold/Avenged Sevenfold - Crossroads.mp3
-26:Music/AvengedSevenFold/Avenged Sevenfold - Flash of the Blade.mp3
-27:Music/AvengedSevenFold/Avenged Sevenfold - Until the End.mp3
-28:Music/AvengedSevenFold/Avenged Sevenfold - Tension.mp3
-29:Music/AvengedSevenFold/Avenged Sevenfold - Walk.mp3
-30:Music/AvengedSevenFold/Avenged Sevenfold - The Fight.mp3
-31:Music/AvengedSevenFold/Avenged Sevenfold - Dancing Dead.mp3
-32:Music/AvengedSevenFold/Avenged Sevenfold - Almost Easy - Chris Lord-Alge Mix.mp3
-33:Music/AvengedSevenFold/Avenged Sevenfold - Afterlife - Alternate Version.mp3
-34:Music/AvengedSevenFold/Avenged Sevenfold - St. James.mp3
-35:Music/AvengedSevenFold/Avenged Sevenfold - Set Me Free.mp3
-36:Music/AvengedSevenFold/Avenged Sevenfold - 4-00 AM.mp3
-37:Music/AvengedSevenFold/Avenged Sevenfold - Lost It All.mp3
-38:Music/AvengedSevenFold/Avenged Sevenfold - Paranoid.mp3
-39:Music/AvengedSevenFold/Avenged Sevenfold - Shepherd of Fire.mp3
-40:Music/AvengedSevenFold/Avenged Sevenfold - Hail to the King.mp3
-41:Music/AvengedSevenFold/Avenged Sevenfold - Doing Time.mp3
-42:Music/AvengedSevenFold/Avenged Sevenfold - This Means War.mp3
-43:Music/AvengedSevenFold/Avenged Sevenfold - Requiem.mp3
-44:Music/AvengedSevenFold/Avenged Sevenfold - Crimson Day.mp3
-45:Music/AvengedSevenFold/Avenged Sevenfold - Heretic.mp3
-46:Music/AvengedSevenFold/Avenged Sevenfold - Coming Home.mp3
-47:Music/AvengedSevenFold/Avenged Sevenfold - Planets.mp3
-48:Music/AvengedSevenFold/Avenged Sevenfold - Acid Rain.mp3
-49:Music/AvengedSevenFold/Avenged Sevenfold - Andronikos Theme.mp3
-50:Music/AvengedSevenFold/Avenged Sevenfold - Nightmare Theme.mp3
-51:Music/AvengedSevenFold/Avenged Sevenfold - Unholy Theme.mp3
-52:Music/AvengedSevenFold/Avenged Sevenfold - Bat Country Theme.mp3
-53:Music/AvengedSevenFold/Avenged Sevenfold - Babylon Theme.mp3
-54:Music/AvengedSevenFold/Avenged Sevenfold - Afterlife Theme.mp3
-55:Music/AvengedSevenFold/Avenged Sevenfold - Heaven Theme.mp3
-56:Music/AvengedSevenFold/Avenged Sevenfold - Wicked End Theme.mp3
-57:Music/AvengedSevenFold/Avenged Sevenfold - Warrior Theme.mp3
-58:Music/AvengedSevenFold/Avenged Sevenfold - Andronikos Theme - 8-bit Version.mp3
-59:Music/AvengedSevenFold/Avenged Sevenfold - Game Over.mp3
-60:Music/AvengedSevenFold/Avenged Sevenfold - Mattel.mp3
-61:Music/AvengedSevenFold/Avenged Sevenfold - Nobody.mp3
-62:Music/AvengedSevenFold/Avenged Sevenfold - We Love You.mp3
-63:Music/AvengedSevenFold/Avenged Sevenfold - Cosmic.mp3
-64:Music/AvengedSevenFold/Avenged Sevenfold - Beautiful Morning.mp3
-65:Music/AvengedSevenFold/Avenged Sevenfold - Easier.mp3
-66:Music/AvengedSevenFold/Avenged Sevenfold - G.mp3
-67:Music/AvengedSevenFold/Avenged Sevenfold - (O)rdinary.mp3
-68:Music/AvengedSevenFold/Avenged Sevenfold - (D)eath.mp3
-69:Music/AvengedSevenFold/Avenged Sevenfold - Life Is But a Dream....mp3
-70:Music/AvengedSevenFold/Avenged Sevenfold - Nightmare.mp3
-71:Music/AvengedSevenFold/Avenged Sevenfold - Welcome to the Family.mp3
-72:Music/AvengedSevenFold/Avenged Sevenfold - Danger Line.mp3
-73:Music/AvengedSevenFold/Avenged Sevenfold - Buried Alive.mp3
-74:Music/AvengedSevenFold/Avenged Sevenfold - Natural Born Killer.mp3
-75:Music/AvengedSevenFold/Avenged Sevenfold - So Far Away.mp3
-76:Music/AvengedSevenFold/Avenged Sevenfold - God Hates Us.mp3
-77:Music/AvengedSevenFold/Avenged Sevenfold - Victim.mp3
-78:Music/AvengedSevenFold/Avenged Sevenfold - Tonight the World Dies.mp3
-79:Music/AvengedSevenFold/Avenged Sevenfold - Fiction.mp3
-80:Music/AvengedSevenFold/Avenged Sevenfold - Save Me.mp3
-81:Music/AvengedSevenFold/Avenged Sevenfold - To End The Rapture.mp3
-82:Music/AvengedSevenFold/Avenged Sevenfold - Turn The Other Way.mp3
-83:Music/AvengedSevenFold/Avenged Sevenfold - Darkness Surrounding.mp3
-84:Music/AvengedSevenFold/Avenged Sevenfold - The Art Of Subconscious Illusion.mp3
-85:Music/AvengedSevenFold/Avenged Sevenfold - We Come Out At Night.mp3
-86:Music/AvengedSevenFold/Avenged Sevenfold - Lips Of Deceit.mp3
-87:Music/AvengedSevenFold/Avenged Sevenfold - Warmness On The Soul.mp3
-88:Music/AvengedSevenFold/Avenged Sevenfold - An Epic Of Time Wasted.mp3
-89:Music/AvengedSevenFold/Avenged Sevenfold - Breaking Their Hold.mp3
-90:Music/AvengedSevenFold/Avenged Sevenfold - Forgotten Faces.mp3
-91:Music/AvengedSevenFold/Avenged Sevenfold - Thick And Thin.mp3
-92:Music/AvengedSevenFold/Avenged Sevenfold - Streets.mp3
-93:Music/AvengedSevenFold/Avenged Sevenfold - Shattered By Broken Dreams.mp3
-94:Music/AvengedSevenFold/Avenged Sevenfold - The Stage.mp3
-95:Music/AvengedSevenFold/Avenged Sevenfold - Paradigm.mp3
-96:Music/AvengedSevenFold/Avenged Sevenfold - Sunny Disposition.mp3
-97:Music/AvengedSevenFold/Avenged Sevenfold - God Damn.mp3
-98:Music/AvengedSevenFold/Avenged Sevenfold - Creating God.mp3
-99:Music/AvengedSevenFold/Avenged Sevenfold - Angels.mp3
-100:Music/AvengedSevenFold/Avenged Sevenfold - Simulation.mp3
-101:Music/AvengedSevenFold/Avenged Sevenfold - Higher.mp3
-102:Music/AvengedSevenFold/Avenged Sevenfold - Roman Sky.mp3
-103:Music/AvengedSevenFold/Avenged Sevenfold - Fermi Paradox.mp3
-104:Music/AvengedSevenFold/Avenged Sevenfold - Exist.mp3
-105:Music/AvengedSevenFold/Avenged Sevenfold - Waking the Fallen.mp3
-106:Music/AvengedSevenFold/Avenged Sevenfold - Unholy Confessions.mp3
-107:Music/AvengedSevenFold/Avenged Sevenfold - Chapter Four.mp3
-108:Music/AvengedSevenFold/Avenged Sevenfold - Remenissions.mp3
-109:Music/AvengedSevenFold/Avenged Sevenfold - Desecrate Through Reverence.mp3
-110:Music/AvengedSevenFold/Avenged Sevenfold - Eternal Rest.mp3
-111:Music/AvengedSevenFold/Avenged Sevenfold - Second Heartbeat.mp3
-112:Music/AvengedSevenFold/Avenged Sevenfold - Radiant Eclipse.mp3
-113:Music/AvengedSevenFold/Avenged Sevenfold - I Won't See You Tonight Part 1.mp3
-114:Music/AvengedSevenFold/Avenged Sevenfold - I Won't See You Tonight Part 2.mp3
-115:Music/AvengedSevenFold/Avenged Sevenfold - Clairvoyant Disease.mp3
-116:Music/AvengedSevenFold/Avenged Sevenfold - And All Things Will End.mp3
-117:Music/AvengedSevenFold/Avenged Sevenfold - Waking The Fallen.mp3
-118:Music/AvengedSevenFold/Avenged Sevenfold - Waking The Fallen- Resurrected.mp3
-119:Music/AvengedSevenFold/Avenged Sevenfold - Second Heartbeat - Alternate Version.mp3
-120:Music/AvengedSevenFold/Avenged Sevenfold - Chapter Four - Demo.mp3
-121:Music/AvengedSevenFold/Avenged Sevenfold - Remenissions - Demo.mp3
-122:Music/AvengedSevenFold/Avenged Sevenfold - I Won't See You Tonight Part 1 - Demo.mp3
-123:Music/AvengedSevenFold/Avenged Sevenfold - I Won't See You Tonight Part 2 - Demo.mp3
-124:Music/AvengedSevenFold/Avenged Sevenfold - IntroChapter Four - Live in Ventura.mp3
-125:Music/AvengedSevenFold/Avenged Sevenfold - Desecrate Through Reverence - Live in Pomona.mp3
-126:Music/AvengedSevenFold/Avenged Sevenfold - Eternal Rest - Live in Pomona.mp3
-127:Music/AvengedSevenFold/Avenged Sevenfold - Unholy Confessions - Live in Ventura.mp3
-128:Music/AvengedSevenFold/Avenged Sevenfold - Second Heartbeat - Live in Ventura.mp3
+0:Music/EvaneScence/Evanescence - Going Under.mp3
+1:Music/EvaneScence/Evanescence - Everybody's Fool.mp3
+2:Music/EvaneScence/Evanescence - My Immortal.mp3
+3:Music/EvaneScence/Evanescence - Haunted.mp3
+4:Music/EvaneScence/Evanescence - Tourniquet.mp3
+5:Music/EvaneScence/Evanescence - Imaginary.mp3
+6:Music/EvaneScence/Evanescence - Taking Over Me.mp3
+7:Music/EvaneScence/Evanescence - Hello.mp3
+8:Music/EvaneScence/Evanescence - My Last Breath.mp3
+9:Music/EvaneScence/Evanescence - Sweet Sacrifice.mp3
+10:Music/EvaneScence/Evanescence - Call Me When You're Sober.mp3
+11:Music/EvaneScence/Evanescence - Weight Of The World.mp3
+12:Music/EvaneScence/Evanescence - Lithium.mp3
+13:Music/EvaneScence/Evanescence - Cloud Nine.mp3
+14:Music/EvaneScence/Evanescence - Snow White Queen.mp3
+15:Music/EvaneScence/Evanescence - Lacrymosa.mp3
+16:Music/EvaneScence/Evanescence - Like You.mp3
+17:Music/EvaneScence/Evanescence - Lose Control.mp3
+18:Music/EvaneScence/Evanescence - The Only One.mp3
+19:Music/EvaneScence/Evanescence - Your Star.mp3
+20:Music/EvaneScence/Evanescence - All That I Am Living For.mp3
+21:Music/EvaneScence/Evanescence - Good Enough.mp3
+22:Music/DreamTheater/Dream Theater - A Change of Seasons - The Crimson Sunrise  Innocence  Carpe Diem  The Darkest of Winters  Another World  The Inevitable Summer  The Crimson Sunset.mp3
+23:Music/DreamTheater/Dream Theater - Funeral for a Friend  Love Lies Bleeding - Live at Ronnie Scott's Jazz Club, London, England, UK, 1311995.mp3
+24:Music/DreamTheater/Dream Theater - Perfect Strangers - Live at Ronnie Scott's Jazz Club, London, England, UK, 1311995.mp3
+25:Music/DreamTheater/Dream Theater - Led Zeppelin Medley - The Rover  Achilles Last Stand  The Song Remains the Same - Live at Ronnie Scott's Jazz Club, London, England, UK, 1311995.mp3
+26:Music/DreamTheater/Dream Theater - The Big Medley - In the Flesh  Carry on Wayward Son  Bohemian Rhapsody  Lovin, Touchin, Squeezin  Cruise Control  Turn It on Again - Live at Ronnie Scott's Jazz Club, London, England, UK, 1311995.mp3
+27:Music/DreamTheater/Dream Theater - On the Backs of Angels.mp3
+28:Music/DreamTheater/Dream Theater - Build Me Up, Break Me Down.mp3
+29:Music/DreamTheater/Dream Theater - Lost Not Forgotten.mp3
+30:Music/DreamTheater/Dream Theater - This Is the Life.mp3
+31:Music/DreamTheater/Dream Theater - Bridges in the Sky.mp3
+32:Music/DreamTheater/Dream Theater - Outcry.mp3
+33:Music/DreamTheater/Dream Theater - Far from Heaven.mp3
+34:Music/DreamTheater/Dream Theater - Breaking All Illusions.mp3
+35:Music/DreamTheater/Dream Theater - Beneath the Surface.mp3
+36:Music/DreamTheater/Dream Theater - The Alien.mp3
+37:Music/DreamTheater/Dream Theater - Answering the Call.mp3
+38:Music/DreamTheater/Dream Theater - Invisible Monster.mp3
+39:Music/DreamTheater/Dream Theater - Sleeping Giant.mp3
+40:Music/DreamTheater/Dream Theater - Transcending Time.mp3
+41:Music/DreamTheater/Dream Theater - Awaken the Master.mp3
+42:Music/DreamTheater/Dream Theater - A View from the Top of the World.mp3
+43:Music/DreamTheater/Dream Theater - 6-00.mp3
+44:Music/DreamTheater/Dream Theater - Caught in a Web.mp3
+45:Music/DreamTheater/Dream Theater - Innocence Faded.mp3
+46:Music/DreamTheater/Dream Theater - Erotomania.mp3
+47:Music/DreamTheater/Dream Theater - Voices.mp3
+48:Music/DreamTheater/Dream Theater - The Silent Man.mp3
+49:Music/DreamTheater/Dream Theater - The Mirror.mp3
+50:Music/DreamTheater/Dream Theater - Lie.mp3
+51:Music/DreamTheater/Dream Theater - Lifting Shadows Off a Dream.mp3
+52:Music/DreamTheater/Dream Theater - Scarred.mp3
+53:Music/DreamTheater/Dream Theater - Space-Dye Vest.mp3
+54:Music/DreamTheater/Dream Theater - A Nightmare to Remember.mp3
+55:Music/DreamTheater/Dream Theater - A Rite of Passage.mp3
+56:Music/DreamTheater/Dream Theater - Wither.mp3
+57:Music/DreamTheater/Dream Theater - The Shattered Fortress.mp3
+58:Music/DreamTheater/Dream Theater - The Best of Times.mp3
+59:Music/DreamTheater/Dream Theater - The Count of Tuscany.mp3
+60:Music/DreamTheater/Dream Theater - Stargazer.mp3
+61:Music/DreamTheater/Dream Theater - Tenement Funster  Flick of the Wrist  Lily of the Valley.mp3
+62:Music/DreamTheater/Dream Theater - Odyssey.mp3
+63:Music/DreamTheater/Dream Theater - Take Your Fingers from My Hair.mp3
+64:Music/DreamTheater/Dream Theater - Larks Tongues in Aspic, Pt. 2.mp3
+65:Music/DreamTheater/Dream Theater - To Tame a Land.mp3
+66:Music/DreamTheater/Dream Theater - Untethered Angel.mp3
+67:Music/DreamTheater/Dream Theater - Paralyzed.mp3
+68:Music/DreamTheater/Dream Theater - Fall into the Light.mp3
+69:Music/DreamTheater/Dream Theater - Barstool Warrior.mp3
+70:Music/DreamTheater/Dream Theater - Room 137.mp3
+71:Music/DreamTheater/Dream Theater - S2N.mp3
+72:Music/DreamTheater/Dream Theater - At Wit's End.mp3
+73:Music/DreamTheater/Dream Theater - Out of Reach.mp3
+74:Music/DreamTheater/Dream Theater - Pale Blue Dot.mp3
+75:Music/DreamTheater/Dream Theater - Viper King (Bonus track).mp3
+76:Music/DreamTheater/Dream Theater - False Awakening Suite.mp3
+77:Music/DreamTheater/Dream Theater - The Enemy Inside.mp3
+78:Music/DreamTheater/Dream Theater - The Looking Glass.mp3
+79:Music/DreamTheater/Dream Theater - Enigma Machine.mp3
+80:Music/DreamTheater/Dream Theater - The Bigger Picture.mp3
+81:Music/DreamTheater/Dream Theater - Behind the Veil.mp3
+82:Music/DreamTheater/Dream Theater - Surrender to Reason.mp3
+83:Music/DreamTheater/Dream Theater - Along for the Ride.mp3
+84:Music/DreamTheater/Dream Theater - Illumination Theory.mp3
+85:Music/DreamTheater/Dream Theater - New Millennium.mp3
+86:Music/DreamTheater/Dream Theater - You Not Me - Edit.mp3
+87:Music/DreamTheater/Dream Theater - Peruvian Skies.mp3
+88:Music/DreamTheater/Dream Theater - Hollow Years.mp3
+89:Music/DreamTheater/Dream Theater - Burning My Soul.mp3
+90:Music/DreamTheater/Dream Theater - Hell's Kitchen.mp3
+91:Music/DreamTheater/Dream Theater - Lines in the Sand.mp3
+92:Music/DreamTheater/Dream Theater - Take Away My Pain.mp3
+93:Music/DreamTheater/Dream Theater - Just Let Me Breathe.mp3
+94:Music/DreamTheater/Dream Theater - Anna Lee.mp3
+95:Music/DreamTheater/Dream Theater - Trial of Tears - I. It's Raining  II. Deep in Heaven  III. The Wasteland.mp3
+96:Music/DreamTheater/Dream Theater - Pull Me Under.mp3
+97:Music/DreamTheater/Dream Theater - Another Day.mp3
+98:Music/DreamTheater/Dream Theater - Take the Time.mp3
+99:Music/DreamTheater/Dream Theater - Surrounded.mp3
+100:Music/DreamTheater/Dream Theater - Metropolis - Part I- 'The Miracle and the Sleeper'.mp3
+101:Music/DreamTheater/Dream Theater - Under a Glass Moon.mp3
+102:Music/DreamTheater/Dream Theater - Wait for Sleep.mp3
+103:Music/DreamTheater/Dream Theater - Learning to Live.mp3
+104:Music/DreamTheater/Dream Theater - Scene One- Regression.mp3
+105:Music/DreamTheater/Dream Theater - Scene Two- I. Overture 1928.mp3
+106:Music/DreamTheater/Dream Theater - Scene Two- II. Strange Déjà Vu.mp3
+107:Music/DreamTheater/Dream Theater - Scene Three- I. Through My Words.mp3
+108:Music/DreamTheater/Dream Theater - Scene Three- II. Fatal Tragedy.mp3
+109:Music/DreamTheater/Dream Theater - Scene Four- Beyond This Life.mp3
+110:Music/DreamTheater/Dream Theater - Scene Five- Through Her Eyes.mp3
+111:Music/DreamTheater/Dream Theater - Scene Six- Home.mp3
+112:Music/DreamTheater/Dream Theater - Scene Seven- I. The Dance of Eternity.mp3
+113:Music/DreamTheater/Dream Theater - Scene Seven- II. One Last Time.mp3
+114:Music/DreamTheater/Dream Theater - Scene Eight- The Spirit Carries On.mp3
+115:Music/DreamTheater/Dream Theater - Scene Nine- Finally Free.mp3
+116:Music/DreamTheater/Dream Theater - The Root of All Evil.mp3
+117:Music/DreamTheater/Dream Theater - The Answer Lies Within.mp3
+118:Music/DreamTheater/Dream Theater - These Walls.mp3
+119:Music/DreamTheater/Dream Theater - I Walk Beside You.mp3
+120:Music/DreamTheater/Dream Theater - Panic Attack.mp3
+121:Music/DreamTheater/Dream Theater - Never Enough.mp3
+122:Music/DreamTheater/Dream Theater - Sacrificed Sons.mp3
+123:Music/DreamTheater/Dream Theater - Octavarium.mp3
+124:Music/DreamTheater/Dream Theater - In the Arms of Morpheus.mp3
+125:Music/DreamTheater/Dream Theater - Night Terror.mp3
+126:Music/DreamTheater/Dream Theater - A Broken Man.mp3
+127:Music/DreamTheater/Dream Theater - Dead Asleep.mp3
+128:Music/DreamTheater/Dream Theater - Midnight Messiah.mp3
+129:Music/DreamTheater/Dream Theater - Are We Dreaming.mp3
+130:Music/DreamTheater/Dream Theater - Bend the Clock.mp3
+131:Music/DreamTheater/Dream Theater - The Shadow Man Incident.mp3
+132:Music/DreamTheater/Dream Theater - The Glass Prison.mp3
+133:Music/DreamTheater/Dream Theater - Blind Faith.mp3
+134:Music/DreamTheater/Dream Theater - Misunderstood.mp3
+135:Music/DreamTheater/Dream Theater - The Great Debate.mp3
+136:Music/DreamTheater/Dream Theater - Disappear.mp3
+137:Music/DreamTheater/Dream Theater - I. Overture.mp3
+138:Music/DreamTheater/Dream Theater - About to Crash.mp3
+139:Music/DreamTheater/Dream Theater - III. War Inside My Head.mp3
+140:Music/DreamTheater/Dream Theater - IV. The Test That Stumped Them All.mp3
+141:Music/DreamTheater/Dream Theater - V. Goodnight Kiss.mp3
+142:Music/DreamTheater/Dream Theater - VI. Solitary Shell.mp3
+143:Music/DreamTheater/Dream Theater - About to Crash (Reprise).mp3
+144:Music/DreamTheater/Dream Theater - VIII. Losing Time  Grand Finale.mp3
+145:Music/DreamTheater/Dream Theater - In the Presence of Enemies - Part I.mp3
+146:Music/DreamTheater/Dream Theater - Forsaken.mp3
+147:Music/DreamTheater/Dream Theater - Constant Motion.mp3
+148:Music/DreamTheater/Dream Theater - The Dark Eternal Night.mp3
+149:Music/DreamTheater/Dream Theater - Repentance.mp3
+150:Music/DreamTheater/Dream Theater - Prophets of War.mp3
+151:Music/DreamTheater/Dream Theater - The Ministry of Lost Souls.mp3
+152:Music/DreamTheater/Dream Theater - In the Presence of Enemies - Part II.mp3
+153:Music/DreamTheater/Dream Theater - Descent of the NOMACS.mp3
+154:Music/DreamTheater/Dream Theater - Dystopian Overture.mp3
+155:Music/DreamTheater/Dream Theater - The Gift of Music.mp3
+156:Music/DreamTheater/Dream Theater - The Answer.mp3
+157:Music/DreamTheater/Dream Theater - A Better Life.mp3
+158:Music/DreamTheater/Dream Theater - Lord Nafaryus.mp3
+159:Music/DreamTheater/Dream Theater - A Savior in the Square.mp3
+160:Music/DreamTheater/Dream Theater - When Your Time Has Come.mp3
+161:Music/DreamTheater/Dream Theater - Act of Faythe.mp3
+162:Music/DreamTheater/Dream Theater - Three Days.mp3
+163:Music/DreamTheater/Dream Theater - The Hovering Sojourn.mp3
+164:Music/DreamTheater/Dream Theater - Brother, Can You Hear Me.mp3
+165:Music/DreamTheater/Dream Theater - A Life Left Behind.mp3
+166:Music/DreamTheater/Dream Theater - Ravenskill.mp3
+167:Music/DreamTheater/Dream Theater - Chosen.mp3
+168:Music/DreamTheater/Dream Theater - A Tempting Offer.mp3
+169:Music/DreamTheater/Dream Theater - Digital Discord.mp3
+170:Music/DreamTheater/Dream Theater - The X Aspect.mp3
+171:Music/DreamTheater/Dream Theater - A New Beginning.mp3
+172:Music/DreamTheater/Dream Theater - The Road to Revolution.mp3
+173:Music/DreamTheater/Dream Theater - 2285 Entr'acte.mp3
+174:Music/DreamTheater/Dream Theater - Moment of Betrayal.mp3
+175:Music/DreamTheater/Dream Theater - Heaven's Cove.mp3
+176:Music/DreamTheater/Dream Theater - Begin Again.mp3
+177:Music/DreamTheater/Dream Theater - The Path That Divides.mp3
+178:Music/DreamTheater/Dream Theater - Machine Chatter.mp3
+179:Music/DreamTheater/Dream Theater - The Walking Shadow.mp3
+180:Music/DreamTheater/Dream Theater - My Last Farewell.mp3
+181:Music/DreamTheater/Dream Theater - Losing Faythe.mp3
+182:Music/DreamTheater/Dream Theater - Whispers on the Wind.mp3
+183:Music/DreamTheater/Dream Theater - Hymn of a Thousand Voices.mp3
+184:Music/DreamTheater/Dream Theater - Our New World.mp3
+185:Music/DreamTheater/Dream Theater - Power Down.mp3
+186:Music/DreamTheater/Dream Theater - Astonishing.mp3
+187:Music/DreamTheater/Dream Theater - As I Am.mp3
+188:Music/DreamTheater/Dream Theater - This Dying Soul.mp3
+189:Music/DreamTheater/Dream Theater - Endless Sacrifice.mp3
+190:Music/DreamTheater/Dream Theater - Honor Thy Father.mp3
+191:Music/DreamTheater/Dream Theater - Vacant.mp3
+192:Music/DreamTheater/Dream Theater - Stream of Consciousness.mp3
+193:Music/DreamTheater/Dream Theater - In the Name of God.mp3
+194:Music/DreamTheater/Dream Theater - A Fortune In Lies.mp3
+195:Music/DreamTheater/Dream Theater - Status Seeker.mp3
+196:Music/DreamTheater/Dream Theater - Ytse Jam.mp3
+197:Music/DreamTheater/Dream Theater - The Killing Hand.mp3
+198:Music/DreamTheater/Dream Theater - Light Fuse And Get Away.mp3
+199:Music/DreamTheater/Dream Theater - Afterlife.mp3
+200:Music/DreamTheater/Dream Theater - The One Who Help To Set The Sun.mp3
+201:Music/DreamTheater/Dream Theater - Only A Matter Of Time.mp3
+202:Music/Draconian/Draconian - The Drowning Age.mp3
+203:Music/Draconian/Draconian - The Last Hour of Ancient Sunlight.mp3
+204:Music/Draconian/Draconian - End of the Robe.mp3
+205:Music/Draconian/Draconian - Elysian Night.mp3
+206:Music/Draconian/Draconian - Deadlight.mp3
+207:Music/Draconian/Draconian - Dead World Assembly.mp3
+208:Music/Draconian/Draconian - A Phantom Dissonance.mp3
+209:Music/Draconian/Draconian - The Quiet Storm.mp3
+210:Music/Draconian/Draconian - The Death of Hours.mp3
+211:Music/Draconian/Draconian - Wall of Sighs - Bonus Track.mp3
+212:Music/Draconian/Draconian - A Scenery of Loss.mp3
+213:Music/Draconian/Draconian - Daylight Misery.mp3
+214:Music/Draconian/Draconian - The Apostacy Canticle.mp3
+215:Music/Draconian/Draconian - Expostulation.mp3
+216:Music/Draconian/Draconian - Heaven Laid in Tears.mp3
+217:Music/Draconian/Draconian - The Abhorrent Rays.mp3
+218:Music/Draconian/Draconian - The Everlasting Scar.mp3
+219:Music/Draconian/Draconian - Death, Come Near Me.mp3
+220:Music/Draconian/Draconian - Heavy Lies the Crown.mp3
+221:Music/Draconian/Draconian - The Wretched Tide.mp3
+222:Music/Draconian/Draconian - Pale Tortured Blue.mp3
+223:Music/Draconian/Draconian - Stellar Tombs.mp3
+224:Music/Draconian/Draconian - No Lonelier Star.mp3
+225:Music/Draconian/Draconian - Dusk Mariner.mp3
+226:Music/Draconian/Draconian - Dishearten.mp3
+227:Music/Draconian/Draconian - Rivers Between Us.mp3
+228:Music/Draconian/Draconian - The Marriage of Attaris.mp3
+229:Music/Draconian/Draconian - With Love and Defiance (Bonus Track).mp3
+230:Music/Draconian/Draconian - She Dies.mp3
+231:Music/Draconian/Draconian - Through Infectious Waters.mp3
+232:Music/Draconian/Draconian - The Dying.mp3
+233:Music/Draconian/Draconian - Serenade of Sorrow.mp3
+234:Music/Draconian/Draconian - The Morningstar.mp3
+235:Music/Draconian/Draconian - The Gothic Embrace.mp3
+236:Music/Draconian/Draconian - On Sunday They Will Kill the World.mp3
+237:Music/Draconian/Draconian - Forever My Queen.mp3
+238:Music/Draconian/Draconian - Seasons Apart.mp3
+239:Music/Draconian/Draconian - When I Wake.mp3
+240:Music/Draconian/Draconian - Earthbound.mp3
+241:Music/Draconian/Draconian - Not Breathing.mp3
+242:Music/Draconian/Draconian - The Failure Epiphany.mp3
+243:Music/Draconian/Draconian - Morphine Cloud.mp3
+244:Music/Draconian/Draconian - Bloodflower.mp3
+245:Music/Draconian/Draconian - The Empty Stare.mp3
+246:Music/Draconian/Draconian - September Ashes.mp3
+247:Music/Draconian/Draconian - Sorrow of Sophia.mp3
+248:Music/Draconian/Draconian - The Sacrificial Flame.mp3
+249:Music/Draconian/Draconian - Lustrous Heart.mp3
+250:Music/Draconian/Draconian - Sleepwalkers.mp3
+251:Music/Draconian/Draconian - Moon over Sabaoth.mp3
+252:Music/Draconian/Draconian - Burial Fields.mp3
+253:Music/Draconian/Draconian - The Sethian.mp3
+254:Music/Draconian/Draconian - Claw Marks on the Throne.mp3
+255:Music/Draconian/Draconian - Night Visitor.mp3
+256:Music/Draconian/Draconian - Ascend into Darkness.mp3
+257:Music/Draconian/Draconian - The Cry of Silence.mp3
+258:Music/Draconian/Draconian - Silent Winter.mp3
+259:Music/Draconian/Draconian - A Slumber Did My Spirit Seal.mp3
+260:Music/Draconian/Draconian - The Solitude.mp3
+261:Music/Draconian/Draconian - Reversio Ad Secessum.mp3
+262:Music/Draconian/Draconian - The Amaranth.mp3
+263:Music/Draconian/Draconian - Akherousia.mp3
+264:Music/Draconian/Draconian - It Grieves My Heart.mp3
+265:Music/Mgla/Mgła - Exercises in Futility I.mp3
+266:Music/Mgla/Mgła - Exercises in Futility II.mp3
+267:Music/Mgla/Mgła - Exercises in Futility III.mp3
+268:Music/Mgla/Mgła - Exercises in Futility IV.mp3
+269:Music/Mgla/Mgła - Exercises in Futility V.mp3
+270:Music/Mgla/Mgła - Exercises in Futility VI.mp3
+271:Music/MyDyingBride/My Dying Bride - The Whore, The Cook and the Mother.mp3
+272:Music/MyDyingBride/My Dying Bride - The Stance of Evander Sinque.mp3
+273:Music/MyDyingBride/My Dying Bride - Der Uberlebende.mp3
+274:Music/MyDyingBride/My Dying Bride - Heroin Chic.mp3
+275:Music/MyDyingBride/My Dying Bride - Apocalypse Woman.mp3
+276:Music/MyDyingBride/My Dying Bride - Base Level Erotica.mp3
+277:Music/MyDyingBride/My Dying Bride - Under Your Wings and into Your Arms.mp3
+278:Music/MyDyingBride/My Dying Bride - L'Amour Detruit.mp3
+279:Music/MyDyingBride/My Dying Bride - I Cannot Be Loved.mp3
+280:Music/MyDyingBride/My Dying Bride - And I Walk With Them.mp3
+281:Music/MyDyingBride/My Dying Bride - Thy Raven Wings.mp3
+282:Music/MyDyingBride/My Dying Bride - Loves Intolerable Pain.mp3
+283:Music/MyDyingBride/My Dying Bride - One Of Beauty's Daughters.mp3
+284:Music/MyDyingBride/My Dying Bride - Deeper Down.mp3
+285:Music/MyDyingBride/My Dying Bride - The Blood, The Wine, The Roses.mp3
+286:Music/MyDyingBride/My Dying Bride - Kneel Till Doomsday.mp3
+287:Music/MyDyingBride/My Dying Bride - The Poorest Waltz.mp3
+288:Music/MyDyingBride/My Dying Bride - A Tapestry Scorned.mp3
+289:Music/MyDyingBride/My Dying Bride - Like a Perpetual Funeral.mp3
+290:Music/MyDyingBride/My Dying Bride - A Map of All Our Failures.mp3
+291:Music/MyDyingBride/My Dying Bride - Hail Odysseus.mp3
+292:Music/MyDyingBride/My Dying Bride - Within the Presence of Absence.mp3
+293:Music/MyDyingBride/My Dying Bride - Abandoned as Christ.mp3
+294:Music/MyDyingBride/My Dying Bride - My Faults Are Your Reward.mp3
+295:Music/MyDyingBride/My Dying Bride - Her Dominion.mp3
+296:Music/MyDyingBride/My Dying Bride - Thornwyck Hymn.mp3
+297:Music/MyDyingBride/My Dying Bride - The 2nd of Three Bells.mp3
+298:Music/MyDyingBride/My Dying Bride - Unthroned Creed.mp3
+299:Music/MyDyingBride/My Dying Bride - The Apocalyptist.mp3
+300:Music/MyDyingBride/My Dying Bride - A Starving Heart.mp3
+301:Music/MyDyingBride/My Dying Bride - Crushed Embers.mp3
+302:Music/MyDyingBride/My Dying Bride - Silent Dance.mp3
+303:Music/MyDyingBride/My Dying Bride - Sear Me.mp3
+304:Music/MyDyingBride/My Dying Bride - The Forever People.mp3
+305:Music/MyDyingBride/My Dying Bride - The Bitterness And The Bereavement.mp3
+306:Music/MyDyingBride/My Dying Bride - The Return Of The Beautiful.mp3
+307:Music/MyDyingBride/My Dying Bride - Erotic Literature.mp3
+308:Music/MyDyingBride/My Dying Bride - Bring Me Victory.mp3
+309:Music/MyDyingBride/My Dying Bride - Scarborough Fair.mp3
+310:Music/MyDyingBride/My Dying Bride - Failure.mp3
+311:Music/MyDyingBride/My Dying Bride - Vast Choir (Live).mp3
+312:Music/MyDyingBride/My Dying Bride - Deeper Down - Uberdoom Edit.mp3
+313:Music/MyDyingBride/My Dying Bride - The Child of Eternity.mp3
+314:Music/MyDyingBride/My Dying Bride - A Kiss to Remember - Live.mp3
+315:Music/MyDyingBride/My Dying Bride - In Your Dark Pavilion.mp3
+316:Music/MyDyingBride/My Dying Bride - You Are Not the One Who Loves Me.mp3
+317:Music/MyDyingBride/My Dying Bride - Of Lilies Bent with Tears.mp3
+318:Music/MyDyingBride/My Dying Bride - The Distance, Busy with Shadows.mp3
+319:Music/MyDyingBride/My Dying Bride - Of Sorry Eyes in March.mp3
+320:Music/MyDyingBride/My Dying Bride - Vanitã© Triomphante.mp3
+321:Music/MyDyingBride/My Dying Bride - That Dress and Summer Skin.mp3
+322:Music/MyDyingBride/My Dying Bride - And Then You Go.mp3
+323:Music/MyDyingBride/My Dying Bride - A Hand of Awful Rewards.mp3
+324:Music/MyDyingBride/My Dying Bride - And My Father Left Forever.mp3
+325:Music/MyDyingBride/My Dying Bride - To Shiver in Empty Halls.mp3
+326:Music/MyDyingBride/My Dying Bride - A Cold New Curse.mp3
+327:Music/MyDyingBride/My Dying Bride - Feel the Misery.mp3
+328:Music/MyDyingBride/My Dying Bride - A Thorn of Wisdom.mp3
+329:Music/MyDyingBride/My Dying Bride - I Celebrate Your Skin.mp3
+330:Music/MyDyingBride/My Dying Bride - I Almost Loved You.mp3
+331:Music/MyDyingBride/My Dying Bride - Within a Sleeping Forest.mp3
+332:Music/MyDyingBride/My Dying Bride - My Body, A Funeral.mp3
+333:Music/MyDyingBride/My Dying Bride - Fall With Me.mp3
+334:Music/MyDyingBride/My Dying Bride - The Lies I Sire.mp3
+335:Music/MyDyingBride/My Dying Bride - Echoes From A Hollow Soul.mp3
+336:Music/MyDyingBride/My Dying Bride - Shadow Haunt.mp3
+337:Music/MyDyingBride/My Dying Bride - Santuario Di Sangue.mp3
+338:Music/MyDyingBride/My Dying Bride - A Chapter In Loathing.mp3
+339:Music/MyDyingBride/My Dying Bride - Death Triumphant.mp3
+340:Music/MyDyingBride/My Dying Bride - Sear Me Iii.mp3
+341:Music/MyDyingBride/My Dying Bride - My Wine in Silence.mp3
+342:Music/MyDyingBride/My Dying Bride - Like Gods Of The Sun.mp3
+343:Music/MyDyingBride/My Dying Bride - The Dark Caress.mp3
+344:Music/MyDyingBride/My Dying Bride - Grace Unhearing.mp3
+345:Music/MyDyingBride/My Dying Bride - A Kiss To Remember.mp3
+346:Music/MyDyingBride/My Dying Bride - All Swept Away.mp3
+347:Music/MyDyingBride/My Dying Bride - It Will Come.mp3
+348:Music/MyDyingBride/My Dying Bride - Here In The Throat.mp3
+349:Music/MyDyingBride/My Dying Bride - For My Fallen Angel.mp3
+350:Music/MyDyingBride/My Dying Bride - Grace Unhearing (Portishell remix).mp3
+351:Music/MyDyingBride/My Dying Bride - It Will Come (Nightmare).mp3
+352:Music/MyDyingBride/My Dying Bride - Macabre Cabaret.mp3
+353:Music/MyDyingBride/My Dying Bride - A Secret Kiss.mp3
+354:Music/MyDyingBride/My Dying Bride - A Purse of Gold and Stars.mp3
+355:Music/MyDyingBride/My Dying Bride - Symphonaire Infernus et Spera Empyrium (demo) - Studio.mp3
+356:Music/MyDyingBride/My Dying Bride - The Crown Of Sympathy - Studio.mp3
+357:Music/MyDyingBride/My Dying Bride - The Grief Of Age (demo) - Studio.mp3
+358:Music/MyDyingBride/My Dying Bride - A Kiss To Remember - Studio.mp3
+359:Music/MyDyingBride/My Dying Bride - Grace Unhearing (Portishell remix) - Studio.mp3
+360:Music/MyDyingBride/My Dying Bride - For You - Studio.mp3
+361:Music/MyDyingBride/My Dying Bride - Unreleased Bitterness - Studio.mp3
+362:Music/MyDyingBride/My Dying Bride - Sear Me III - Studio.mp3
+363:Music/MyDyingBride/My Dying Bride - Sear Me Mcmxc111.mp3
+364:Music/MyDyingBride/My Dying Bride - Follower.mp3
+365:Music/MyDyingBride/My Dying Bride - Vast Choirs - Demo.mp3
+366:Music/MyDyingBride/My Dying Bride - She Is the Dark.mp3
+367:Music/MyDyingBride/My Dying Bride - Catching Feathers.mp3
+368:Music/MyDyingBride/My Dying Bride - Two Winters Only.mp3
+369:Music/MyDyingBride/My Dying Bride - Your River.mp3
+370:Music/MyDyingBride/My Dying Bride - Some Velvet Morning.mp3
+371:Music/MyDyingBride/My Dying Bride - Roads.mp3
+372:Music/MyDyingBride/My Dying Bride - Symphonaire Infernus Et Spera Empyrium (Demo).mp3
+373:Music/MyDyingBride/My Dying Bride - The Crown of Sympathy.mp3
+374:Music/MyDyingBride/My Dying Bride - The Grief of Age (Demo).mp3
+375:Music/MyDyingBride/My Dying Bride - A Kiss to Remember.mp3
+376:Music/MyDyingBride/My Dying Bride - Grace Unhearing (Portishell Remix).mp3
+377:Music/MyDyingBride/My Dying Bride - For You.mp3
+378:Music/MyDyingBride/My Dying Bride - Unreleased Bitterness.mp3
+379:Music/MyDyingBride/My Dying Bride - Sear Me III.mp3
+380:Music/MyDyingBride/My Dying Bride - Sear Me MCMXCIII.mp3
+381:Music/MyDyingBride/My Dying Bride - Vast Choirs (Demo).mp3
+382:Music/MyDyingBride/My Dying Bride - Catching Feathers (Demo).mp3
+383:Music/MyDyingBride/My Dying Bride - The Wreckage of My Flesh.mp3
+384:Music/MyDyingBride/My Dying Bride - Deeper Down (Uberdoom Edit).mp3
+385:Music/MyDyingBride/My Dying Bride - She Heard My Body Dying.mp3
+386:Music/MyDyingBride/My Dying Bride - Seven Times She Wept.mp3
+387:Music/MyDyingBride/My Dying Bride - To Remain Tombless.mp3
+388:Music/MyDyingBride/Katatonia - Murder.mp3
+389:Music/MyDyingBride/Darkthrone - The Cult Of Goliath.mp3
+390:Music/MyDyingBride/The Provenance - At The Barricades.mp3
+391:Music/MyDyingBride/Madder Mortem - Evasions.mp3
+392:Music/MyDyingBride/Old - UNDER THE SIGN OF DEATH.mp3
+393:Music/MyDyingBride/Novembre - Verne.mp3
+394:Music/MyDyingBride/Gallhammer - Crucifixion (Rehearsal).mp3
+395:Music/MyDyingBride/Katatonia - Soil's Song.mp3
+396:Music/MyDyingBride/Dominion - Release.mp3
+397:Music/MyDyingBride/Axegrinder - Hellstorm.mp3
+398:Music/MyDyingBride/Deviated Instinct - Putrid Scum.mp3
+399:Music/MyDyingBride/My Dying Bride - The Wreckage Of My Flesh.mp3
+400:Music/MyDyingBride/My Dying Bride - The Scarlet Garden.mp3
+401:Music/MyDyingBride/My Dying Bride - Catherine Blake.mp3
+402:Music/MyDyingBride/My Dying Bride - My Wine In Silence.mp3
+403:Music/MyDyingBride/My Dying Bride - The Prize Of Beauty.mp3
+404:Music/MyDyingBride/My Dying Bride - The Blue Lotus.mp3
+405:Music/MyDyingBride/My Dying Bride - And My Fury Stands Ready.mp3
+406:Music/MyDyingBride/My Dying Bride - A Doomed Lover.mp3
+407:Music/MyDyingBride/My Dying Bride - The Cry of Mankind.mp3
+408:Music/MyDyingBride/My Dying Bride - From Darkest Skies.mp3
+409:Music/MyDyingBride/My Dying Bride - Black Voyage.mp3
+410:Music/MyDyingBride/My Dying Bride - A Sea to Suffer In.mp3
+411:Music/MyDyingBride/My Dying Bride - Your Shameful Heaven.mp3
+412:Music/MyDyingBride/My Dying Bride - The Sexuality of Bereavement.mp3
+413:Music/MyDyingBride/My Dying Bride - Your River - Live.mp3
+414:Music/MyDyingBride/My Dying Bride - A Sea to Suffer In - Live.mp3
+415:Music/MyDyingBride/My Dying Bride - The Forever People - Live.mp3
+416:Music/MyDyingBride/My Dying Bride - The Barghest O' Whitby.mp3
+417:Music/MyDyingBride/My Dying Bride - The Dreadful Hours.mp3
+418:Music/MyDyingBride/My Dying Bride - The Raven And The Rose.mp3
+419:Music/MyDyingBride/My Dying Bride - Le Figlie Della Tempesta.mp3
+420:Music/MyDyingBride/My Dying Bride - Black Heart Romance.mp3
+421:Music/MyDyingBride/My Dying Bride - A Cruel Taste Of Winter.mp3
+422:Music/MyDyingBride/My Dying Bride - My Hope, The Destroyer.mp3
+423:Music/MyDyingBride/My Dying Bride - The Deepest Of All Hearts.mp3
+424:Music/MyDyingBride/My Dying Bride - The Return To The Beautiful.mp3
+425:Music/MyDyingBride/My Dying Bride - Your Broken Shore.mp3
+426:Music/MyDyingBride/My Dying Bride - To Outlive the Gods.mp3
+427:Music/MyDyingBride/My Dying Bride - Tired of Tears.mp3
+428:Music/MyDyingBride/My Dying Bride - The Solace.mp3
+429:Music/MyDyingBride/My Dying Bride - The Long Black Land.mp3
+430:Music/MyDyingBride/My Dying Bride - The Ghost of Orion.mp3
+431:Music/MyDyingBride/My Dying Bride - The Old Earth.mp3
+432:Music/MyDyingBride/My Dying Bride - Your Woven Shore.mp3
+433:Music/MyDyingBride/My Dying Bride - She Is The Dark.mp3
+434:Music/MyDyingBride/My Dying Bride - Edenbeast.mp3
+435:Music/MyDyingBride/My Dying Bride - The Night He Died.mp3
+436:Music/MyDyingBride/My Dying Bride - The Light At The End Of The World.mp3
+437:Music/MyDyingBride/My Dying Bride - The Fever Sea.mp3
+438:Music/MyDyingBride/My Dying Bride - Into The Lake Of Ghosts.mp3
+439:Music/MyDyingBride/My Dying Bride - The Isis Script.mp3
+440:Music/MyDyingBride/My Dying Bride - Christliar.mp3
+441:Music/MyDyingBride/My Dying Bride - The Manuscript.mp3
+442:Music/MyDyingBride/My Dying Bride - Var Gud Over Er.mp3
+443:Music/MyDyingBride/My Dying Bride - A Pale Shroud Of Longing.mp3
+444:Music/MyDyingBride/My Dying Bride - Only Tears To Replace Her With.mp3
+445:Music/MyDyingBride/My Dying Bride - The Barghest O'whitby.mp3
+446:Music/MyDyingBride/My Dying Bride - Var Gud over Er.mp3
+447:Music/MyDyingBride/My Dying Bride - A Pale Shroud of Longing.mp3
+448:Music/MyDyingBride/My Dying Bride - Only Tears to Replace Her With.mp3
+449:Music/MyDyingBride/My Dying Bride - She Is The Dark (live) - Live.mp3
+450:Music/MyDyingBride/My Dying Bride - Turn Loose The Swans (live) - Live.mp3
+451:Music/MyDyingBride/My Dying Bride - The Cry Of Mankind (live) - Live.mp3
+452:Music/MyDyingBride/My Dying Bride - The Snow In My Hand (live) - Live.mp3
+453:Music/MyDyingBride/My Dying Bride - A Cruel Taste Of Winter (live) - Live.mp3
+454:Music/MyDyingBride/My Dying Bride - Under Your Wings And Into Your Arms (live) - Live.mp3
+455:Music/MyDyingBride/My Dying Bride - A Kiss To Remember (live) - Live.mp3
+456:Music/MyDyingBride/My Dying Bride - Your River (live) - Live.mp3
+457:Music/MyDyingBride/My Dying Bride - The Fever Sea (live) - Live.mp3
+458:Music/MyDyingBride/My Dying Bride - Symphonaire Infernus et Spera Empyrium (live) - Live.mp3
+459:Music/MyDyingBride/My Dying Bride - Symphonaire Infernus Et Spera Empyrium.mp3
+460:Music/MyDyingBride/My Dying Bride - God Is Alone.mp3
+461:Music/MyDyingBride/My Dying Bride - De Sade Soliloquy.mp3
+462:Music/MyDyingBride/My Dying Bride - The Thrash Of Naked Limbs.mp3
+463:Music/MyDyingBride/My Dying Bride - Le Cerf Malade.mp3
+464:Music/MyDyingBride/My Dying Bride - Gather Me Up Forever.mp3
+465:Music/MyDyingBride/My Dying Bride - I Am The Bloody Earth.mp3
+466:Music/MyDyingBride/My Dying Bride - The Sexuality Of Bereavement.mp3
+467:Music/MyDyingBride/My Dying Bride - The Crown Of Sympathy - remix.mp3
+468:Music/MyDyingBride/My Dying Bride - Vast Choirs.mp3
+469:Music/MyDyingBride/My Dying Bride - The Songless Bird.mp3
+470:Music/MyDyingBride/My Dying Bride - The Snow in My Hand.mp3
+471:Music/MyDyingBride/My Dying Bride - Turn Loose the Swans.mp3
+472:Music/MyDyingBride/My Dying Bride - Black God.mp3
+473:Music/MyDyingBride/My Dying Bride - Transcending (Into the Exquisite).mp3
+474:Music/MyDyingBride/My Dying Bride - Sear Me Mcmxciii.mp3
+475:Music/MyDyingBride/My Dying Bride - Sear Me Mcmxciii - With Commentary.mp3
+476:Music/MyDyingBride/My Dying Bride - Your River - With Commentary.mp3
+477:Music/MyDyingBride/My Dying Bride - The Songless Bird - With Commentary.mp3
+478:Music/MyDyingBride/My Dying Bride - The Snow in My Hand - With Commentary.mp3
+479:Music/MyDyingBride/My Dying Bride - The Crown of Sympathy - With Commentary.mp3
+480:Music/MyDyingBride/My Dying Bride - Turn Loose the Swans - With Commentary.mp3
+481:Music/MyDyingBride/My Dying Bride - Black God - With Commentary.mp3
+482:Music/Rainbow/Rainbow - Stranded.mp3
+483:Music/Rainbow/Rainbow - Can't Let You Go.mp3
+484:Music/Rainbow/Rainbow - Fool For The Night.mp3
+485:Music/Rainbow/Rainbow - Fire Dance.mp3
+486:Music/Rainbow/Rainbow - Anybody There.mp3
+487:Music/Rainbow/Rainbow - Desperate Heart.mp3
+488:Music/Rainbow/Rainbow - Street Of Dreams.mp3
+489:Music/Rainbow/Rainbow - Drinking With The Devil.mp3
+490:Music/Rainbow/Rainbow - Snowman.mp3
+491:Music/Rainbow/Rainbow - Make Your Move.mp3
+492:Music/Rainbow/Rainbow - I Surrender.mp3
+493:Music/Rainbow/Rainbow - Spotlight Kid.mp3
+494:Music/Rainbow/Rainbow - No Release.mp3
+495:Music/Rainbow/Rainbow - Magic.mp3
+496:Music/Rainbow/Rainbow - Vielleicht Das Nachster Mal.mp3
+497:Music/Rainbow/Rainbow - Can't Happen Here.mp3
+498:Music/Rainbow/Rainbow - Freedom Fighter.mp3
+499:Music/Rainbow/Rainbow - Midtown Tunnel Vision.mp3
+500:Music/Rainbow/Rainbow - Difficult To Cure.mp3
+501:Music/Rainbow/Rainbow - All Night Long.mp3
+502:Music/Rainbow/Rainbow - Eyes Of The World.mp3
+503:Music/Rainbow/Rainbow - No Time To Lose.mp3
+504:Music/Rainbow/Rainbow - Makin' Love.mp3
+505:Music/Rainbow/Rainbow - Since You Been Gone.mp3
+506:Music/Rainbow/Rainbow - Love's No Friend.mp3
+507:Music/Rainbow/Rainbow - Danger Zone.mp3
+508:Music/Rainbow/Rainbow - Lost In Hollywood.mp3
+509:Music/Rainbow/Rainbow - Bad Girl.mp3
+510:Music/Rainbow/Rainbow - Weiss Heim.mp3
+511:Music/Rainbow/Rainbow - Long Live Rock N Roll.mp3
+512:Music/Rainbow/Rainbow - Lady Of The Lake.mp3
+513:Music/Rainbow/Rainbow - L.A. Connection.mp3
+514:Music/Rainbow/Rainbow - Gates Of Babylon.mp3
+515:Music/Rainbow/Rainbow - Kill The King.mp3
+516:Music/Rainbow/Rainbow - The Shed.mp3
+517:Music/Rainbow/Rainbow - Sensitive To Light.mp3
+518:Music/Rainbow/Rainbow - Rainbow Eyes.mp3
+519:Music/Rainbow/Rainbow - Long Live Rock N Roll - L.A. Rehearsal, 1977.mp3
+520:Music/Rainbow/Rainbow - Kill The King - L.A. Rehearsal, 1977.mp3
+521:Music/Rainbow/Rainbow - Long Live Rock N Roll - Live On The Don Kirschner Show, 1978.mp3
+522:Music/Rainbow/Rainbow - L.A. Connection - Live On The Don Kirschner Show, 1978.mp3
+523:Music/Rainbow/Rainbow - Gates Of Babylon - Live On The Don Kirschner Show, 1978.mp3
+524:Music/Rainbow/Rainbow - L.A. Connection - Live On The Don Kirschner Show, 1978 (Outtake Version).mp3
+525:Music/Rainbow/Rainbow - Gates Of Babylon - Live On The Don Kirschner Show, 1978 (Outtake Version).mp3
+526:Music/Rainbow/Rainbow - Tarot Woman.mp3
+527:Music/Rainbow/Rainbow - Run With The Wolf.mp3
+528:Music/Rainbow/Rainbow - Starstruck.mp3
+529:Music/Rainbow/Rainbow - Do You Close Your Eyes.mp3
+530:Music/Rainbow/Rainbow - Stargazer.mp3
+531:Music/Rainbow/Rainbow - A Light In The Black.mp3
+532:Music/Rainbow/Rainbow - Man On The Silver Mountain.mp3
+533:Music/Rainbow/Rainbow - Self Portrait.mp3
+534:Music/Rainbow/Rainbow - Black Sheep Of The Family.mp3
+535:Music/Rainbow/Rainbow - Catch The Rainbow.mp3
+536:Music/Rainbow/Rainbow - Snake Charmer.mp3
+537:Music/Rainbow/Rainbow - The Temple Of The King.mp3
+538:Music/Rainbow/Rainbow - If You Don't Like Rock N Roll.mp3
+539:Music/Rainbow/Rainbow - Sixteenth Century Greensleeves.mp3
+540:Music/Rainbow/Rainbow - Still I'm Sad.mp3
+541:Music/Rainbow/Rainbow - Death Alley Driver.mp3
+542:Music/Rainbow/Rainbow - Stone Cold.mp3
+543:Music/Rainbow/Rainbow - Bring On The Night (Dream Chaser).mp3
+544:Music/Rainbow/Rainbow - Tite Squeeze.mp3
+545:Music/Rainbow/Rainbow - Tearin Out My Heart.mp3
+546:Music/Rainbow/Rainbow - Power.mp3
+547:Music/Rainbow/Rainbow - Miss Mistreated.mp3
+548:Music/Rainbow/Rainbow - Rock Fever.mp3
+549:Music/Rainbow/Rainbow - Eyes Of Fire.mp3
+550:Music/random/Gallows.mp3
+551:Music/random/Thy Light - Suici.De.pression (Full Album) [xCtZCa-Wyj8].opus
+552:Music/random/Blighted Eye - Howls From Beyond the Mist.mp3
+553:Music/random/Candlemass - Mirror Mirror.mp3
+554:Music/random/Solitude Aeturnus - Seeds of the Desolate.mp3
+555:Music/random/Saint Vitus - Dying Inside.mp3
+556:Music/random/Alcatrazz - Suffer Me.mp3
+557:Music/random/Acid King - Electric Machine.mp3
+558:Music/random/Guns N' Roses - This I Love.mp3
+559:Music/random/Pentagram - Broken Vows.mp3
+560:Music/random/Witchfinder General - Free Country.mp3
+561:Music/random/Eyehategod - Dogs Holy Life.mp3
+562:Music/random/Electric Wizard - Barbarian.mp3
+563:Music/random/Electric Wizard - I,The Witchfinder.mp3
+564:Music/random/Monolord - Empress Rising.mp3
+565:Music/random/Candlemass - Crystal Ball.mp3
+566:Music/random/Windhand - Red Cloud.mp3
+567:Music/random/My Dying Bride - And My Father Left Forever.mp3
+568:Music/random/Pentagram - Forever My Queen.mp3
+569:Music/random/Pentagram - Review Your Choices.mp3
+570:Music/random/Pentagram - Last Days Here.mp3
+571:Music/random/Pallbearer - Forgotten Days.mp3
+572:Music/random/Pallbearer - Riverbed.mp3
+573:Music/random/Pallbearer - Stasis.mp3
+574:Music/random/Pallbearer - The Quicksand of Existing.mp3
+575:Music/random/Weedeater - God Luck and Good Speed.mp3
+576:Music/random/Windhand - Forest Clouds.mp3
+577:Music/random/Weedeater - Jason… the Dragon.mp3
+578:Music/random/Witchcraft - Democracy.mp3
+579:Music/random/My Dying Bride - Like Gods Of The Sun.mp3
+580:Music/random/Swallow The Sun - Sleepless Swans.mp3
+581:Music/random/Candlemass - Gothic Stone.mp3
+582:Music/random/Candlemass - Bewitched.mp3
+583:Music/random/Saturnus - Christ Goodbye.mp3
+584:Music/random/Trouble - The Tempter - Remastered 2020.mp3
+585:Music/random/Trouble - Psalm 9 - Remastered 2020.mp3
+586:Music/random/Monolord - Where Death Meets The Sea.mp3
+587:Music/random/Sleep - Aquarian.mp3
+588:Music/random/Sleep - Holy Mountain.mp3
+589:Music/random/Windhand - Orchard.mp3
+590:Music/random/Pallbearer - The Legend.mp3
+591:Music/random/Cough - Haunter of the Dark.mp3
+592:Music/random/Thy Light - Suici.De.Pression (Introduction To My End) - 2012 Remaster.mp3
+593:Music/random/Thy Light - In My Last Mourning... - 2012 Remaster.mp3
+594:Music/random/Thy Light - I am the Bitter Taste of Gall - 2012 Remaster.mp3
+595:Music/random/Candlemass - The Prophecy.mp3
+596:Music/random/Ahab - Old Thunder.mp3
+597:Music/random/My Dying Bride - Black Heart Romance.mp3
+598:Music/random/Cathedral - Violet Vortex.mp3
+599:Music/random/My Dying Bride - To Outlive the Gods.mp3
+600:Music/random/The Obsessed - Fear Child.mp3
+601:Music/random/Novembers Doom - Autumn Reflection.mp3
+602:Music/random/Sleep - Antarcticans Thawed.mp3
+603:Music/random/Pagan Altar - The Black Mass.mp3
+604:Music/random/Pentagram - Death Row.mp3
+605:Music/random/Draconian - Lustrous Heart.mp3
+606:Music/random/Van Halen - Eruption - 2015 Remaster.mp3
+607:Music/random/Saturnus - Rain Wash Me.mp3
+608:Music/random/Witch - Seer.mp3
+609:Music/random/AetherRealm/Æther Realm - The Fool.mp3
+610:Music/random/AetherRealm/Æther Realm - Tarot.mp3
+611:Music/random/AetherRealm/Æther Realm - The Tower.mp3
+612:Music/random/AetherRealm/Æther Realm, Christopher Bowes - King of Cups (feat. Christopher Bowes).mp3
+613:Music/random/AetherRealm/Æther Realm - Death.mp3
+614:Music/random/AetherRealm/Æther Realm - The Chariot.mp3
+615:Music/random/AetherRealm/Æther Realm - The Devil.mp3
+616:Music/random/AetherRealm/Æther Realm - The Emperor.mp3
+617:Music/random/AetherRealm/Æther Realm - Strength.mp3
+618:Music/random/AetherRealm/Æther Realm - Temperance.mp3
+619:Music/random/AetherRealm/Æther Realm - The Sun, The Moon, The Star.mp3
+620:Music/random/AetherRealm/Æther Realm - The Magician.mp3
+621:Music/random/AnAbstractIllusion/An Abstract Illusion - The Behemoth That Lies Asleep.mp3
+622:Music/random/AnAbstractIllusion/An Abstract Illusion - Slaves.mp3
+623:Music/random/AnAbstractIllusion/An Abstract Illusion - Tear Down This Holy Mountain.mp3
+624:Music/random/AnAbstractIllusion/An Abstract Illusion - Prosperity.mp3
+625:Music/random/AnAbstractIllusion/An Abstract Illusion - Blomsterkrans.mp3
+626:Music/random/AnAbstractIllusion/An Abstract Illusion - In The Heavens Above, You Will Become A Monster.mp3
+627:Music/random/AnAbstractIllusion/An Abstract Illusion - This Torment Has No End, Only New Beginnings.mp3
+628:Music/random/Dissection/Dissection - At The Fathomless Depths.mp3
+629:Music/random/Dissection/Dissection - Night's Blood.mp3
+630:Music/random/Dissection/Dissection - Unhallowed.mp3
+631:Music/random/Dissection/Dissection - Where Dead Angels Lie.mp3
+632:Music/random/Dissection/Dissection - Retribution.mp3
+633:Music/random/Dissection/Dissection - Thorns Of Crimson Death.mp3
+634:Music/random/Dissection/Dissection - Soulreaper.mp3
+635:Music/random/Dissection/Dissection - No Dreams Breed In Breathless Sleep.mp3
+636:Music/random/Dissection/Dissection - At The Fathomless Depths - Unreleased Alternative Mix '95.mp3
+637:Music/random/Dissection/Dissection - Night's Blood - Unreleased Alternative Mix '95.mp3
+638:Music/random/Dissection/Dissection - Unhallowed - Unreleased Alternative Mix '95.mp3
+639:Music/random/Dissection/Dissection - Where Dead Angels Lie - Unreleased Alternative Mix '95.mp3
+640:Music/random/Dissection/Dissection - Retribution - Storm Of The Light's Bane - Unreleased Alternative Mix '95.mp3
+641:Music/random/Dissection/Dissection - Feathers Fell - Unreleased Alternative Mix '95.mp3
+642:Music/random/Dissection/Dissection - Thorns Of Crimson Death - Unreleased Alternative Mix '95.mp3
+643:Music/random/Dissection/Dissection - Soulreaper - Unreleased Alternative Mix '95.mp3
+644:Music/random/Dissection/Dissection - No Dreams Breed In Breathless Sleep - Unreleased Alternative Mix '95.mp3
+645:Music/random/Dissection/Dissection - Night's Blood - Unreleased Demo '94.mp3
+646:Music/random/Dissection/Dissection - Retribution - Unreleased Demo '94.mp3
+647:Music/random/Dissection/Dissection - Elisabeth Bathori - Remastered Original Mixes.mp3
+648:Music/random/Dissection/Dissection - Where Dead Angels Lie - Remastered Original Mixes.mp3
+649:Music/random/Dissection/Dissection - Antichrist - Remastered Original Mixes.mp3
+650:Music/random/Dissection/Dissection - Son Of The Mourning - Remastered Original Mixes.mp3
+651:Music/random/Sirenia/Sirenia - The End Of It All.mp3
+652:Music/random/Sirenia/Sirenia - Fallen Angel.mp3
+653:Music/random/Sirenia/Sirenia - All My Dreams.mp3
+654:Music/random/Sirenia/Sirenia - This Darkness.mp3
+655:Music/random/Sirenia/Sirenia - The Twilight In Your Eyes.mp3
+656:Music/random/Sirenia/Sirenia - Winter Land.mp3
+657:Music/random/Sirenia/Sirenia - A Seaside Serenade.mp3
+658:Music/random/Sirenia/Sirenia - Darkened Days To Come.mp3
+659:Music/random/Sirenia/Sirenia - Coming Down.mp3
+660:Music/random/Sirenia/Sirenia - This Lonely Lake.mp3
+661:Music/random/Sirenia/Sirenia - Fading Star.mp3
+662:Music/random/Sirenia/Sirenia - The Enigma Of Life.mp3
+663:Music/random/Sirenia/Sirenia - Oscura Realidad.mp3
+664:Music/random/Sirenia/Sirenia - The Enigma of Life - acoustic version.mp3
+665:Music/random/Sirenia/Sirenia - El enigma de la vida.mp3
+666:Music/random/TheListlessHeart/Thy Listless Heart - As the Light Fades.mp3
+667:Music/random/TheListlessHeart/Thy Listless Heart - The Precipice.mp3
+668:Music/random/TheListlessHeart/Thy Listless Heart - Yearning.mp3
+669:Music/random/TheListlessHeart/Thy Listless Heart - When the Spirit Departs the Body.mp3
+670:Music/random/TheListlessHeart/Thy Listless Heart - Confessions.mp3
+671:Music/random/TheListlessHeart/Thy Listless Heart - Aefnian.mp3
+672:Music/random/TheListlessHeart/Thy Listless Heart - The Search for Meaning.mp3
+673:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Welcome.mp3
+674:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Age of Aquarius.mp3
+675:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Part V.mp3
+676:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Dance of Night.mp3
+677:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Arrival.mp3
+678:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Father Sun.mp3
+679:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Millennium Blues.mp3
+680:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Cosmic Soul.mp3
+681:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - For the Innocent.mp3
+682:Music/random/VillagersOfIoanninaCity/Villagers of Ioannina City - Sparkle out of Black Hole.mp3
 playlist_end

@@ -191,7 +191,7 @@ alias .3='cd ../../..'
 alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 alias mkdir='mkdir -p'
-alias music="ncmpcpp"
+alias music="rmpc"
 
 alias cat="bat --theme=base16"
 alias ls='eza --icons=always --color=always -a'

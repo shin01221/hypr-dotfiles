@@ -1,5 +1,6 @@
 [Bookmarks]
 [Recent]
+/media/Sections/Graphics/Project/
 /home/shin/Downloads/
 /media/Sections/Graphics/
 /media/Blender/Poliigon_BrickWallReclaimed_8320/2K/
@@ -9,4 +10,3 @@
 /media/Blender/Themes/blender-themes/
 /media/Sections/Graphics/Swork-sandbox/
 /media/Sections/Graphics/Swork-sandbox/swordInTheStone4_downloadFiles_part2/textures/
-/media/Blender/addons/add-on-looptools-v4.7.7/
