@@ -2,27 +2,9 @@
     {
         "Job": {
             "Audio": {
-                "AudioList": [
-                    {
-                        "Bitrate": 160,
-                        "CompressionLevel": -1.0,
-                        "DRC": 0.0,
-                        "DitherMethod": "auto",
-                        "Encoder": "av_aac",
-                        "Gain": 0.0,
-                        "Mixdown": "stereo",
-                        "Name": "simple_aac_recording0",
-                        "NormalizeMixLevel": false,
-                        "PresetEncoder": "av_aac",
-                        "Quality": -3.0,
-                        "Samplerate": 0,
-                        "Track": 0
-                    }
-                ],
-                "CopyMask": [
-                    "copy:aac"
-                ],
-                "FallbackEncoder": "av_aac"
+                "AudioList": [],
+                "CopyMask": [],
+                "FallbackEncoder": 0
             },
             "Destination": {
                 "AlignAVStart": true,
@@ -31,14 +13,14 @@
                         "Duration": {
                             "Hours": 0,
                             "Minutes": 0,
-                            "Seconds": 21,
-                            "Ticks": 1906560
+                            "Seconds": 14,
+                            "Ticks": 1261261
                         },
                         "Name": ""
                     }
                 ],
                 "ChapterMarkers": false,
-                "File": "/home/shin/Videos/airplane-animation.mp4",
+                "File": "/home/shin/Videos/show1.mp4",
                 "InlineParameterSets": false,
                 "Mux": "m4v",
                 "Options": {
@@ -77,12 +59,12 @@
                     {
                         "ID": 20,
                         "Settings": {
-                            "crop-bottom": 2,
+                            "crop-bottom": 8,
                             "crop-left": 0,
                             "crop-right": 0,
-                            "crop-top": 4,
-                            "height": 1074,
-                            "width": 1920
+                            "crop-top": 0,
+                            "height": 532,
+                            "width": 960
                         }
                     }
                 ]
@@ -97,7 +79,7 @@
                 "Angle": 0,
                 "HWDecode": 0,
                 "KeepDuplicateTitles": false,
-                "Path": "/home/shin/Videos/Records/screencast/airplane-animation.mkv",
+                "Path": "/media/Sections/Graphics/Project/show1.avi",
                 "Range": {
                     "End": 1,
                     "Start": 1,
@@ -115,11 +97,11 @@
                 "SubtitleList": []
             },
             "Video": {
-                "ChromaLocation": 1,
+                "ChromaLocation": 0,
                 "ColorInputFormat": 0,
-                "ColorMatrix": 1,
+                "ColorMatrix": 6,
                 "ColorOutputFormat": 0,
-                "ColorPrimaries": 1,
+                "ColorPrimaries": 6,
                 "ColorRange": 1,
                 "ColorTransfer": 1,
                 "Encoder": "x264",
@@ -141,97 +123,72 @@
         },
         "Title": {
             "AngleCount": 1,
-            "AudioList": [
-                {
-                    "Attributes": {
-                        "AltCommentary": false,
-                        "Commentary": false,
-                        "Default": false,
-                        "Normal": false,
-                        "Secondary": false,
-                        "VisuallyImpaired": false
-                    },
-                    "BitRate": 1,
-                    "ChannelCount": 2,
-                    "ChannelLayout": 3,
-                    "ChannelLayoutName": "stereo",
-                    "Codec": 65536,
-                    "CodecName": "aac",
-                    "CodecParam": 86018,
-                    "Description": "Unknown (AAC LC, 2.0 ch)",
-                    "LFECount": 0,
-                    "Language": "Unknown",
-                    "LanguageCode": "und",
-                    "Name": "simple_aac_recording0",
-                    "SampleRate": 44100,
-                    "TrackNumber": 1
-                }
-            ],
+            "AudioList": [],
             "ChapterList": [
                 {
                     "Duration": {
                         "Hours": 0,
                         "Minutes": 0,
-                        "Seconds": 21,
-                        "Ticks": 1906560
+                        "Seconds": 14,
+                        "Ticks": 1261261
                     },
                     "Name": ""
                 }
             ],
             "Color": {
                 "BitDepth": 8,
-                "ChromaLocation": 1,
-                "ChromaSubsampling": "4:2:0",
-                "Format": 0,
-                "Matrix": 1,
-                "Primary": 1,
+                "ChromaLocation": 0,
+                "ChromaSubsampling": "4:4:4",
+                "Format": 28,
+                "Matrix": 6,
+                "Primary": 6,
                 "Range": 1,
                 "Transfer": 1
             },
-            "Container": "matroska,webm",
+            "Container": "avi",
             "Crop": [
-                4,
-                2,
+                0,
+                8,
                 0,
                 0
             ],
             "Duration": {
                 "Hours": 0,
                 "Minutes": 0,
-                "Seconds": 21,
-                "Ticks": 1906560
+                "Seconds": 14,
+                "Ticks": 1261261
             },
             "FrameRate": {
-                "Den": 450000,
+                "Den": 900900,
                 "Num": 27000000
             },
             "Geometry": {
-                "Height": 1080,
+                "Height": 540,
                 "PAR": {
                     "Den": 1,
                     "Num": 1
                 },
-                "Width": 1920
+                "Width": 960
             },
             "Index": 1,
             "InterlaceDetected": false,
             "KeepDuplicateTitles": false,
             "LooseCrop": [
-                4,
+                0,
                 0,
                 0,
                 0
             ],
             "Metadata": {},
-            "Name": "airplane-animation",
-            "Path": "/home/shin/Videos/Records/screencast/airplane-animation.mkv",
+            "Name": "show1",
+            "Path": "/media/Sections/Graphics/Project/show1.avi",
             "Playlist": -1,
             "SubtitleList": [],
             "Type": 3,
-            "VideoCodec": "h264"
+            "VideoCodec": "rawvideo"
         },
         "uiSettings": {
-            "ActivityFilename": "/home/shin/.config/ghb/EncodeLogs/airplane-animation 2025-04-22 01-06-30.log",
+            "ActivityFilename": "/home/shin/.config/ghb/EncodeLogs/show1 2025-05-11 00-05-37.log",
             "AlignAVStart": true,
             "AudioAllowAACPass": true,
             "AudioAllowAC3Pass": false,
@@ -270,7 +227,7 @@
             "AudioMixdown": "dpl2",
             "AudioSamplerate": "auto",
             "AudioSecondaryEncoderMode": true,
-            "AudioTrack": "0",
+            "AudioTrack": "none",
             "AudioTrackDRCSlider": 0.9,
             "AudioTrackDRCValue": "Off",
             "AudioTrackGainSlider": 0.0,
@@ -283,7 +240,7 @@
             "ChapterMarkers": true,
             "ChildrenArray": [],
             "Default": false,
-            "DisplayHeight": 1074.0,
+            "DisplayHeight": 532.0,
             "FileFormat": "av_mp4",
             "Folder": false,
             "FolderOpen": false,
@@ -305,7 +262,7 @@
             "Optimize": false,
             "PictureAllowUpscaling": false,
             "PictureAutoCrop": true,
-            "PictureBottomCrop": 2.0,
+            "PictureBottomCrop": 8.0,
             "PictureChromaSmoothCustom": "",
             "PictureChromaSmoothPreset": "off",
             "PictureChromaSmoothTune": "none",
@@ -314,7 +271,7 @@
             "PictureCombDetectCustom": "",
             "PictureCombDetectPreset": "default",
             "PictureCropMode": 0,
-            "PictureDARWidth": 1920.0,
+            "PictureDARWidth": 960.0,
             "PictureDeblockCustom": "strength=strong:thresh=20:blocksize=8",
             "PictureDeblockPreset": "off",
             "PictureDeblockTune": "medium",
@@ -350,7 +307,7 @@
             "PictureSharpenFilter": "off",
             "PictureSharpenPreset": "",
             "PictureSharpenTune": "",
-            "PictureTopCrop": 4.0,
+            "PictureTopCrop": 0.0,
             "PictureUseMaximumSize": true,
             "PictureWidth": 1920.0,
             "Preferences": {
@@ -397,7 +354,7 @@
                 "allow_tweaks": false,
                 "auto_name": true,
                 "auto_name_template": "{source}",
-                "default_source": "/home/shin/Videos/Records/screencast/airplane-animation.mkv",
+                "default_source": "/media/Sections/Graphics/Project/show1.avi",
                 "destination_dir": "/home/shin/Videos",
                 "hbfd": false,
                 "hbfd_feature": false,
@@ -412,8 +369,8 @@
                 "show_queue_sidebar": true,
                 "use_dvdnav": true,
                 "version": "0.1",
-                "window_height": 1,
-                "window_width": 1
+                "window_height": 1021,
+                "window_width": 1001
             },
             "PreferredLanguage": "und",
             "PresetCategory": "new",
@@ -457,21 +414,21 @@
             "VideoScaler": "swscale",
             "VideoTune": "none",
             "VideoTurboMultiPass": true,
-            "activity_location": "/home/shin/.config/ghb/Activity.log.85773",
+            "activity_location": "/home/shin/.config/ghb/Activity.log.445166",
             "angle": 1.0,
             "angle_count": 1,
             "chapter_list": [],
             "crop_mode": "auto",
             "dest_dir": "/home/shin/Videos",
-            "dest_file": "airplane-animation.mp4",
-            "destination": "/home/shin/Videos/airplane-animation.mp4",
+            "dest_file": "show1.mp4",
+            "destination": "/home/shin/Videos/show1.mp4",
             "end_point": 1.0,
-            "final_aspect_ratio": "16.09:9",
-            "final_storage_size": "1920 x 1074",
+            "final_aspect_ratio": "16.24:9",
+            "final_storage_size": "960 x 532",
             "hflip": false,
-            "job_finish_time": 1745276803,
+            "job_finish_time": 1746911139,
             "job_pause_time_ms": 0,
-            "job_start_time": 1745276790,
+            "job_start_time": 1746911137,
             "job_status": 4,
             "job_unique_id": 1,
             "preset_modified": false,
@@ -479,21 +436,21 @@
             "preview_frame": 2,
             "resolution_limit": "1080p",
             "rotate": "0",
-            "scale_height": 1074.0,
-            "scale_width": 1920.0,
+            "scale_height": 532.0,
+            "scale_width": 960.0,
             "single_title": 1,
-            "source": "/home/shin/Videos/Records/screencast/airplane-animation.mkv",
+            "source": "/media/Sections/Graphics/Project/show1.avi",
             "source_aspect_ratio": "16:9",
-            "source_display_size": "1920 x 1080",
-            "source_height": 1080,
-            "source_label": "airplane-animation",
-            "source_storage_size": "1920 x 1080",
-            "source_width": 1920,
+            "source_display_size": "960 x 540",
+            "source_height": 540,
+            "source_label": "show1",
+            "source_storage_size": "960 x 540",
+            "source_width": 960,
             "start_frame": -1,
             "start_point": 1.0,
             "title": "1",
             "title_selected": false,
-            "volume": "airplane-animation",
+            "volume": "show1",
             "vquality_type_bitrate": false,
             "vquality_type_constant": true,
             "x264FastDecode": false,

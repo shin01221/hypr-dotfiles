@@ -29,22 +29,25 @@ RiceEditor)
 	result "state=floating focus=on center=on"
 	;;
 mpv)
-	result "state=floating focus=on center=on rectangle=1000x700+0+0"
+	result "state=floating focus=on center=on rectangle=1200x900+0+0"
 	;;
 Viewnior)
 	result "state=floating focus=on center=on"
 	;;
+Shotwell)
+	result "state=floating focus=on center=on"
+	;;
 TelegramDesktop)
-	result "desktop=^4 follow=on"
+	result "follow=on"
 	;;
 pavucontrol)
 	result "state=floating center=on"
 	;;
 Thunar)
-	result "desktop=^2 follow=on"
+	result "follow=on"
 	;;
 firefox | Navigator)
-	result "desktop=^3 follow=on"
+	result "follow=on"
 	;;
 esac
 
@@ -56,7 +59,7 @@ YaziTerm)
 	result "state=floating center=on rectangle=900x342+0+0"
 	;;
 MusicTerm)
-	result "state=floating center=on rectangle=656x343+0+0"
+	result "state=floating center=on rectangle=1200x600+0+0"
 	;;
 FetchTerm)
 	result "state=floating center=on rectangle=369x601+0+0"

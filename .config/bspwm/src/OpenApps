@@ -57,7 +57,7 @@ case "$1" in
 	Term --nvim
 	;;
 --music)
-	kitty -e rmpc
+	Term --music
 	;;
 --fetch)
 	Term --fetch

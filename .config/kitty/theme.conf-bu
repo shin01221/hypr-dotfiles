@@ -1,0 +1,43 @@
+foreground              #080809
+background              #EDCFAB
+selection_foreground    #EDCFAB
+selection_background    #080809
+cursor                  #746160 
+cursor_text_color       #FFFFFF
+
+active_tab_foreground     #EDCFAB
+active_tab_background     #C59188
+inactive_tab_foreground   #C59188
+inactive_tab_background   #EDCFAB
+
+# black
+color0      #FFE8CC
+color8      #C2A17A
+
+# red
+color1      #522B29
+color9      #6B3C3A
+
+# green
+color2      #524929
+color10     #6B603A
+
+# yellow
+color3      #522F29
+color11     #6B413A
+
+# blue
+color4      #7D664B
+color12     #7D664B
+
+# magenta
+color5      #7D724B
+color13     #7D724B
+
+# cyan
+color6      #7D524B
+color14     #7D524B
+
+# white
+color7      #522B29
+color15     #6B3C3A

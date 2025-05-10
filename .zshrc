@@ -153,10 +153,61 @@ fi
 #  ┌─┐┬  ┬┌─┐┌─┐
 #  ├─┤│  │├─┤└─┐
 #  ┴ ┴┴─┘┴┴ ┴└─┘
+
+
+# Function to download with a specific quality
+down() {
+  local quality="$1"      # Get the first argument
+  shift                   # Remove the first argument
+  yt-dlp -S "res:${quality}" -- "$@"
+}
+
+# Function to download in mp4 format with specific name
+mp4() {
+  yt-dlp -f mp4 "$1" -o "$2.mp4"
+}
+
+inbox() {
+    local base_path="/media/Docs/notes/FlyingNotes"
+    local file_name
+    local safe_file_name
+    local full_path
+
+    if [[ $# -eq 0 ]]; then
+        file_name=""
+    else
+        file_name="$*"
+    fi
+
+    while [[ -z "$file_name" ]]; do
+        read "file_name?Enter the new note name: "
+        if [[ -z "$file_name" ]]; then
+            echo "Filename cannot be empty. Please try again."
+        fi
+    done
+
+    if [[ "$file_name" != *.md ]]; then
+        file_name="${file_name}.md"
+    fi
+
+    safe_file_name="${file_name// /-}"
+    full_path="${base_path}/${safe_file_name}"
+
+    touch "$full_path"
+    echo "New note created: $full_path"
+    nvim "$full_path"
+}
+
+# Aliases for specific resolutions
+
+alias down360='down 360'
+alias down480='down 480'
+alias down720='down 720'
+alias down1080='down 1080'
+
 alias mirrors="sudo reflector --verbose --latest 5 --country 'United States' --age 6 --sort rate --save /etc/pacman.d/mirrorlist"
 alias update="paru -Syu --nocombinedupgrade"
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
 alias nvim='bash ~/.config/nvim/kitty.sh'
 alias ls="lsd"
 alias l="ls -l"

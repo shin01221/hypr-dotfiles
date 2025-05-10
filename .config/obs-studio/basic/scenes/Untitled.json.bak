@@ -222,7 +222,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "6cd017b8-8353-4949-9364-055d83d5c983"
+                "RestoreToken": ""
             },
             "mixers": 0,
             "sync": 0,

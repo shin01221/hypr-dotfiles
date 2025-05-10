@@ -173,11 +173,13 @@
 
 ;; Windows ;;
 (defwindow music
-  :geometry
-  (geometry
-    :y "-7%"
-    :anchor "bottom center"
-  )
-	:wm-ignore false
+:monitor 0 ;; Optional for X11
+  :stacking "fg"
+  :windowtype "normal"
+  :wm-ignore true
+  :geometry (geometry
+    :y "0%"
+    :anchor "bottom right"
+   )
   (player)
 )

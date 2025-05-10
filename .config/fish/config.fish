@@ -59,20 +59,24 @@ alias .5='cd ../../../../..'
 
 # yt-dlp
 
-function down
-    set quality $argv[1] # Get the first argument as the desired quality
-    set -e argv[1] # Remove the first argument (quality) from $argv
-    yt-dlp -S res:"$quality" -- $argv # Use the quality and remaining arguments (URLs)
-end
+# Function to download with a specific quality
+down() {
+  local quality="$1"      # Get the first argument
+  shift                   # Remove the first argument
+  yt-dlp -S "res:${quality}" -- "$@"
+}
 
-function mp4
-    yt-dlp -f mp4 $argv[1] -o "$argv[2].mp4"
-end
+# Function to download in mp4 format with specific name
 
-alias down360="down 360"
-alias down480="down 480"
-alias down720="down 720"
-alias down1080="down 1080"
+mp4() {
+  yt-dlp -f mp4 "$1" -o "$2.mp4"
+}
+
+# Aliases for specific resolutions
+alias down360='down 360'
+alias down480='down 480'
+alias down720='down 720'
+alias down1080='down 1080'
 alias up="docker compose -f /media/greenbone-container/docker-compose.yml up -d"
 # alias down="docker compose -f /media/greenbone-container/docker-compose.yml down"
 alias bone="xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &"

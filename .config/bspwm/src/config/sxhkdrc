@@ -11,6 +11,9 @@
 alt + F1
 	OpenApps --KeyHelp
 
+super + n
+    sh ~/.local/share/bin/custom/note.sh
+
 ############################
 # ----- Applications ----- #
 ############################
@@ -39,7 +42,7 @@ super + {w,e}
 super + {y,m}
 	OpenApps --{yazi,music}
 
-super + alt + m
+super + shift + m
     kitty -e -c /home/shin/.config/kitty/kitty-sptlrx.conf sptlrx
 
 # Rice Editor App
@@ -121,11 +124,14 @@ XF86Audio{RaiseVolume,LowerVolume,Mute}
 super + {equal,minus}
     Volume{ --inc, --dec}
 
+super + alt + m
+    Volume --toggle
+
 # Music Control
 XF86Audio{Next,Prev,Play,Stop}
 	MediaControl {--next,--previous,--toggle,--stop}
 
-super + {comma,period,p}
+super + {period,comma,p}
 	MediaControl {--next,--previous,--toggle}
 
 super + {bracketleft,bracketright}
