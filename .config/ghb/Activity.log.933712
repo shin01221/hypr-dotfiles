@@ -1,0 +1,34 @@
+HandBrake 20250220183715-e117cfe7f-makepkg (2025042301)
+OS: Arch Linux
+Kernel: Linux 6.14.5-arch1-1 (x86_64)
+CPU: AMD Ryzen 5 4600H with Radeon Graphics x 12
+Install Dir: /usr/bin
+Config Dir:  /home/shin/.config/ghb
+_______________________________
+
+[14:44:38] Compile-time hardening features are enabled
+[14:44:38] nvenc: version 13.0 is available
+[14:44:38] nvdec: is not compiled into this build
+[14:44:38] CUDA Version: 7.5
+[14:44:38] qsv: not available on this system
+[14:44:38] hb_init: starting libhb thread
+[14:44:38] hb_init: starting libhb thread
+[14:44:38] hb_init: starting libhb thread
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.671: GtkCellView 0x644e149aee70 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.671: GtkCellView 0x644e14a12700 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.672: GtkCellView 0x644e1495d960 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.672: GtkCellView 0x644e14a24880 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.673: GtkCellView 0x644e14aa4200 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.674: GtkCellView 0x644e14abb330 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.674: GtkCellView 0x644e14acd900 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.836: GtkCellView 0x644e149aee70 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:933712): Gtk-WARNING **: 14:44:38.836: GtkCellView 0x644e14a12700 (cellview) reported min width -2, but sizes must be >= 0

@@ -251,8 +251,6 @@ alias ll='eza --icons=always --color=always -la'
 #  ┌─┐┬ ┬┌┬┐┌─┐  ┌─┐┌┬┐┌─┐┬─┐┌┬┐
 #  ├─┤│ │ │ │ │  └─┐ │ ├─┤├┬┘ │
 #  ┴ ┴└─┘ ┴ └─┘  └─┘ ┴ ┴ ┴┴└─ ┴
-$HOME/.local/bin/colorscript -r
-
 
 eval "$(zoxide init zsh)"
 

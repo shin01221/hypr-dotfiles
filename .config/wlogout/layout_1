@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "hyprlock",
+    "action" : "swaylock",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -14,7 +14,7 @@
 
 {
     "label" : "suspend",
-    "action" : "systemctl suspend && hyprlock",
+    "action" : "swaylock -f && systemctl suspend",
     "text" : "Suspend",
     "keybind" : "u"
 }
@@ -24,6 +24,13 @@
     "action" : "systemctl poweroff",
     "text" : "Shutdown",
     "keybind" : "s"
+}
+
+{
+    "label" : "hibernate",
+    "action" : "systemctl hibernate",
+    "text" : "Hibernate",
+    "keybind" : "h"
 }
 
 {

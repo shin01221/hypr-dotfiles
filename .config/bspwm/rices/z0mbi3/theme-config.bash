@@ -38,8 +38,8 @@ NORMAL_BC="#3d414f"		# Normal border color
 FOCUSED_BC="#93cee9"	# Focused border color
 
 # Terminal font & size
-term_font_size="10"
-term_font_name="JetBrainsMono Nerd Font"
+term_font_size="11"
+term_font_name="Segoe UI"
 
 # Picom options
 P_FADE="true"			# Fade true|false
@@ -103,7 +103,7 @@ geany_theme="z0mbi3-Decay"
 # - CustomImage	(Sets a specific image as wallpaper)
 # - CustomAnimated (Set an animated wallpaper. "mp4, mkv, gif")
 # - Slideshow (Change randomly every 15 minutes your wallpaper from Walls rice directory)
-ENGINE="Theme"
-CUSTOM_DIR="/path/to/dir"
+ENGINE="CustomAnimated"
+CUSTOM_DIR="/home/shin/Pictures/Wallpapers/Rosé-Pine"
 CUSTOM_WALL="/path/to/image"
-CUSTOM_ANIMATED="/home/shin/.config/bspwm/src/assets/animated_wall-5.mp4"
+CUSTOM_ANIMATED="/home/shin/.config/bspwm/src/assets/animated_wall-8.mp4"

@@ -4,6 +4,21 @@
     "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
   },
   "color_palette": "system",
+  "cover_grid_background": {
+    "dark": [
+      45,
+      45,
+      45
+    ],
+    "dark_texture": null,
+    "light": [
+      80,
+      80,
+      80
+    ],
+    "light_texture": null,
+    "migrated": true
+  },
   "custom_colors_for_color_dialog": [
     [
       255,
@@ -131,17 +146,17 @@
   },
   "geometry-of-calibre_main_window_geometry": {
     "frame_geometry": {
-      "height": 1032,
-      "width": 945,
-      "x": 0,
-      "y": 0
+      "height": 1066,
+      "width": 1906,
+      "x": 7,
+      "y": 7
     },
     "full_screened": false,
     "geometry": {
-      "height": 1032,
-      "width": 945,
-      "x": 0,
-      "y": 0
+      "height": 1066,
+      "width": 1906,
+      "x": 7,
+      "y": 7
     },
     "maximized": true,
     "normal_geometry": {
@@ -152,10 +167,10 @@
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAAA7AAAAQHAAAAAAAAAAAAAAOwAAAEBwAAAAACAAAAB4AAAAAAAAAAAAAAA7AAAAQH"
+      "__value__": "AdnQywADAAAAAAAHAAAABwAAB3gAAAQwAAAAAAAAAAAAAAOwAAAEBwAAAAACAAAAB4AAAAAHAAAABwAAB3gAAAQw"
     },
     "screen": {
-      "depth": 32,
+      "depth": 24,
       "device_pixel_ratio": 1.0,
       "geometry_in_logical_pixels": {
         "height": 1080,
@@ -165,7 +180,7 @@
       },
       "index_in_screens_list": 0,
       "manufacturer": "BOE",
-      "model": "0x08E8",
+      "model": "",
       "name": "eDP-1",
       "serial": "",
       "size_in_logical_pixels": {
@@ -386,7 +401,7 @@
   },
   "grid view visible": false,
   "library_usage_stats": {
-    "/home/shin/Calibre Library": 18
+    "/home/shin/Calibre Library": 20
   },
   "light_palette_name": "",
   "light_palettes": {

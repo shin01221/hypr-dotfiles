@@ -13,19 +13,19 @@
       "x": 0,
       "y": 0
     },
-    "maximized": true,
+    "maximized": false,
     "normal_geometry": {
-      "height": 511,
-      "width": 945,
-      "x": 0,
-      "y": 0
+      "height": 1068,
+      "width": 867,
+      "x": 1047,
+      "y": 6
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQ3AAAAAAAAAAAAAAOwAAAB/gAAAAACBAAAB4AAAAAAAAAAAAAAB38AAAQ3"
+      "__value__": "AdnQywADAAAAAAAAAAAAAAAAB38AAAQ3AAAEFwAAAAYAAAd5AAAEMQAAAAAABAAAB4AAAAAAAAAAAAAAB38AAAQ3"
     },
     "screen": {
-      "depth": 32,
+      "depth": 24,
       "device_pixel_ratio": 1.0,
       "geometry_in_logical_pixels": {
         "height": 1080,
@@ -35,7 +35,7 @@
       },
       "index_in_screens_list": 0,
       "manufacturer": "BOE",
-      "model": "0x08E8",
+      "model": "",
       "name": "eDP-1",
       "serial": "",
       "size_in_logical_pixels": {
@@ -52,7 +52,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAAEOPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAEOAAAAIYA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlAD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB7AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOYA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEgD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAM8A////AAAHgAAABDgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAAEOPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAAEOAAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAAHgAAABDgAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
   },
   "old_prefs_migrated": true,
   "session_data": {
@@ -78,7 +78,7 @@
         ],
         "key": "/home/shin/Calibre Library/TurtleMe/The Beginning After the End_ Book 6_ Transcendence (10)/The Beginning After the End_ Book 6_ Trans - TurtleMe.epub",
         "pathtoebook": "/home/shin/Calibre Library/TurtleMe/The Beginning After the End_ Book 6_ Transcendence (10)/The Beginning After the End_ Book 6_ Trans - TurtleMe.epub",
-        "timestamp": "2025-04-28T11:39:14.971Z",
+        "timestamp": "2025-05-11T21:51:13.032Z",
         "title": "The Beginning After the End: Book 6: Transcendence"
       },
       {

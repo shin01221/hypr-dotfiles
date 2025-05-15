@@ -6,3 +6,6 @@
   Cessna 172 - Aircraft
 Texture ▸ Sky Texture
 Texture ▸ Image Texture
+   blue
+   white
+   wheels

@@ -1,7 +1,8 @@
 [Bookmarks]
 [Recent]
-/media/
 /media/Sections/Graphics/Project/
+/media/Sections/Graphics/Project/vid-2/
+/media/
 /media/Sections/Graphics/Project/vid/
 /media/Sections/Graphics/
 /home/shin/Downloads/
@@ -9,4 +10,3 @@
 /media/Blender/stone_embedded_tiles_4k.blend/textures/
 /media/Blender/addons/
 /media/Blender/addons/MACHIN3tools/
-/media/Blender/Themes/blender-themes/
