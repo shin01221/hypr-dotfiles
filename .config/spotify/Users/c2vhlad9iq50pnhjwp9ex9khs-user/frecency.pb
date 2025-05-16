@@ -5,10 +5,10 @@
 'spotify:playlist:37i9dQZF1EIZ12LUStDVKV	Žïú£Ày@# –ƒ¿¹
 >
 'spotify:playlist:37i9dQZF1DWXgtgITTKvYl	øw^é£Ày@# Ï‚¿¹
->
-'spotify:playlist:1xW1Ot7rzrqej3bJ3acLzp	í[}ÊAÞy@ ê¼Î½
->
-'spotify:playlist:37i9dQZF1E36UcK5vspOP8	ßÃo¼æy@ Êû“À
+?
+'spotify:playlist:1xW1Ot7rzrqej3bJ3acLzp	Š0¹ŒÛýy@Ñ ê¼Î½
+?
+'spotify:playlist:37i9dQZF1E36UcK5vspOP8	³n‡Ìz@Â Êû“À
 >
 'spotify:playlist:5UcBffjK5Pzlo3S54jZfvz	/
 Çôcëy@N ¼ï¢½

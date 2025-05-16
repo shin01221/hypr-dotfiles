@@ -1,10 +1,17 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-solarized'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Solarized Dark'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+$GTK_THEME = Solarized Dark
+$ICON_THEME = Tela-circle-solarized
+$COLOR_SCHEME=prefer-dark
+$CURSOR_THEME = Capitaine-Cursors-White
+$CURSOR_SIZE=20
+$CODE_THEME=Solarized Dark
 
-exec = Hyde cursor theme 'Bibata-Modern-Ice' size 20
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
+exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
+exec = Hyde cursor theme '$CURSOR_THEME' size $CURSOR_SIZE
+exec = Hyde code theme '$CODE_THEME'
 
 general {
     gaps_in = 3
@@ -25,7 +32,6 @@ group {
 
 decoration {
     rounding = 10
-#    drop_shadow = false
 
     blur {
         enabled = yes
@@ -34,6 +40,10 @@ decoration {
         new_optimizations = on
         ignore_opacity = on
         xray = false
+    }
+
+    shadow {
+        enabled = false
     }
 }
 

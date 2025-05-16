@@ -1,14 +1,11 @@
 [Desktop Entry]
-FullScreen=true
+FullScreen=false
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=false
 
 [General]
 LockSidebar=true
 ShowSidebar=true
-
-[MainWindow]
-MenuBar=Disabled
 
 [Recent Files]
 File1[$e]=$HOME/Downloads/comp.pdf
