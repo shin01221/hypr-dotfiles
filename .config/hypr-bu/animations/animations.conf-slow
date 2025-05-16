@@ -1,0 +1,19 @@
+
+# ▄▀█ █▄░█ █ █▀▄▀█ ▄▀█ ▀█▀ █ █▀█ █▄░█
+# █▀█ █░▀█ █ █░▀░█ █▀█ ░█░ █ █▄█ █░▀█
+
+# See https://wiki.hyprland.org/Configuring/Animations/
+
+animations {
+    enabled = true
+    first_launch_animation = true
+
+     bezier = myBezier, 0.05, 0.9, 0.1, 1.05
+    
+    # animation = windows, 1, 6, default, slide 
+    # animation = windowsOut, 1, 12, default, popin 
+    # animation = border, 1, 10, default, 
+    # animation = borderangle, 1, 12, default
+    # animation = fade, 1, 6, default
+    # animation = workspaces, 1, 8, default, slidefade 
+}
