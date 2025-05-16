@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock",
+    "action" : "lockscreen.sh",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -14,7 +14,7 @@
 
 {
     "label" : "suspend",
-    "action" : "swaylock -f && systemctl suspend",
+    "action" : "systemctl suspend && lockscreen.sh",
     "text" : "Suspend",
     "keybind" : "u"
 }

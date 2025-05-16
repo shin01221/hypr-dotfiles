@@ -1,4 +1,4 @@
-#files: 905	version: 5.9
+#files: 900	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -24,7 +24,6 @@ _comps=(
 'add-zle-hook-widget' '_add-zle-hook-widget'
 'add-zsh-hook' '_add-zsh-hook'
 'admin' '_sccs'
-'alacritty' '_alacritty'
 'ali' '_mh'
 'alias' '_alias'
 'amaya' '_webbrowser'
@@ -141,7 +140,6 @@ _comps=(
 'calibre-debug' '_calibre'
 'calibre-server' '_calibre'
 'calibre-smtp' '_calibre'
-'cargo' '_cargo'
 'cat' '_cat'
 'catchsegv' '_precommand'
 'cc' '_gcc'
@@ -1036,8 +1034,6 @@ _comps=(
 'poetry' '_poetry'
 'poff' '_pon'
 'policytool' '_java'
-'polybar' '_polybar'
-'polybar-msg' '_polybar_msg'
 'pon' '_pon'
 'popd' '_directory_stack'
 'postconf' '_postfix'
@@ -1163,7 +1159,6 @@ _comps=(
 'run-help' '_run-help'
 'rup' '_hosts'
 'rusage' '_precommand'
-'rustup' '_rustup'
 'rview' '_vim'
 'rvim' '_vim'
 'rwho' '_hosts'
@@ -1780,25 +1775,24 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _kitty _alacritty _bat _bluetoothctl _bootctl \
-            _busctl _bwrap _calibre _cargo _chafa \
-            _checkupdates _clipcatctl _clipcatd _clipcat-menu _clipcat-notify \
-            _code _code-oss _coredumpctl _ctr _curl \
-            _dkms _docker _dolphin _downgrade _dunst \
-            _dunstctl _eza _fastfetch _fd _ghostty \
-            _glow _hostnamectl _hurl _hurlfmt _hyprctl \
-            _hyprpm _hyprshade _img2sixel _insmod _john \
-            _journalctl _jupyter _kdeconnect _kde-inhibit _kernel-install \
-            _keyring _kind _kitty _kubectl _libinput \
-            _localectl _loginctl _lsd _lsmod _luarocks \
-            _luarocks-admin _machinectl _meson _mkinitcpio _mpv \
-            _networkctl _ninja _oomctl _paccache _pacdiff \
-            _pacignore _paclist _paclog-pkglist _pacman _pacscripts \
-            _pacsearch _pacsort _pactree _parallel _pip \
-            _playerctl _podman _podman-remote _poetry _polybar \
-            _polybar_msg _powerprofilesctl _pulseaudio _rankmirrors _resolvectl \
-            _rg _rmmod _rmpc _ruff _run0 \
-            _rustup _satty _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
+autoload -Uz _kitty _bat _bluetoothctl _bootctl _busctl \
+            _bwrap _calibre _chafa _checkupdates _clipcatctl \
+            _clipcatd _clipcat-menu _clipcat-notify _code _code-oss \
+            _coredumpctl _ctr _curl _dkms _docker \
+            _dolphin _downgrade _dunst _dunstctl _eza \
+            _fastfetch _fd _ghostty _glow _hostnamectl \
+            _hurl _hurlfmt _hyprctl _hyprpm _hyprshade \
+            _img2sixel _insmod _john _journalctl _jupyter \
+            _kdeconnect _kde-inhibit _kernel-install _keyring _kind \
+            _kitty _kubectl _libinput _localectl _loginctl \
+            _lsd _lsmod _luarocks _luarocks-admin _machinectl \
+            _meson _mkinitcpio _mpv _networkctl _ninja \
+            _oomctl _paccache _pacdiff _pacignore _paclist \
+            _paclog-pkglist _pacman _pacscripts _pacsearch _pacsort \
+            _pactree _parallel _pip _playerctl _podman \
+            _podman-remote _poetry _powerprofilesctl _pulseaudio _rankmirrors \
+            _resolvectl _rg _rmmod _rmpc _ruff \
+            _run0 _satty _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
             _sd_unit_files _sensors _sensors-detect _starship _swayidle \
             _swaylock _swww _systemctl _systemd _systemd-analyze \
             _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run \
