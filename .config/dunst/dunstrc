@@ -9,7 +9,7 @@
 corner_radius = 10
 icon_corner_radius = 10
 dmenu = /usr/bin/rofi -config notification -dmenu -p dunst:
-icon_theme = "Tela-circle-dracula,Rain-Dark,Tela-circle-grey,Tela-circle-solarized,Wallbash-Icon,Gruvbox-Plus-Dark,Papirus-kanagawa,Tela-circle-pink,Tela-circle-black,Tela-circle-yellow,Tela-circle-blue,Papirus-Dark,Tela-circle-green,Tela-circle-dracula,Tela-circle-purple,hicolor,Nordzy"
+icon_theme = "Tela-circle-dracula,Rain-Dark,Tela-circle-grey,Tela-circle-solarized,Wallbash-Icon,Gruvbox-Plus-Dark,Papirus-kanagawa,Tela-circle-pink,Tela-circle-black,Tela-circle-yellow,Tela-circle-blue,Papirus-Dark,Tela-circle-green,Tela-circle-dracula,Tela-circle-purple,Tela-circle-red,hicolor,Nordzy"
 
 
 # [Type-1]
@@ -128,15 +128,15 @@ dmenu = /usr/bin/rofi -config notification -dmenu -p dunst:
 
 
 [urgency_low]
-    background = "#657CA380"
-    foreground = "#CCDFFFE6"
-    frame_color = "#657CA303"
+    background = "#6583A380"
+    foreground = "#CCE4FFE6"
+    frame_color = "#6583A303"
     icon = "/home/shin/.local/share/icons/Wallbash-Icon/hyprdots.svg"
     timeout = 5
 
 [urgency_normal]
-    background = "#3A466B80"
-    foreground = "#CCD8FFE6"
-    frame_color = "#3A466B03"
+    background = "#3A536B80"
+    foreground = "#CCE6FFE6"
+    frame_color = "#3A536B03"
     icon = "/home/shin/.local/share/icons/Wallbash-Icon/hyprdots.svg"
     timeout = 5

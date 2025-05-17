@@ -34,7 +34,7 @@ configure_spicetify() {
     curl -L -o "${cache_dir}/landing/Spotify_Sleek.tar.gz" "https://github.com/prasanthrangan/hyprdots/raw/main/Source/arcs/Spotify_Sleek.tar.gz"
     tar -xzf "${cache_dir}/landing/Spotify_Sleek.tar.gz" -C ~/.config/spicetify/Themes/
     spicetify backup apply
-    spicetify config current_theme Sleek
+    spicetify config current_theme text
     spicetify config color_scheme Wallbash
     spicetify restore backup
     spicetify backup apply

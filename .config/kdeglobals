@@ -1,11 +1,11 @@
 [Colors:View]
-BackgroundNormal=#040810
+BackgroundNormal=#040D17
 
 [General]
 TerminalApplication=/usr/bin/kitty
 
 [Icons]
-Theme=Nordzy
+Theme=Rain-Dark
 
 [KDE]
 widgetStyle=kvantum

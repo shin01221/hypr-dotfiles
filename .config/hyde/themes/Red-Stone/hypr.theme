@@ -5,7 +5,7 @@ $SDDM-THEME=Red-Stone
 $GTK-THEME=Red-Stone
 $ICON-THEME=Tela-circle-red
 
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Red-Stone'
+exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-red'
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Red-Stone'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 

@@ -5,15 +5,11 @@ import sys
 import json
 from datetime import datetime
 
-
 import pyutils.pip_env as pip_env
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-pip_env.v_import(
-    "requests"
-)  # fetches the module by name // does `pip install --update requests` under the hood
+pip_env.v_import("requests")
 import requests  # noqa: E402
-
 
 ### Constants ###
 WEATHER_CODES = {
@@ -78,45 +74,43 @@ def get_description(weatherinstance):
 
 
 def get_temperature(weatherinstance):
-    if temp_unit == "c":
-        return weatherinstance["temp_C"] + "°C"
-
-    return weatherinstance["temp_F"] + "°F"
+    return (
+        weatherinstance["temp_C"] + "°C"
+        if temp_unit == "c"
+        else weatherinstance["temp_F"] + "°F"
+    )
 
 
 def get_temperature_hour(weatherinstance):
-    if temp_unit == "c":
-        return weatherinstance["tempC"] + "°C"
-
-    return weatherinstance["tempF"] + "°F"
+    return (
+        weatherinstance["tempC"] + "°C"
+        if temp_unit == "c"
+        else weatherinstance["tempF"] + "°F"
+    )
 
 
 def get_feels_like(weatherinstance):
-    if temp_unit == "c":
-        return weatherinstance["FeelsLikeC"] + "°C"
-
-    return weatherinstance["FeelsLikeF"] + "°F"
+    return (
+        weatherinstance["FeelsLikeC"] + "°C"
+        if temp_unit == "c"
+        else weatherinstance["FeelsLikeF"] + "°F"
+    )
 
 
 def get_wind_speed(weatherinstance):
-    if windspeed_unit == "km/h":
-        return weatherinstance["windspeedKmph"] + "Km/h"
-
-    return weatherinstance["windspeedMiles"] + "Mph"
+    return (
+        weatherinstance["windspeedKmph"] + "Km/h"
+        if windspeed_unit == "km/h"
+        else weatherinstance["windspeedMiles"] + "Mph"
+    )
 
 
 def get_max_temp(day):
-    if temp_unit == "c":
-        return day["maxtempC"] + "°C"
-
-    return day["maxtempF"] + "°F"
+    return day["maxtempC"] + "°C" if temp_unit == "c" else day["maxtempF"] + "°F"
 
 
 def get_min_temp(day):
-    if temp_unit == "c":
-        return day["mintempC"] + "°C"
-
-    return day["mintempF"] + "°F"
+    return day["mintempC"] + "°C" if temp_unit == "c" else day["mintempF"] + "°F"
 
 
 def get_sunrise(day):
@@ -148,7 +142,6 @@ def format_temp(temp):
 def get_timestamp(time_str):
     if time_format == "24h":
         return datetime.strptime(time_str, "%I:%M %p").strftime("%H:%M")
-
     return time_str
 
 
@@ -163,7 +156,6 @@ def format_chances(hour):
         "chanceofthunder": "Thunder",
         "chanceofwindy": "Wind",
     }
-
     conditions = [
         f"{chances[event]} {hour[event]}%"
         for event in chances
@@ -173,66 +165,52 @@ def format_chances(hour):
 
 
 ### Variables ###
-# Load environment variables from the specified files
 load_env_file(os.path.expanduser("~/.local/state/hyde/staterc"))
-load_env_file(os.path.expanduser("~/.local/state/hyde/config"))
+load_env_file(os.path.expanduser("~/.local/state/hyde/hyprland.conf"))
 
-temp_unit = os.getenv(
-    "WEATHER_TEMPERATURE_UNIT", "c"
-).lower()  # c or f            (default: c)
-time_format = os.getenv(
-    "WEATHER_TIME_FORMAT", "12h"
-).lower()  # 12h or 24h        (default: 12h)
-windspeed_unit = os.getenv(
-    "WEATHER_WINDSPEED_UNIT", "km/h"
-).lower()  # km/h or mph       (default: Km/h)
+temp_unit = os.getenv("WEATHER_TEMPERATURE_UNIT", "c").lower()
+time_format = os.getenv("WEATHER_TIME_FORMAT", "12h").lower()
+windspeed_unit = os.getenv("WEATHER_WINDSPEED_UNIT", "km/h").lower()
 show_icon = os.getenv("WEATHER_SHOW_ICON", "True").lower() in (
     "true",
     "1",
     "t",
     "y",
     "yes",
-)  # True or False     (default: True)
+)
 show_location = os.getenv("WEATHER_SHOW_LOCATION", "True").lower() in (
     "true",
     "1",
     "t",
     "y",
     "yes",
-)  # True or False     (default: False)
+)
 show_today_details = os.getenv("WEATHER_SHOW_TODAY_DETAILS", "True").lower() in (
     "true",
     "1",
     "t",
     "y",
     "yes",
-)  # True or False     (default: True)
+)
 try:
-    forecast_days = int(
-        os.getenv("WEATHER_FORECAST_DAYS", "3")
-    )  # Number of days to show the forecast for (default: 3)
+    forecast_days = int(os.getenv("WEATHER_FORECAST_DAYS", "3"))
 except ValueError:
-    FORECAST_DAYS = 3
-get_location = os.getenv("WEATHER_LOCATION", "").replace(
-    " ", "_"
-)  # Name of the location to get the weather from (default: '')
-# Parse the location to wttr.in format (snake_case)
+    forecast_days = 3
 
-# Check if the variables are set correctly
+get_location = os.getenv("WEATHER_LOCATION", "").replace(" ", "_")
+
 if temp_unit not in ("c", "f"):
-    TEMP_UNIT = "c"
+    temp_unit = "c"
 if time_format not in ("12h", "24h"):
-    TIME_FORMAT = "12h"
+    time_format = "12h"
 if windspeed_unit not in ("km/h", "mph"):
-    WINDSPEED_UINT = "km/h"
+    windspeed_unit = "km/h"
 if forecast_days not in range(4):
-    FORECAST_DAYS = 3
+    forecast_days = 3
 
 ### Main Logic ###
 data = {}
 URL = f"https://wttr.in/{get_location}?format=j1"
-
-# Get the weather data
 headers = {"User-Agent": "Mozilla/5.0"}
 response = requests.get(URL, timeout=10, headers=headers)
 try:
@@ -241,27 +219,26 @@ except json.decoder.JSONDecodeError:
     sys.exit(1)
 current_weather = weather["current_condition"][0]
 
-# Get the data to display
-# waybar text
+# Waybar text (no location)
 data["text"] = get_temperature(current_weather)
 if show_icon:
     data["text"] = get_weather_icon(current_weather) + data["text"]
-if show_location:
-    data["text"] += f" | {get_city_name(weather)}, {get_country_name(weather)}"
+# Removed location from main text:
+# if show_location:
+#     data["text"] += f" | {get_city_name(weather)}, {get_country_name(weather)}"
 
-# waybar tooltip
+# Tooltip
 data["tooltip"] = ""
 if show_today_details:
-    data["tooltip"] += (
-        f"<b>{get_description(current_weather)} {get_temperature(current_weather)}</b>\n"
-    )
+    data[
+        "tooltip"
+    ] += f"<b>{get_description(current_weather)} {get_temperature(current_weather)}</b>\n"
     data["tooltip"] += f"Feels like: {get_feels_like(current_weather)}\n"
-    data["tooltip"] += (
-        f"Location: {get_city_name(weather)}, {get_country_name(weather)}\n"
-    )
+    # Removed location from tooltip:
+    # data["tooltip"] += f"Location: {get_city_name(weather)}, {get_country_name(weather)}\n"
     data["tooltip"] += f"Wind: {get_wind_speed(current_weather)}\n"
     data["tooltip"] += f"Humidity: {current_weather['humidity']}%\n"
-# Get the weather forecast for the next 2 days
+
 for i in range(forecast_days):
     day_instance = weather["weather"][i]
     data["tooltip"] += "\n<b>"
@@ -272,14 +249,12 @@ for i in range(forecast_days):
     data["tooltip"] += f"{day_instance['date']}</b>\n"
     data["tooltip"] += f"⬆️ {get_max_temp(day_instance)} ⬇️ {get_min_temp(day_instance)} "
     data["tooltip"] += f"🌅 {get_sunrise(day_instance)} 🌇 {get_sunset(day_instance)}\n"
-    # Get the hourly forecast for the day
     for hour in day_instance["hourly"]:
         if i == 0:
             if int(format_time(hour["time"])) < datetime.now().hour - 2:
                 continue
-        data["tooltip"] += (
-            f"{format_time(hour['time'])} {get_weather_icon(hour)} {format_temp(get_temperature_hour(hour))} {get_description(hour)}, {format_chances(hour)}\n"
-        )
-
+        data[
+            "tooltip"
+        ] += f"{format_time(hour['time'])} {get_weather_icon(hour)} {format_temp(get_temperature_hour(hour))} {get_description(hour)}, {format_chances(hour)}\n"
 
 print(json.dumps(data))

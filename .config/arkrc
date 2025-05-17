@@ -1,6 +1,6 @@
 [ExtractDialog]
 1920x1080 screen: Window-Maximized=true
-DirHistory[$e]=$HOME/.local/share/themes/,$HOME/.themes/,$HOME/.themes/sc/,/media/,/media/python/Speach/project/,$HOME/Downloads/Telegram Desktop/,$HOME/Downloads/,$HOME/.local/share/Terraria/tModLoader/Mods/ModPacks/,$HOME/,/media/Blender/
+DirHistory[$e]=$HOME/.local/share/icons/,$HOME/.local/share/themes/,$HOME/.themes/,$HOME/.themes/sc/,/media/,/media/python/Speach/project/,$HOME/Downloads/Telegram Desktop/,$HOME/Downloads/,$HOME/.local/share/Terraria/tModLoader/Mods/ModPacks/,$HOME/
 
 [General]
 LockSidebar=true

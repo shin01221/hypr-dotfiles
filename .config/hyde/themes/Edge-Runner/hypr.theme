@@ -1,7 +1,12 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-yellow'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Edge-Runner'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+$GTK_THEME = Edge-Runner
+$ICON_THEME = Tela-circle-yellow
+$COLOR_SCHEME=prefer-dark
+
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
+exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
 
 general {
     gaps_in = 6

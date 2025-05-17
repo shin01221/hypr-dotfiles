@@ -14,29 +14,29 @@
 # And ensures that we have an obstruction-free ~/.zshrc file
 # This also ensures that the proper HyDE $ENVs are loaded
 
-function command_not_found_handler {
-    local purple='\e[1;35m' bright='\e[0;1m' green='\e[1;32m' reset='\e[0m'
-    printf "${green}zsh${reset}: command ${purple}NOT${reset} found: ${bright}'%s'${reset}\n" "$1"
-
-    if ! ${PM_COMMAND[@]} -h &>/dev/null; then
-        return 127
-    fi
-
-    printf "${bright}Searching for packages that provide '${bright}%s${green}'...\n${reset}" "${1}"
-
-    if ! "${PM_COMMAND[@]}" fq "/usr/bin/$1"; then
-        printf "${bright}${green}[ ${1} ]${reset} ${purple}NOT${reset} found in the system and no package provides it.\n"
-        return 127
-    else
-        printf "${green}[ ${1} ] ${reset} might be provided by the above packages.\n"
-        for entry in $entries; do
-            # Assuming the entry already has ANSI color codes, we don't add more colors
-            printf "  %s\n" "${entry}"
-        done
-
-    fi
-    return 127
-}
+# function command_not_found_handler {
+#     local purple='\e[1;35m' bright='\e[0;1m' green='\e[1;32m' reset='\e[0m'
+#     printf "${green}zsh${reset}: command ${purple}NOT${reset} found: ${bright}'%s'${reset}\n" "$1"
+#
+#     if ! ${PM_COMMAND[@]} -h &>/dev/null; then
+#         return 127
+#     fi
+#
+#     printf "${bright}Searching for packages that provide '${bright}%s${green}'...\n${reset}" "${1}"
+#
+#     if ! "${PM_COMMAND[@]}" fq "/usr/bin/$1"; then
+#         printf "${bright}${green}[ ${1} ]${reset} ${purple}NOT${reset} found in the system and no package provides it.\n"
+#         return 127
+#     else
+#         printf "${green}[ ${1} ] ${reset} might be provided by the above packages.\n"
+#         for entry in $entries; do
+#             # Assuming the entry already has ANSI color codes, we don't add more colors
+#             printf "  %s\n" "${entry}"
+#         done
+#
+#     fi
+#     return 127
+# }
 
 function _load_zsh_plugins {
     unset -f _load_zsh_plugins
@@ -334,6 +334,19 @@ setopt SHARE_HISTORY          # Share history between all sessions
 setopt HIST_EXPIRE_DUPS_FIRST # Expire a duplicate event first when trimming history
 setopt HIST_IGNORE_DUPS       # Do not record an event that was just recorded again
 setopt HIST_IGNORE_ALL_DUPS   # Delete an old recorded event if a new event is a duplicate
+setopt AUTOCD              # change directory just by typing its name
+setopt PROMPT_SUBST        # enable command substitution in prompt
+setopt MENU_COMPLETE       # Automatically highlight first element of completion menu
+setopt LIST_PACKED		   # The completion menu takes less space.
+setopt AUTO_LIST           # Automatically list choices on ambiguous completion.
+setopt COMPLETE_IN_WORD    # Complete from both ends of a word.
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_save_no_dups
+setopt hist_ignore_dups
+setopt hist_find_no_dups
 
 # HyDE Package Manager
 PM_COMMAND=(hyde-shell pm)
