@@ -1,5 +1,5 @@
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=false
 
@@ -7,24 +7,27 @@ shouldShowToolBarComingFromFullScreen=false
 LockSidebar=true
 ShowSidebar=true
 
+[MainWindow]
+MenuBar=Disabled
+
 [Recent Files]
-File1[$e]=$HOME/Downloads/Telegram Desktop/أمن المعلومات.pdf
-File10[$e]=$HOME/Downloads/Telegram Desktop/3it.pdf
-File2[$e]=$HOME/Downloads/Telegram Desktop/تأمين الشبكات.pdf
-File3[$e]=$HOME/Downloads/img-tito.pdf
-File4[$e]=/media/Sections/Graphics/Project/autumn_field_puresky_4k.hdr
-File5[$e]=$HOME/Downloads/Telegram Desktop/الرسم بالحاسب-1 ( IT341 ).pdf
-File6[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec1.pdf
-File7[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec2.pdf
-File8[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec3.pdf
-File9[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec4.pdf
-Name1[$e]=أمن المعلومات.pdf
-Name10[$e]=3it.pdf
-Name2[$e]=تأمين الشبكات.pdf
-Name3[$e]=img-tito.pdf
-Name4[$e]=autumn_field_puresky_4k.hdr
-Name5[$e]=الرسم بالحاسب-1 ( IT341 ).pdf
-Name6[$e]=Speech_Lec1.pdf
-Name7[$e]=Speech_Lec2.pdf
-Name8[$e]=Speech_Lec3.pdf
-Name9[$e]=Speech_Lec4.pdf
+File1[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec2.pdf
+File10[$e]=/media/Materials/IT/Speech Recognition /Lectures /Lecture 7 Speech.pdf
+File2[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec3.pdf
+File3[$e]=/media/Materials/IT/Speech Recognition /Summary /Speech_Lec4.pdf
+File4[$e]=$HOME/Downloads/Telegram Desktop/3it.pdf
+File5[$e]=/media/Materials/IT/Speech Recognition /DrMina/LEC 6/Speech_Lec6.pdf
+File6[$e]=/media/Materials/IT/Speech Recognition /Exams/final/Ana.2021.pdf
+File7[$e]=/media/Materials/IT/Speech Recognition /Exams/final/final speech 2023.pdf
+File8[$e]=/media/Materials/IT/Speech Recognition /Lectures /Lecture 3-5 Speech.pdf
+File9[$e]=/media/Materials/IT/Speech Recognition /Lectures /Lecture 6 Speech.pdf
+Name1[$e]=Speech_Lec2.pdf
+Name10[$e]=Lecture 7 Speech.pdf
+Name2[$e]=Speech_Lec3.pdf
+Name3[$e]=Speech_Lec4.pdf
+Name4[$e]=3it.pdf
+Name5[$e]=Speech_Lec6.pdf
+Name6[$e]=Ana.2021.pdf
+Name7[$e]=final speech 2023.pdf
+Name8[$e]=Lecture 3-5 Speech.pdf
+Name9[$e]=Lecture 6 Speech.pdf

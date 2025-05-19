@@ -12,6 +12,7 @@
   "bufferlist.nvim": { "branch": "master", "commit": "18906455c178989e7efda9ee641104d01a715ab4" },
   "bullets.vim": { "branch": "master", "commit": "8f3259e807c40b91d247f612823295ab99777a65" },
   "catppuccin": { "branch": "main", "commit": "1bf070129c0b6f77cc23f6a2212dcdc868308c52" },
+  "chameleon.nvim": { "branch": "main", "commit": "09c4c62ae09c3dc5a2d68f5ecc0885c928d491aa" },
   "clangd_extensions.nvim": { "branch": "main", "commit": "db28f29be928d18cbfb86fbfb9f83f584f658feb" },
   "conform.nvim": { "branch": "master", "commit": "2b2b30260203af3b93a7470ac6c8457ddd6e32d9" },
   "contextindent.nvim": { "branch": "main", "commit": "ced79628e016542e212100816f7d3b88f511f885" },

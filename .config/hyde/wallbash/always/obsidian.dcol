@@ -1,4 +1,4 @@
-${OBSIDIAN_VAULT:-${HOME}/Documents/Obsidian Vault}/.obsidian/themes/Wallbash/theme.css
+/media/Docs/notes/.obsidian/themes/Wallbash/theme.css
 /*
  If there is a certain color specially this #00ffff please report a bug 
  Theme: Wallbash

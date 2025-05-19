@@ -32,7 +32,7 @@
     "custom/leftin1",
 
     "custom/left5",
-    "custom/cava",        // distro icon
+    "custom/distro",        // distro icon
     "custom/right2",
 
     "custom/rightin1",
@@ -238,7 +238,7 @@
     "return-type": "json",
     "exec-if": "which swaync-client",
     "exec": "swaync-client -swb",
-    "on-click": "swaync-client -t -sw",
+    "on-click": "logoutlaunch.sh",
     "on-click-right": "swaync-client -d -sw",
     "escape": true,
     "tooltip": false
@@ -248,7 +248,7 @@
 	  "format": "{}",
 	  "exec": "cava.sh waybar",
 	  "restart-interval": 1,
-    "on-click": "swaync-client -t -sw",
+    "on-click": "logoutlaunch.sh",
     "on-click-right": "swaync-client -d -sw",
 	  "hide-empty": true
   },

@@ -75,3 +75,5 @@ if (pkg_installed spotify && pkg_installed spicetify-cli) || [ -n "$spotify_path
 		spicetify -q watch -s &
 	fi
 fi
+sleep 2
+pkill spicetify

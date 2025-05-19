@@ -118,7 +118,7 @@ timeout = 0
 # [notification]
 # font = "mononoki Nerd Font"
 # font_size = 10
-font = Mononoki Nerd Font Mono 10
+font = Mononoki Nerd Font Mono 7
 
 dmenu = /usr/bin/rofi -config notification -dmenu -p dunst:
 

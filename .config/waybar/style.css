@@ -200,7 +200,7 @@ tooltip label {
 }
 
 #custom-cava {
-  color: @distro-fg;
+  color: @crust;
   background: @distro-bg;
   margin: 0 -1px 0px 0;
   padding: 0 1 0px 1px;
