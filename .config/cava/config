@@ -298,11 +298,11 @@
 
  gradient = 1
  gradient_count = 8
- gradient_color_1 = '#292F52'
- gradient_color_2 = '#3A416B'
- gradient_color_3 = '#7D4B69'
- gradient_color_4 = '#8F5779'
- gradient_color_5 = '#A38165'
- gradient_color_6 = '#C29A7A'
- gradient_color_7 = '#E6BA9A'
- gradient_color_8 = '#F0C8AA'
+ gradient_color_1 = '#472952'
+ gradient_color_2 = '#5F3A6B'
+ gradient_color_3 = '#4B527D'
+ gradient_color_4 = '#575F8F'
+ gradient_color_5 = '#65A3A3'
+ gradient_color_6 = '#7AC2C2'
+ gradient_color_7 = '#E6B29A'
+ gradient_color_8 = '#F0C0AA'
