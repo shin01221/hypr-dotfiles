@@ -32,7 +32,7 @@
     "custom/leftin1",
 
     "custom/left5",
-    "custom/distro",        // distro icon
+    "custom/cava",        // distro icon
     "custom/right2",
 
     "custom/rightin1",
@@ -340,11 +340,11 @@
   // ──────────────────────────────────────────────────────┤ system update ├───
 
   "custom/update": {
-    "exec": "systemupdate.sh",
+    // "exec": "systemupdate.sh",
     "return-type": "json",
     "format": "{}",
     "on-click": "hyprctl dispatch exec 'systemupdate.sh up'",
-    "interval": 30,
+    "interval": 86400,
     "min-length": 1,
     "max-length": 5,
     "tooltip": true,

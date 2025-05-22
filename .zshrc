@@ -28,19 +28,19 @@ fi
 #  ┬  ┌─┐┌─┐┌┬┐  ┌─┐┌┐┌┌─┐┬┌┐┌┌─┐
 #  │  │ │├─┤ ││  ├┤ ││││ ┬││││├┤
 #  ┴─┘└─┘┴ ┴─┴┘  └─┘┘└┘└─┘┴┘└┘└─┘
-autoload -Uz compinit
-
-local zcompdump="$HOME/.config/zsh/zcompdump"
-
-if [[ -n "$zcompdump"(#qN.mh+24) ]]; then
-    compinit -i -d "$zcompdump"
-else
-    compinit -C -d "$zcompdump"
-fi
-
-if [[ ! -f "${zcompdump}.zwc" || "$zcompdump" -nt "${zcompdump}.zwc" ]]; then
-    zcompile -U "$zcompdump"
-fi
+# autoload -Uz compinit
+#
+# local zcompdump="$HOME/.config/zsh/zcompdump"
+#
+# if [[ -n "$zcompdump"(#qN.mh+24) ]]; then
+#     compinit -i -d "$zcompdump"
+# else
+#     compinit -C -d "$zcompdump"
+# fi
+#
+# if [[ ! -f "${zcompdump}.zwc" || "$zcompdump" -nt "${zcompdump}.zwc" ]]; then
+#     zcompile -U "$zcompdump"
+# fi
 
 # autoload -Uz vcs_info
 # precmd () { vcs_info }
@@ -68,13 +68,13 @@ zstyle ':fzf-tab:*' accept-line enter
 #  ┬ ┬┌─┐┬┌┬┐┬┌┐┌┌─┐  ┌┬┐┌─┐┌┬┐┌─┐
 #  │││├─┤│ │ │││││ ┬   │││ │ │ └─┐
 #  └┴┘┴ ┴┴ ┴ ┴┘└┘└─┘  ─┴┘└─┘ ┴ └─┘
-expand-or-complete-with-dots() {
-  echo -n "\e[31m…\e[0m"
-  zle expand-or-complete
-  zle redisplay
-}
-zle -N expand-or-complete-with-dots
-bindkey "^I" expand-or-complete-with-dots
+# expand-or-complete-with-dots() {
+#   echo -n "\e[31m…\e[0m"
+#   zle expand-or-complete
+#   zle redisplay
+# }
+# zle -N expand-or-complete-with-dots
+# bindkey "^I" expand-or-complete-with-dots
 
 #  ┬ ┬┬┌─┐┌┬┐┌─┐┬─┐┬ ┬
 #  ├─┤│└─┐ │ │ │├┬┘└┬┘
