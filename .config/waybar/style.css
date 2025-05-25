@@ -52,7 +52,7 @@ tooltip label {
 #pulseaudio,
 #backlight,
 #battery,
-#tray {
+#custom-recorder #custom-recorder.recording #tray {
   opacity: 1;
   color: @module-fg;
   padding: 0 4px;
@@ -84,6 +84,19 @@ tooltip label {
 */
 #custom-ws {
   background: @main-bg;
+}
+
+#custom-ws:hover {
+  color: @hover-fg;
+}
+
+#custom-recorder {
+  background: @temperature;
+  padding: 0 6px 0 10px;
+}
+
+#custom-recorder.recording {
+  color: @black;
 }
 
 #custom-ws:hover {

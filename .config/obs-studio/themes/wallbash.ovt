@@ -19,21 +19,21 @@
     --ctp_teal: #94e2d5;
     --ctp_sky: #89dceb;
     --ctp_sapphire: #74c7ec;
-    --ctp_blue: #0D0D0D;
+    --ctp_blue: #3E2952;
     --ctp_lavender: #b4befe;
-    --ctp_text: #E5E5E5;
-    --ctp_subtext1: #E5E5E5;
-    --ctp_subtext0: #E5E5E5;
+    --ctp_text: #FFFFFF;
+    --ctp_subtext1: #FFFFFF;
+    --ctp_subtext0: #FFFFFF;
     --ctp_overlay2: #9399b2;
-    --ctp_overlay1: #E5E5E5;
-    --ctp_overlay0: #0D0D0D;
-    --ctp_surface2: #0D0D0D;
-    --ctp_surface1: #1A1A1A;
-    --ctp_surface0: #0D0D0D;
-    --ctp_base: #2E2E2E;
-    --ctp_mantle: #000000;
-    --ctp_crust: #000000;
-    --ctp_selection_background: #000000;
+    --ctp_overlay1: #FFFFFF;
+    --ctp_overlay0: #3E2952;
+    --ctp_surface2: #3E2952;
+    --ctp_surface1: #543A6B;
+    --ctp_surface0: #3E2952;
+    --ctp_base: #654B7D;
+    --ctp_mantle: #301548;
+    --ctp_crust: #301548;
+    --ctp_selection_background: #301548;
 }
 
 VolumeMeter {
@@ -346,21 +346,21 @@ $HOME/.config/obs-studio/themes/wallbash.ovt
     --ctp_teal: #94e2d5;
     --ctp_sky: #89dceb;
     --ctp_sapphire: #74c7ec;
-    --ctp_blue: #0D0D0D;
+    --ctp_blue: #3E2952;
     --ctp_lavender: #b4befe;
-    --ctp_text: #E5E5E5;
-    --ctp_subtext1: #E5E5E5;
-    --ctp_subtext0: #E5E5E5;
+    --ctp_text: #FFFFFF;
+    --ctp_subtext1: #FFFFFF;
+    --ctp_subtext0: #FFFFFF;
     --ctp_overlay2: #9399b2;
-    --ctp_overlay1: #E5E5E5;
-    --ctp_overlay0: #0D0D0D;
-    --ctp_surface2: #0D0D0D;
-    --ctp_surface1: #1A1A1A;
-    --ctp_surface0: #0D0D0D;
-    --ctp_base: #2E2E2E;
-    --ctp_mantle: #000000;
-    --ctp_crust: #000000;
-    --ctp_selection_background: #000000;
+    --ctp_overlay1: #FFFFFF;
+    --ctp_overlay0: #3E2952;
+    --ctp_surface2: #3E2952;
+    --ctp_surface1: #543A6B;
+    --ctp_surface0: #3E2952;
+    --ctp_base: #654B7D;
+    --ctp_mantle: #301548;
+    --ctp_crust: #301548;
+    --ctp_selection_background: #301548;
 }
 
 VolumeMeter {

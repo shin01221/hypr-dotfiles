@@ -1,11 +1,11 @@
 [Colors:View]
-BackgroundNormal=#000000
+BackgroundNormal=#301548
 
 [General]
 TerminalApplication=/usr/bin/kitty
 
 [Icons]
-Theme=Tela-circle-black
+Theme=cyberpunk-technotronic-icon-theme
 
 [KDE]
 widgetStyle=kvantum

@@ -22,7 +22,7 @@
   "modules-center": [
     "custom/paddc",
     "custom/left2",
-    "custom/weather",   // temperature
+    "custom/recorder",   // temperature
 
     "custom/left3",
     "memory",               // memory
@@ -44,7 +44,7 @@
     "custom/right4",
 
     "pulseaudio#microphone",          // wi-fi
-    "custom/power-profiles-daemon",            // bluetooth
+    // "custom/power-profiles-daemon",            // bluetooth
     "custom/update",        // system update
     "custom/right5",
   ],
@@ -423,6 +423,15 @@
     "min-length": 6,
     "max-length": 6
   },
+
+  // ────────────────────────────────────────────────────────────┤ recording ├───
+
+"custom/recorder": {
+	"exec": "~/.config/waybar/scripts/record-status.sh",
+	"interval": 1,
+	"on-click": "~/.config/waybar/scripts/toggle-record.sh",
+	"return-type": "json"
+ },
 
   // ───────────────────────────────────────────────────────┤ power button ├───
 
