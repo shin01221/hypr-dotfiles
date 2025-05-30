@@ -91,12 +91,12 @@ tooltip label {
 }
 
 #custom-recorder {
-  background: @temperature;
+  background: @tray;
   padding: 0 6px 0 10px;
 }
 
 #custom-recorder.recording {
-  color: @black;
+  color: @hover-bg;
 }
 
 #custom-ws:hover {
@@ -464,6 +464,7 @@ tooltip label,
 */
 #workspaces button {
   border-radius: 8px;
+  background: @module-bg;
   padding: 0 2px;
 }
 

@@ -1,5 +1,7 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
+background_opacity 0.80
+
 background            #000b1e
 foreground            #0abdc6
 selection_background  none

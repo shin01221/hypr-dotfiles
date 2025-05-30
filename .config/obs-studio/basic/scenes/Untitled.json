@@ -77,7 +77,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 5,
+                "id_counter": 8,
                 "custom_size": false,
                 "items": [
                     {
@@ -137,7 +137,7 @@
                     },
                     {
                         "name": "Screen Capture (PipeWire)",
-                        "source_uuid": "efd793ef-2904-4765-af33-46d0093d181b",
+                        "source_uuid": "707537ad-ed49-4eaa-9734-274cc4fa09dc",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -153,7 +153,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 5,
+                        "id": 8,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -207,8 +207,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": []
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -249,11 +249,11 @@
         {
             "prev_ver": 520093699,
             "name": "Screen Capture (PipeWire)",
-            "uuid": "efd793ef-2904-4765-af33-46d0093d181b",
+            "uuid": "707537ad-ed49-4eaa-9734-274cc4fa09dc",
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "8b25c7e7-ad71-4efc-bb65-2c870ba59f59"
+                "RestoreToken": "97c96c70-0f66-48ab-ab11-5b31fb242f7a"
             },
             "mixers": 0,
             "sync": 0,
