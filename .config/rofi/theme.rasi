@@ -1,11 +1,10 @@
 * {
-    main-bg:            #282828e6;
-    main-fg:            #ebdbb2ff;
-    main-br:            #d79921ff;
-    main-ex:            #fabd2fff;
-    select-bg:          #98971aff;
-    select-fg:          #282828ff;
-    separatorcolor:     #504945ff;
-    border-color:       #665c54ff;
-    font: "Monocraft Nerd Font 10";
+    main-bg:            #151720e6;
+    main-fg:            #cbced3ff;
+    main-br:            #98d3eecc;
+    main-ex:            #95d3afcc;
+    select-bg:          #90ceaaff;
+    select-fg:          #151720ff;
+    separatorcolor:     transparent;
+    border-color:       transparent;
 }

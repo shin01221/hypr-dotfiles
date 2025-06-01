@@ -92,6 +92,7 @@ tooltip label {
 
 #custom-recorder {
   background: @tray;
+  color: @text;
   padding: 0 6px 0 10px;
 }
 
